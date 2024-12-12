@@ -1,0 +1,17 @@
+{
+    "name": "mikey/pokeapi-sdk",
+    "autoload": {
+        "psr-4": {
+            "Mikey\\PokeapiSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mikeycodingstuff",
+            "email": "108337844+mikeycodingstuff@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "saloonphp/saloon": "^3.10"
+    }
+}
