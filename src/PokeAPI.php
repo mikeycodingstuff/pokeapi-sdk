@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace PokeApiSdk;
 
+use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\TypeResource;
 use Saloon\Http\Connector;
@@ -21,6 +22,11 @@ class PokeAPI extends Connector
             'Accept' => 'application/json',
             'Content-Type' => 'application/json',
         ];
+    }
+
+    public function pokedex(): PokedexResource
+    {
+        return new PokedexResource($this);
     }
 
     public function pokemon(): PokemonResource
