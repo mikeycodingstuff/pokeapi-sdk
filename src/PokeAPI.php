@@ -9,10 +9,13 @@ use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\TypeResource;
+use PokeApiSdk\Responses\PokeAPIResponse;
 use Saloon\Http\Connector;
 
 class PokeAPI extends Connector
 {
+    protected ?string $response = PokeapiResponse::class;
+
     public function resolveBaseUrl(): string
     {
         return 'https://pokeapi.co/api/v2/';
