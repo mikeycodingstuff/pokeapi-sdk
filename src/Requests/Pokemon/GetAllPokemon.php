@@ -14,7 +14,7 @@ class GetAllPokemon extends Request
      */
     protected Method $method = Method::GET;
 
-    public function __construct(protected readonly int $limit = 10000) {}
+    public function __construct(protected readonly ?int $limit = 10000) {}
 
     /**
      * Resolve the endpoint
