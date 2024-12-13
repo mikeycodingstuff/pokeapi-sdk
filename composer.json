@@ -1,5 +1,5 @@
 {
-    "name": "mikey/pokeapi-sdk",
+    "name": "mikeycodingstuff/pokeapi-sdk",
     "autoload": {
         "psr-4": {
             "PokeApiSdk\\": "src/"
