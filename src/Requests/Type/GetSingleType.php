@@ -14,13 +14,13 @@ class GetSingleType extends Request
      */
     protected Method $method = Method::GET;
 
-    public function __construct(protected readonly int $id) {}
+    public function __construct(protected readonly int $idOrName) {}
 
     /**
      * Resolve the endpoint
      */
     public function resolveEndpoint(): string
     {
-        return "/type/$this->id";
+        return "/type/$this->idOrName";
     }
 }
