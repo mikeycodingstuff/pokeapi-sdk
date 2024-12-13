@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Fri, 13 Dec 2024 23:20:36 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"59a-LGj3oUjDifxMXJJRPzstBS\/F1qs\"",
+        "function-execution-id": "bqjc6d5c207s",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "eb90659cffefdf8cd8b5968f20c4016f",
+        "x-country-code": "US",
+        "x-orig-accept-language": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760081-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1731119933.506928,VS0,VE2",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=BgruWxaVitskDYtCCqnEcyLBKUpQHJ6RPSx%2BkVnJC3uYP3RlkqNN71iIEfIvA3%2FU7Yv2BoG5KWb3XBayTlR5nNfLn%2FEJWtbJqm8g%2FyS2xjB1zWtMImbF%2Fl9mSFiLaKo5Aq48WW4p7Z18\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f19af89cbabbefb-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14231&min_rtt=13926&rtt_var=5834&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=753&delivery_rate=246991&cwnd=252&unsent_bytes=0&cid=7763b701e789581f&ts=205&x=0\""
+    },
+    "data": "{\"count\":367,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/ability?offset=20&limit=20\",\"previous\":null,\"results\":[{\"name\":\"stench\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/1\/\"},{\"name\":\"drizzle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/2\/\"},{\"name\":\"speed-boost\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/3\/\"},{\"name\":\"battle-armor\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/4\/\"},{\"name\":\"sturdy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/5\/\"},{\"name\":\"damp\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/6\/\"},{\"name\":\"limber\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/7\/\"},{\"name\":\"sand-veil\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/8\/\"},{\"name\":\"static\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/9\/\"},{\"name\":\"volt-absorb\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/10\/\"},{\"name\":\"water-absorb\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/11\/\"},{\"name\":\"oblivious\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/12\/\"},{\"name\":\"cloud-nine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/13\/\"},{\"name\":\"compound-eyes\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/14\/\"},{\"name\":\"insomnia\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/15\/\"},{\"name\":\"color-change\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/16\/\"},{\"name\":\"immunity\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/17\/\"},{\"name\":\"flash-fire\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/18\/\"},{\"name\":\"shield-dust\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/19\/\"},{\"name\":\"own-tempo\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/20\/\"}]}"
+}
