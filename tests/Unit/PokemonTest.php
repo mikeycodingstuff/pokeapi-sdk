@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use PokeApiSdk\PokeAPI;
+use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\Pokemon\GetAllPokemon;
 use PokeApiSdk\Requests\Pokemon\GetSinglePokemon;
-use PokeApiSdk\Responses\PokeAPIResponse;
+use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
@@ -14,7 +14,7 @@ it('sends a single pokemon request and receives the expected response', function
         GetSinglePokemon::class => MockResponse::fixture('pokemon/single'),
     ]);
 
-    $connector = new PokeAPI;
+    $connector = new PokeApi;
     $connector->withMockClient($mockClient);
 
     $response = $connector->pokemon()->get('metagross');
@@ -23,7 +23,7 @@ it('sends a single pokemon request and receives the expected response', function
     $mockClient->assertSentCount(1);
 
     expect($response)
-        ->toBeInstanceOf(PokeAPIResponse::class)
+        ->toBeInstanceOf(PokeApiResponse::class)
         ->and($response->successful())
         ->toBeTrue()
         ->and($response->body())
@@ -35,7 +35,7 @@ it('sends an all pokemon request and receives the expected response', function (
         GetAllPokemon::class => MockResponse::fixture('pokemon/all'),
     ]);
 
-    $connector = new PokeAPI;
+    $connector = new PokeApi;
     $connector->withMockClient($mockClient);
 
     $response = $connector->pokemon()->all();
@@ -44,7 +44,7 @@ it('sends an all pokemon request and receives the expected response', function (
     $mockClient->assertSentCount(1);
 
     expect($response)
-        ->toBeInstanceOf(PokeAPIResponse::class)
+        ->toBeInstanceOf(PokeApiResponse::class)
         ->and($response->successful())
         ->toBeTrue()
         ->and($response->body())

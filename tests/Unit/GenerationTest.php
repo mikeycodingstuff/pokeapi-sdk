@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use PokeApiSdk\PokeAPI;
+use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\Generation\GetAllGenerations;
 use PokeApiSdk\Requests\Generation\GetSingleGeneration;
-use PokeApiSdk\Responses\PokeAPIResponse;
+use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
@@ -14,7 +14,7 @@ it('sends a single generation request and receives the expected response', funct
         GetSingleGeneration::class => MockResponse::fixture('generation/single'),
     ]);
 
-    $connector = new PokeAPI;
+    $connector = new PokeApi;
     $connector->withMockClient($mockClient);
 
     $response = $connector->generation()->get(1);
@@ -23,7 +23,7 @@ it('sends a single generation request and receives the expected response', funct
     $mockClient->assertSentCount(1);
 
     expect($response)
-        ->toBeInstanceOf(PokeAPIResponse::class)
+        ->toBeInstanceOf(PokeApiResponse::class)
         ->and($response->successful())
         ->toBeTrue()
         ->and($response->body())
@@ -35,7 +35,7 @@ it('sends an all generation request and receives the expected response', functio
         GetAllGenerations::class => MockResponse::fixture('generation/all'),
     ]);
 
-    $connector = new PokeAPI;
+    $connector = new PokeApi;
     $connector->withMockClient($mockClient);
 
     $response = $connector->generation()->all();
@@ -44,7 +44,7 @@ it('sends an all generation request and receives the expected response', functio
     $mockClient->assertSentCount(1);
 
     expect($response)
-        ->toBeInstanceOf(PokeAPIResponse::class)
+        ->toBeInstanceOf(PokeApiResponse::class)
         ->and($response->successful())
         ->toBeTrue()
         ->and($response->body())

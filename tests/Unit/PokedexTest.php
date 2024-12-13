@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use PokeApiSdk\PokeAPI;
+use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\Pokedex\GetAllPokedexes;
 use PokeApiSdk\Requests\Pokedex\GetSinglePokedex;
-use PokeApiSdk\Responses\PokeAPIResponse;
+use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
@@ -14,7 +14,7 @@ it('sends a single pokedex request and receives the expected response', function
         GetSinglePokedex::class => MockResponse::fixture('pokedex/single'),
     ]);
 
-    $connector = new PokeAPI;
+    $connector = new PokeApi;
     $connector->withMockClient($mockClient);
 
     $response = $connector->pokedex()->get(1);
@@ -23,7 +23,7 @@ it('sends a single pokedex request and receives the expected response', function
     $mockClient->assertSentCount(1);
 
     expect($response)
-        ->toBeInstanceOf(PokeAPIResponse::class)
+        ->toBeInstanceOf(PokeApiResponse::class)
         ->and($response->successful())
         ->toBeTrue()
         ->and($response->body())
@@ -35,7 +35,7 @@ it('sends an all pokedex request and receives the expected response', function (
         GetAllPokedexes::class => MockResponse::fixture('pokedex/all'),
     ]);
 
-    $connector = new PokeAPI;
+    $connector = new PokeApi;
     $connector->withMockClient($mockClient);
 
     $response = $connector->pokedex()->all();
@@ -44,7 +44,7 @@ it('sends an all pokedex request and receives the expected response', function (
     $mockClient->assertSentCount(1);
 
     expect($response)
-        ->toBeInstanceOf(PokeAPIResponse::class)
+        ->toBeInstanceOf(PokeApiResponse::class)
         ->and($response->successful())
         ->toBeTrue()
         ->and($response->body())
