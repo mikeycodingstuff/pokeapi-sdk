@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace PokeApiSdk;
 
+use PokeApiSdk\Resources\AbilityResource;
 use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
@@ -23,6 +24,11 @@ class PokeAPI extends Connector
             'Accept' => 'application/json',
             'Content-Type' => 'application/json',
         ];
+    }
+
+    public function ability(): AbilityResource
+    {
+        return new AbilityResource($this);
     }
 
     public function generation(): GenerationResource
