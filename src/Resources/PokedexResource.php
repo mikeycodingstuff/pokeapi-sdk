@@ -26,8 +26,8 @@ class PokedexResource extends BaseResource
      * @throws FatalRequestException
      * @throws RequestException
      */
-    public function get(int|string $identifier): Response
+    public function get(int|string $idOrName): Response
     {
-        return $this->connector->send(new GetSinglePokedex($identifier));
+        return $this->connector->send(new GetSinglePokedex($idOrName));
     }
 }

@@ -14,13 +14,13 @@ class GetSinglePokedex extends Request
      */
     protected Method $method = Method::GET;
 
-    public function __construct(protected readonly int|string $identifier) {}
+    public function __construct(protected readonly int|string $idOrName) {}
 
     /**
      * Resolve the endpoint
      */
     public function resolveEndpoint(): string
     {
-        return "/pokedex/$this->identifier";
+        return "/pokedex/$this->idOrName";
     }
 }

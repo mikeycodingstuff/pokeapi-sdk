@@ -26,8 +26,8 @@ class TypeResource extends BaseResource
      * @throws FatalRequestException
      * @throws RequestException
      */
-    public function get(int|string $identifier): Response
+    public function get(int|string $idOrName): Response
     {
-        return $this->connector->send(new GetSingleType($identifier));
+        return $this->connector->send(new GetSingleType($idOrName));
     }
 }

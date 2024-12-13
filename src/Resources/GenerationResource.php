@@ -26,8 +26,8 @@ class GenerationResource extends BaseResource
      * @throws FatalRequestException
      * @throws RequestException
      */
-    public function get(int|string $identifier): Response
+    public function get(int|string $idOrName): Response
     {
-        return $this->connector->send(new GetSingleGeneration($identifier));
+        return $this->connector->send(new GetSingleGeneration($idOrName));
     }
 }
