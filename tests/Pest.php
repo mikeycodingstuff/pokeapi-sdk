@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
 |--------------------------------------------------------------------------
 | Test Case
@@ -19,7 +21,6 @@ use Saloon\Http\Faking\MockClient;
 uses()
     ->beforeEach(fn () => MockClient::destroyGlobal())
     ->in(__DIR__);
-
 
 Config::preventStrayRequests();
 
