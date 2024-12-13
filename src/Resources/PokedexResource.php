@@ -6,16 +6,26 @@ namespace PokeApiSdk\Resources;
 
 use PokeApiSdk\Requests\Pokedex\GetAllPokedexes;
 use PokeApiSdk\Requests\Pokedex\GetSinglePokedex;
+use Saloon\Exceptions\Request\FatalRequestException;
+use Saloon\Exceptions\Request\RequestException;
 use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 
 class PokedexResource extends BaseResource
 {
-    public function all(): Response
+    /**
+     * @throws FatalRequestException
+     * @throws RequestException
+     */
+    public function all(?int $limit): Response
     {
-        return $this->connector->send(new GetAllPokedexes);
+        return $this->connector->send(new GetAllPokedexes($limit));
     }
 
+    /**
+     * @throws FatalRequestException
+     * @throws RequestException
+     */
     public function get(int|string $identifier): Response
     {
         return $this->connector->send(new GetSinglePokedex($identifier));

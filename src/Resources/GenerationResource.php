@@ -6,16 +6,26 @@ namespace PokeApiSdk\Resources;
 
 use PokeApiSdk\Requests\Generation\GetAllGenerations;
 use PokeApiSdk\Requests\Generation\GetSingleGeneration;
+use Saloon\Exceptions\Request\FatalRequestException;
+use Saloon\Exceptions\Request\RequestException;
 use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 
 class GenerationResource extends BaseResource
 {
-    public function all(): Response
+    /**
+     * @throws FatalRequestException
+     * @throws RequestException
+     */
+    public function all(?int $limit): Response
     {
-        return $this->connector->send(new GetAllGenerations);
+        return $this->connector->send(new GetAllGenerations($limit));
     }
 
+    /**
+     * @throws FatalRequestException
+     * @throws RequestException
+     */
     public function get(int|string $identifier): Response
     {
         return $this->connector->send(new GetSingleGeneration($identifier));
