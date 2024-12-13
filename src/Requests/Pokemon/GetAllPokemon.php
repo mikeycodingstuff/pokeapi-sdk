@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PokeApiSdk\Requests;
+namespace PokeApiSdk\Requests\Pokemon;
 
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
