@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Fri, 13 Dec 2024 23:19:25 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "710",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"2c6-UDjEcuDIfuG3iYseeDVjdFSK0V0\"",
+        "function-execution-id": "j1ctirzvmqu1",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "ad3b50642354c3fdd11c5d44d6e475cf",
+        "x-country-code": "US",
+        "x-orig-accept-language": "*",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760034-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1732360023.789377,VS0,VE1",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=4vrC9dC7wAAoJgx8NRTrGrJQENcFUteYOTRhrZFoqVWCoTnFqVc10rF7ortvS9WUPLaTlxWur%2BkI0U3WYoJYuJvObizruRRlcbOx1Bs1qtFzvWDaO1mfuE4t%2BcVgTVSCLPhv0VNvVJ5v\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f19add02adacd21-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13727&min_rtt=12699&rtt_var=5496&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=756&delivery_rate=318450&cwnd=220&unsent_bytes=0&cid=b24c78183bb1e357&ts=549&x=0\""
+    },
+    "data": "{\"count\":9,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"generation-i\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/1\/\"},{\"name\":\"generation-ii\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/2\/\"},{\"name\":\"generation-iii\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/3\/\"},{\"name\":\"generation-iv\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/4\/\"},{\"name\":\"generation-v\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/5\/\"},{\"name\":\"generation-vi\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/6\/\"},{\"name\":\"generation-vii\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/7\/\"},{\"name\":\"generation-viii\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/8\/\"},{\"name\":\"generation-ix\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/9\/\"}]}"
+}
