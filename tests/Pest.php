@@ -13,6 +13,12 @@
 
 // pest()->extend(Tests\TestCase::class)->in('Feature');
 
+use Saloon\Http\Faking\MockClient;
+
+uses()
+    ->beforeEach(fn () => MockClient::destroyGlobal())
+    ->in(__DIR__);
+
 /*
 |--------------------------------------------------------------------------
 | Expectations
