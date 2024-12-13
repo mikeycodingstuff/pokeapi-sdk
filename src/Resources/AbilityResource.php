@@ -17,7 +17,7 @@ class AbilityResource extends BaseResource
      * @throws FatalRequestException
      * @throws RequestException
      */
-    public function all(?int $limit): Response
+    public function all(?int $limit = null): Response
     {
         return $this->connector->send(new GetAllAbilities($limit));
     }
