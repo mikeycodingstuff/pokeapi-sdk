@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace PokeApiSdk;
 
 use PokeApiSdk\Resources\PokemonResource;
+use PokeApiSdk\Resources\TypeResource;
 use Saloon\Http\Connector;
 
 class PokeAPI extends Connector
@@ -25,5 +26,10 @@ class PokeAPI extends Connector
     public function pokemon(): PokemonResource
     {
         return new PokemonResource($this);
+    }
+
+    public function type(): TypeResource
+    {
+        return new TypeResource($this);
     }
 }

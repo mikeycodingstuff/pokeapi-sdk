@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Resources;
 
-use PokeApiSdk\Requests\GetAllPokemon;
-use PokeApiSdk\Requests\GetSinglePokemon;
+use PokeApiSdk\Requests\Pokemon\GetAllPokemon;
+use PokeApiSdk\Requests\Pokemon\GetSinglePokemon;
 use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 
