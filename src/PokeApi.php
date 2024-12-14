@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace PokeApiSdk;
 
 use PokeApiSdk\Resources\AbilityResource;
+use PokeApiSdk\Resources\BerryFirmnessResource;
 use PokeApiSdk\Resources\BerryResource;
 use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\PokedexResource;
@@ -39,6 +40,11 @@ class PokeApi extends Connector
     public function berry(): BerryResource
     {
         return new BerryResource($this);
+    }
+
+    public function berryFirmness(): BerryFirmnessResource
+    {
+        return new BerryFirmnessResource($this);
     }
 
     public function generation(): GenerationResource
