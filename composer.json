@@ -1,5 +1,6 @@
 {
     "name": "mikeycodingstuff/pokeapi-sdk",
+    "description": "An SDK for the PokeApi created with the Saloon PHP library",
     "autoload": {
         "psr-4": {
             "PokeApiSdk\\": "src/"
