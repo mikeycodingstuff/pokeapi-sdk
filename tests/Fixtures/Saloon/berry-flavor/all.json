@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 14 Dec 2024 15:45:26 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "384",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"180-bq\/Co5OOLMJ81QQ3EAY3Yue1OWQ\"",
+        "function-execution-id": "kw1lb76lgegp",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "6af946946a1d0121019cce276a563421",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760091-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734191126.018659,VS0,VE288",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=0BtfqgI5R6Ta5iun5f4TKKTV75YXqNGrg9nFXz4%2FzhGRENWmb%2Bglh%2BJ2ayjUse%2B1eYWZh4%2BgzqreHUNyqudq92mkrtfH%2FSou2ulJgOvfFQosWJPOVOAHwafzKx7UJuM%2FT%2FN4yG5xHJ0E\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f1f5228cd72bd80-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13952&min_rtt=13888&rtt_var=5254&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=758&delivery_rate=291186&cwnd=252&unsent_bytes=0&cid=2230699c2bcb50bb&ts=503&x=0\""
+    },
+    "data": "{\"count\":5,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"spicy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/1\/\"},{\"name\":\"dry\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/2\/\"},{\"name\":\"sweet\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/3\/\"},{\"name\":\"bitter\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/4\/\"},{\"name\":\"sour\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/5\/\"}]}"
+}
