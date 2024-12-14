@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sat, 14 Dec 2024 00:17:54 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"630-+Hf0S8fKU1zxqYc+we6zz42PREo\"",
+        "function-execution-id": "tjxoz8dckbzd",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "ea9575a99e048fe91dc23c21d4345315",
+        "x-country-code": "US",
+        "x-orig-accept-language": "en-US,en;q=0.9",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760051-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1731637997.713361,VS0,VE2",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "222",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=qHGa89cOVkjMm5JWGs7aebM4%2Bgcf341SgtXP%2BAYV2J0jd0DtIpJuQo%2BU%2FX1Rwrv%2BRrWKDlnaM%2FFIo15FzmOu0uKflLNt1qmQ2PNemsxx3Wl2mfUDoSd3YnHbhPQv2AcwbX11SaVQtx%2BM\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f1a037b1d55f65f-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=12243&min_rtt=11991&rtt_var=3810&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=761&delivery_rate=309363&cwnd=253&unsent_bytes=0&cid=53805d3f4bf9d8ba&ts=26&x=0\""
+    },
+    "data": "{\"count\":1025,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species?offset=20&limit=20\",\"previous\":null,\"results\":[{\"name\":\"bulbasaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/1\/\"},{\"name\":\"ivysaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/2\/\"},{\"name\":\"venusaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/3\/\"},{\"name\":\"charmander\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/4\/\"},{\"name\":\"charmeleon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/5\/\"},{\"name\":\"charizard\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/6\/\"},{\"name\":\"squirtle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/7\/\"},{\"name\":\"wartortle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/8\/\"},{\"name\":\"blastoise\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/9\/\"},{\"name\":\"caterpie\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/10\/\"},{\"name\":\"metapod\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/11\/\"},{\"name\":\"butterfree\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/12\/\"},{\"name\":\"weedle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/13\/\"},{\"name\":\"kakuna\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/14\/\"},{\"name\":\"beedrill\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/15\/\"},{\"name\":\"pidgey\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/16\/\"},{\"name\":\"pidgeotto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/17\/\"},{\"name\":\"pidgeot\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/18\/\"},{\"name\":\"rattata\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/19\/\"},{\"name\":\"raticate\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/20\/\"}]}"
+}

@@ -8,6 +8,7 @@ use PokeApiSdk\Resources\AbilityResource;
 use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
+use PokeApiSdk\Resources\SpeciesResource;
 use PokeApiSdk\Resources\TypeResource;
 use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Connector;
@@ -47,6 +48,11 @@ class PokeApi extends Connector
     public function pokemon(): PokemonResource
     {
         return new PokemonResource($this);
+    }
+
+    public function species(): SpeciesResource
+    {
+        return new SpeciesResource($this);
     }
 
     public function type(): TypeResource
