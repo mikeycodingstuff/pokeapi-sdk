@@ -30,7 +30,7 @@ it('sends a single berry flavor request and receives the expected response', fun
         ->toEqual(MockResponse::fixture('berry-flavor/single')->getMockResponse()->body());
 });
 
-it('sends an all berry flavor request and receives the expected response', function () {
+it('sends an all berry flavors request and receives the expected response', function () {
     $mockClient = new MockClient([
         GetAllBerryFlavors::class => MockResponse::fixture('berry-flavor/all'),
     ]);

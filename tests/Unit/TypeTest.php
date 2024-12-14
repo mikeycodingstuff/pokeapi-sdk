@@ -30,7 +30,7 @@ it('sends a single type request and receives the expected response', function ()
         ->toEqual(MockResponse::fixture('type/single')->getMockResponse()->body());
 });
 
-it('sends an all type request and receives the expected response', function () {
+it('sends an all types request and receives the expected response', function () {
     $mockClient = new MockClient([
         GetAllTypes::class => MockResponse::fixture('type/all'),
     ]);

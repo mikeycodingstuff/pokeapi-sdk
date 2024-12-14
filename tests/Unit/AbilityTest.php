@@ -30,7 +30,7 @@ it('sends a single ability request and receives the expected response', function
         ->toEqual(MockResponse::fixture('ability/single')->getMockResponse()->body());
 });
 
-it('sends an all ability request and receives the expected response', function () {
+it('sends an all abilities request and receives the expected response', function () {
     $mockClient = new MockClient([
         GetAllAbilities::class => MockResponse::fixture('ability/all'),
     ]);

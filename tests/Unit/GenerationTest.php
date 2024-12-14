@@ -30,7 +30,7 @@ it('sends a single generation request and receives the expected response', funct
         ->toEqual(MockResponse::fixture('generation/single')->getMockResponse()->body());
 });
 
-it('sends an all generation request and receives the expected response', function () {
+it('sends an all generations request and receives the expected response', function () {
     $mockClient = new MockClient([
         GetAllGenerations::class => MockResponse::fixture('generation/all'),
     ]);

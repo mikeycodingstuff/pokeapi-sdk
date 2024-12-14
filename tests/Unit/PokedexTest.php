@@ -30,7 +30,7 @@ it('sends a single pokedex request and receives the expected response', function
         ->toEqual(MockResponse::fixture('pokedex/single')->getMockResponse()->body());
 });
 
-it('sends an all pokedex request and receives the expected response', function () {
+it('sends an all pokedexes request and receives the expected response', function () {
     $mockClient = new MockClient([
         GetAllPokedexes::class => MockResponse::fixture('pokedex/all'),
     ]);

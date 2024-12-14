@@ -30,7 +30,7 @@ it('sends a single berry firmness request and receives the expected response', f
         ->toEqual(MockResponse::fixture('berry-firmness/single')->getMockResponse()->body());
 });
 
-it('sends an all berry firmness request and receives the expected response', function () {
+it('sends an all berry firmnesses request and receives the expected response', function () {
     $mockClient = new MockClient([
         GetAllBerryFirmnesses::class => MockResponse::fixture('berry-firmness/all'),
     ]);
