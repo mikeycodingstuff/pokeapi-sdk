@@ -98,12 +98,12 @@ class PokeApi extends Connector
         return new EncounterMethodResource($this);
     }
 
-    public function EvolutionChain(): EvolutionChainResource
+    public function evolutionChain(): EvolutionChainResource
     {
         return new EvolutionChainResource($this);
     }
 
-    public function EvolutionTrigger(): EvolutionTriggerResource
+    public function evolutionTrigger(): EvolutionTriggerResource
     {
         return new EvolutionTriggerResource($this);
     }
