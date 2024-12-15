@@ -4,23 +4,12 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\EggGroup;
 
-use Saloon\Enums\Method;
-use Saloon\Http\Request;
+use PokeApiSdk\Requests\Base\GetSingleRequest;
 
-class GetSingleEggGroup extends Request
+class GetSingleEggGroup extends GetSingleRequest
 {
-    /**
-     * HTTP Method
-     */
-    protected Method $method = Method::GET;
-
-    public function __construct(protected readonly int|string $idOrName) {}
-
-    /**
-     * Resolve the endpoint
-     */
-    public function resolveEndpoint(): string
+    protected function endpointName(): string
     {
-        return "/egg-group/$this->idOrName";
+        return 'egg-group';
     }
 }

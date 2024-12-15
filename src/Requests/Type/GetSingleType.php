@@ -4,23 +4,12 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Type;
 
-use Saloon\Enums\Method;
-use Saloon\Http\Request;
+use PokeApiSdk\Requests\Base\GetSingleRequest;
 
-class GetSingleType extends Request
+class GetSingleType extends GetSingleRequest
 {
-    /**
-     * HTTP Method
-     */
-    protected Method $method = Method::GET;
-
-    public function __construct(protected readonly int|string $idOrName) {}
-
-    /**
-     * Resolve the endpoint
-     */
-    public function resolveEndpoint(): string
+    protected function endpointName(): string
     {
-        return "/type/$this->idOrName";
+        return 'type';
     }
 }

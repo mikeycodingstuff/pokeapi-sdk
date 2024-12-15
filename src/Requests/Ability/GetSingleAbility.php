@@ -4,23 +4,12 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Ability;
 
-use Saloon\Enums\Method;
-use Saloon\Http\Request;
+use PokeApiSdk\Requests\Base\GetSingleRequest;
 
-class GetSingleAbility extends Request
+class GetSingleAbility extends GetSingleRequest
 {
-    /**
-     * HTTP Method
-     */
-    protected Method $method = Method::GET;
-
-    public function __construct(protected readonly int|string $idOrName) {}
-
-    /**
-     * Resolve the endpoint
-     */
-    public function resolveEndpoint(): string
+    protected function endpointName(): string
     {
-        return "/ability/$this->idOrName";
+        return 'ability';
     }
 }

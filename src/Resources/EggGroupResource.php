@@ -6,28 +6,16 @@ namespace PokeApiSdk\Resources;
 
 use PokeApiSdk\Requests\EggGroup\GetAllEggGroups;
 use PokeApiSdk\Requests\EggGroup\GetSingleEggGroup;
-use Saloon\Exceptions\Request\FatalRequestException;
-use Saloon\Exceptions\Request\RequestException;
-use Saloon\Http\BaseResource;
-use Saloon\Http\Response;
 
 class EggGroupResource extends BaseResource
 {
-    /**
-     * @throws FatalRequestException
-     * @throws RequestException
-     */
-    public function all(?int $limit = null): Response
+    protected function getAllRequestClass(): string
     {
-        return $this->connector->send(new GetAllEggGroups($limit));
+        return GetAllEggGroups::class;
     }
 
-    /**
-     * @throws FatalRequestException
-     * @throws RequestException
-     */
-    public function get(int|string $idOrName): Response
+    protected function getSingleRequestClass(): string
     {
-        return $this->connector->send(new GetSingleEggGroup($idOrName));
+        return GetSingleEggGroup::class;
     }
 }

@@ -4,30 +4,12 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\ContestEffect;
 
-use Saloon\Enums\Method;
-use Saloon\Http\Request;
+use PokeApiSdk\Requests\Base\GetAllRequest;
 
-class GetAllContestEffects extends Request
+class GetAllContestEffects extends GetAllRequest
 {
-    /**
-     * HTTP Method
-     */
-    protected Method $method = Method::GET;
-
-    public function __construct(protected readonly ?int $limit = 100) {}
-
-    /**
-     * Resolve the endpoint
-     */
-    public function resolveEndpoint(): string
+    protected function endpointName(): string
     {
-        return '/contest-effect';
-    }
-
-    protected function defaultQuery(): array
-    {
-        return [
-            'limit' => $this->limit,
-        ];
+        return 'contest-effect';
     }
 }

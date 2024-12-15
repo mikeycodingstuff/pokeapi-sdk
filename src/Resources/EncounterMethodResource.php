@@ -6,28 +6,16 @@ namespace PokeApiSdk\Resources;
 
 use PokeApiSdk\Requests\EncounterMethod\GetAllEncounterMethods;
 use PokeApiSdk\Requests\EncounterMethod\GetSingleEncounterMethod;
-use Saloon\Exceptions\Request\FatalRequestException;
-use Saloon\Exceptions\Request\RequestException;
-use Saloon\Http\BaseResource;
-use Saloon\Http\Response;
 
 class EncounterMethodResource extends BaseResource
 {
-    /**
-     * @throws FatalRequestException
-     * @throws RequestException
-     */
-    public function all(?int $limit = null): Response
+    protected function getAllRequestClass(): string
     {
-        return $this->connector->send(new GetAllEncounterMethods($limit));
+        return GetAllEncounterMethods::class;
     }
 
-    /**
-     * @throws FatalRequestException
-     * @throws RequestException
-     */
-    public function get(int|string $idOrName): Response
+    protected function getSingleRequestClass(): string
     {
-        return $this->connector->send(new GetSingleEncounterMethod($idOrName));
+        return GetSingleEncounterMethod::class;
     }
 }

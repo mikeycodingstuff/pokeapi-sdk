@@ -6,28 +6,16 @@ namespace PokeApiSdk\Resources;
 
 use PokeApiSdk\Requests\Gender\GetAllGenders;
 use PokeApiSdk\Requests\Gender\GetSingleGender;
-use Saloon\Exceptions\Request\FatalRequestException;
-use Saloon\Exceptions\Request\RequestException;
-use Saloon\Http\BaseResource;
-use Saloon\Http\Response;
 
 class GenderResource extends BaseResource
 {
-    /**
-     * @throws FatalRequestException
-     * @throws RequestException
-     */
-    public function all(?int $limit = null): Response
+    protected function getAllRequestClass(): string
     {
-        return $this->connector->send(new GetAllGenders($limit));
+        return GetAllGenders::class;
     }
 
-    /**
-     * @throws FatalRequestException
-     * @throws RequestException
-     */
-    public function get(int|string $idOrName): Response
+    protected function getSingleRequestClass(): string
     {
-        return $this->connector->send(new GetSingleGender($idOrName));
+        return GetSingleGender::class;
     }
 }

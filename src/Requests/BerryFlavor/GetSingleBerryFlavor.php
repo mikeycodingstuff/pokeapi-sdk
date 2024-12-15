@@ -4,23 +4,12 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\BerryFlavor;
 
-use Saloon\Enums\Method;
-use Saloon\Http\Request;
+use PokeApiSdk\Requests\Base\GetSingleRequest;
 
-class GetSingleBerryFlavor extends Request
+class GetSingleBerryFlavor extends GetSingleRequest
 {
-    /**
-     * HTTP Method
-     */
-    protected Method $method = Method::GET;
-
-    public function __construct(protected readonly int|string $idOrName) {}
-
-    /**
-     * Resolve the endpoint
-     */
-    public function resolveEndpoint(): string
+    protected function endpointName(): string
     {
-        return "/berry-flavor/$this->idOrName";
+        return 'berry-flavor';
     }
 }

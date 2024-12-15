@@ -4,23 +4,12 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\EvolutionChain;
 
-use Saloon\Enums\Method;
-use Saloon\Http\Request;
+use PokeApiSdk\Requests\Base\GetByIdOnlySingleRequest;
 
-class GetSingleEvolutionChain extends Request
+class GetSingleEvolutionChain extends GetByIdOnlySingleRequest
 {
-    /**
-     * HTTP Method
-     */
-    protected Method $method = Method::GET;
-
-    public function __construct(protected readonly int $id) {}
-
-    /**
-     * Resolve the endpoint
-     */
-    public function resolveEndpoint(): string
+    protected function endpointName(): string
     {
-        return "/evolution-chain/$this->id";
+        return 'evolution-chain';
     }
 }

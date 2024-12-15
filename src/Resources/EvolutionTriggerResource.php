@@ -6,28 +6,16 @@ namespace PokeApiSdk\Resources;
 
 use PokeApiSdk\Requests\EvolutionTrigger\GetAllEvolutionTriggers;
 use PokeApiSdk\Requests\EvolutionTrigger\GetSingleEvolutionTrigger;
-use Saloon\Exceptions\Request\FatalRequestException;
-use Saloon\Exceptions\Request\RequestException;
-use Saloon\Http\BaseResource;
-use Saloon\Http\Response;
 
 class EvolutionTriggerResource extends BaseResource
 {
-    /**
-     * @throws FatalRequestException
-     * @throws RequestException
-     */
-    public function all(?int $limit = null): Response
+    protected function getAllRequestClass(): string
     {
-        return $this->connector->send(new GetAllEvolutionTriggers($limit));
+        return GetAllEvolutionTriggers::class;
     }
 
-    /**
-     * @throws FatalRequestException
-     * @throws RequestException
-     */
-    public function get(int|string $idOrName): Response
+    protected function getSingleRequestClass(): string
     {
-        return $this->connector->send(new GetSingleEvolutionTrigger($idOrName));
+        return GetSingleEvolutionTrigger::class;
     }
 }
