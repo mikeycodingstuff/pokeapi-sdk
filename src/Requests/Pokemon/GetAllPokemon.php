@@ -4,30 +4,17 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Pokemon;
 
-use Saloon\Enums\Method;
-use Saloon\Http\Request;
+use PokeApiSdk\Requests\Base\GetAllRequest;
 
-class GetAllPokemon extends Request
+class GetAllPokemon extends GetAllRequest
 {
-    /**
-     * HTTP Method
-     */
-    protected Method $method = Method::GET;
-
-    public function __construct(protected readonly ?int $limit = 10000) {}
-
-    /**
-     * Resolve the endpoint
-     */
-    public function resolveEndpoint(): string
+    public function __construct(protected ?int $limit = 10000)
     {
-        return '/pokemon';
+        parent::__construct($limit);
     }
 
-    protected function defaultQuery(): array
+    protected function endpointName(): string
     {
-        return [
-            'limit' => $this->limit,
-        ];
+        return 'pokemon';
     }
 }

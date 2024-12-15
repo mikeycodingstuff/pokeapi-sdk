@@ -14,7 +14,7 @@ abstract class GetAllRequest extends Request
      */
     protected Method $method = Method::GET;
 
-    public function __construct(protected readonly ?int $limit = 100) {}
+    public function __construct(protected ?int $limit = 100) {}
 
     abstract protected function endpointName(): string;
 
