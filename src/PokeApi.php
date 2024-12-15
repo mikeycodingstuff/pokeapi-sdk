@@ -9,6 +9,7 @@ use PokeApiSdk\Resources\BerryFirmnessResource;
 use PokeApiSdk\Resources\BerryFlavorResource;
 use PokeApiSdk\Resources\BerryResource;
 use PokeApiSdk\Resources\CharacteristicResource;
+use PokeApiSdk\Resources\ContestEffectResource;
 use PokeApiSdk\Resources\ContestTypeResource;
 use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\PokedexResource;
@@ -58,6 +59,11 @@ class PokeApi extends Connector
     public function characteristic(): CharacteristicResource
     {
         return new CharacteristicResource($this);
+    }
+
+    public function contestEffect(): ContestEffectResource
+    {
+        return new ContestEffectResource($this);
     }
 
     public function contestType(): ContestTypeResource

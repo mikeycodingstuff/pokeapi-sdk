@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sun, 15 Dec 2024 16:39:59 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "327",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"147-HnELcj5ZImBUAy2npNQQg6IYLOA\"",
+        "function-execution-id": "kw1l4vztvu37",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "e89a9986377589d9cfc82eb286972d47",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760071-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "1",
+        "x-timer": "S1734256332.339941,VS0,VE1",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=qMtVcmcP1THuoxO%2B%2BS1BPmo4MwxHJGA%2Fe1tP7BITQLgLPCGEtgFBi63aDcrxkuBY2IPzwzrRGTv3%2B%2FXkQVqpZmySNZ014ZpwLnpVdHc47QwYB68s3kaYny8EQN2MYzOUNR29syhHGvMJ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f27df6f5c879418-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14038&min_rtt=13423&rtt_var=5473&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=762&delivery_rate=301273&cwnd=253&unsent_bytes=0&cid=032c3ad084d9b6e3&ts=521&x=0\""
+    },
+    "data": "{\"appeal\":4,\"effect_entries\":[{\"effect\":\"Gives a high number of appeal points wth no other effects.\",\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"}}],\"flavor_text_entries\":[{\"flavor_text\":\"A highly appealing move.\",\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"}}],\"id\":1,\"jam\":0}"
+}
