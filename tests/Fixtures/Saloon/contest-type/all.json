@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sun, 15 Dec 2024 16:37:31 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "385",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"181-VUN11XfJqCpc9UDV2Y35rnNhwMo\"",
+        "function-execution-id": "d187vsdt31fy",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "f26eece7522a41f0100b78ca6bbb66a4",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760052-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1733856065.956298,VS0,VE543",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=z7jDdMv45czXYjQhhB2T1C%2FMGXJHv0%2BJ%2BWm205YWchcpRYzSlGORu7%2BqcIT4Y9eSWErTUz%2BwLhyYEIKM4w858Q8W289ECPsX1Qc%2Bx3gH0FMrb4oPKkWGeXBHCkLDrQnHZnFhWawGzT6J\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f27dbd94dcbbd98-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14136&min_rtt=14120&rtt_var=5327&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=758&delivery_rate=283829&cwnd=251&unsent_bytes=0&cid=0c410df9f4257e73&ts=233&x=0\""
+    },
+    "data": "{\"count\":5,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"cool\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/contest-type\/1\/\"},{\"name\":\"beauty\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/contest-type\/2\/\"},{\"name\":\"cute\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/contest-type\/3\/\"},{\"name\":\"smart\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/contest-type\/4\/\"},{\"name\":\"tough\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/contest-type\/5\/\"}]}"
+}
