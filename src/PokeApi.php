@@ -15,6 +15,8 @@ use PokeApiSdk\Resources\EggGroupResource;
 use PokeApiSdk\Resources\EncounterConditionResource;
 use PokeApiSdk\Resources\EncounterConditionValueResource;
 use PokeApiSdk\Resources\EncounterMethodResource;
+use PokeApiSdk\Resources\EvolutionChainResource;
+use PokeApiSdk\Resources\EvolutionTriggerResource;
 use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
@@ -75,6 +77,11 @@ class PokeApi extends Connector
         return new ContestTypeResource($this);
     }
 
+    public function eggGroup(): EggGroupResource
+    {
+        return new EggGroupResource($this);
+    }
+
     public function encounterCondition(): EncounterConditionResource
     {
         return new EncounterConditionResource($this);
@@ -90,9 +97,14 @@ class PokeApi extends Connector
         return new EncounterMethodResource($this);
     }
 
-    public function eggGroup(): EggGroupResource
+    public function EvolutionChain(): EvolutionChainResource
     {
-        return new EggGroupResource($this);
+        return new EvolutionChainResource($this);
+    }
+
+    public function EvolutionTrigger(): EvolutionTriggerResource
+    {
+        return new EvolutionTriggerResource($this);
     }
 
     public function generation(): GenerationResource

@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sun, 15 Dec 2024 17:02:12 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"519-mKqcmr+9AYQMpKJR7ibewJifciM\"",
+        "function-execution-id": "7x2jdv81n7ew",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "5b5ccc5c2893155117dc5e3a7141c22f",
+        "x-country-code": "US",
+        "x-orig-accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760034-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1731118106.213363,VS0,VE1",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=Y%2F%2Bv56Y5DXF7DJXzaKcHKyTgoaPBAeTYqD%2FZyryvjH4j%2FjMnbKjx%2B5%2BoJn8NSihdTMtuY1nD59qG20CXgbKtEUfg6OHga8xSunfxfM0Sq3vSR2b0NQP%2BrTmqRw%2Fuac4ZnWpexDEOGfsG\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f2800022ac83706-AMS",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=17932&min_rtt=17765&rtt_var=5143&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=763&delivery_rate=227510&cwnd=33&unsent_bytes=0&cid=e6f36347a509ca87&ts=159&x=0\""
+    },
+    "data": "{\"baby_trigger_item\":null,\"chain\":{\"evolution_details\":[],\"evolves_to\":[{\"evolution_details\":[{\"gender\":null,\"held_item\":null,\"item\":null,\"known_move\":null,\"known_move_type\":null,\"location\":null,\"min_affection\":null,\"min_beauty\":null,\"min_happiness\":null,\"min_level\":16,\"needs_overworld_rain\":false,\"party_species\":null,\"party_type\":null,\"relative_physical_stats\":null,\"time_of_day\":\"\",\"trade_species\":null,\"trigger\":{\"name\":\"level-up\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/1\/\"},\"turn_upside_down\":false}],\"evolves_to\":[{\"evolution_details\":[{\"gender\":null,\"held_item\":null,\"item\":null,\"known_move\":null,\"known_move_type\":null,\"location\":null,\"min_affection\":null,\"min_beauty\":null,\"min_happiness\":null,\"min_level\":32,\"needs_overworld_rain\":false,\"party_species\":null,\"party_type\":null,\"relative_physical_stats\":null,\"time_of_day\":\"\",\"trade_species\":null,\"trigger\":{\"name\":\"level-up\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/1\/\"},\"turn_upside_down\":false}],\"evolves_to\":[],\"is_baby\":false,\"species\":{\"name\":\"venusaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/3\/\"}}],\"is_baby\":false,\"species\":{\"name\":\"ivysaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/2\/\"}}],\"is_baby\":false,\"species\":{\"name\":\"bulbasaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/1\/\"}},\"id\":1}"
+}
