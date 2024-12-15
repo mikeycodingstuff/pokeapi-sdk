@@ -26,8 +26,8 @@ class EvolutionChainResource extends BaseResource
      * @throws FatalRequestException
      * @throws RequestException
      */
-    public function get(int|string $idOrName): Response
+    public function get(int $id): Response
     {
-        return $this->connector->send(new GetSingleEvolutionChain($idOrName));
+        return $this->connector->send(new GetSingleEvolutionChain($id));
     }
 }

@@ -14,13 +14,13 @@ class GetSingleEvolutionChain extends Request
      */
     protected Method $method = Method::GET;
 
-    public function __construct(protected readonly int|string $idOrName) {}
+    public function __construct(protected readonly int $id) {}
 
     /**
      * Resolve the endpoint
      */
     public function resolveEndpoint(): string
     {
-        return "/evolution-chain/$this->idOrName";
+        return "/evolution-chain/$this->id";
     }
 }
