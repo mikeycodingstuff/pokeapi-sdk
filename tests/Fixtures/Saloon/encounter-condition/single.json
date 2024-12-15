@@ -1,0 +1,30 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sun, 15 Dec 2024 16:54:22 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"1de-2x4Ra3HNdeQbJyfg5Z2Ef8Puoj4\"",
+        "function-execution-id": "gzeh2hwwx0s7",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "365fb14cb7a20c25b4a848bfcc3c4d73",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760075-MIA",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-timer": "S1734194315.398012,VS0,VE104",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=OO9%2BYeeaPlNqCSVoWOspOj%2FstYmFjQLXu%2FsTrHWk5d%2FHEcVo0EaUq%2FYKOSX6%2B3jD%2FmKysjb4QvJsHGVuzncqt8FYYXJ7Q5EeVj0KVzBANvuh%2FilVmrOQtLp3DEYf3KXWk5xTJ%2BpmL3Kr\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f27f4826f9248ca-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=23370&min_rtt=22137&rtt_var=10769&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=767&delivery_rate=126347&cwnd=253&unsent_bytes=0&cid=1d417106a963e0cd&ts=345&x=0\""
+    },
+    "data": "{\"id\":1,\"name\":\"swarm\",\"names\":[{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Essaim\"},{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"Schwarm\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Swarm\"}],\"values\":[{\"name\":\"swarm-yes\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/1\/\"},{\"name\":\"swarm-no\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/2\/\"}]}"
+}

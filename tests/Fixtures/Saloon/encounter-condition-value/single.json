@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sun, 15 Dec 2024 16:55:09 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"1ad-t9TS5uz+ZrBAp2sopN8ICqsA+ak\"",
+        "function-execution-id": "pyiw40jcvwjg",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "26bb78e719ff9d738f54b4b77e5a19f5",
+        "x-country-code": "US",
+        "x-orig-accept-language": "fr-FR,fr;q=0.9",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760069-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1733777180.668873,VS0,VE2",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=6%2BTrd8ThH9I5HI3zvQq0X1qsdaKA3Vbe7SFiFWoBuvJ%2BmbQUg4u7t2h29Yx8xXJllardqeqFQOBmJtFGQ9xmCkcb5dPyDE4FhmsvJQfLEQyeb1ZHqdOYfNqNL4TU5BDtBPh4v869QhlX\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f27f5acaa9576f0-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14032&min_rtt=13542&rtt_var=5429&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=773&delivery_rate=298626&cwnd=239&unsent_bytes=0&cid=a8e402a258d57658&ts=397&x=0\""
+    },
+    "data": "{\"condition\":{\"name\":\"swarm\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/1\/\"},\"id\":1,\"name\":\"swarm-yes\",\"names\":[{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"W\u00e4hrend eines Schwarms\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"During a swarm\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Pendant une temp\u00eate\"}]}"
+}
