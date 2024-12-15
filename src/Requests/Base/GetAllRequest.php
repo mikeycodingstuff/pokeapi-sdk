@@ -14,7 +14,7 @@ abstract class GetAllRequest extends Request
      */
     protected Method $method = Method::GET;
 
-    public function __construct(protected ?int $limit = 100) {}
+    public function __construct(protected ?int $limit = 100, protected ?int $offset = 0) {}
 
     abstract protected function endpointName(): string;
 
@@ -30,6 +30,7 @@ abstract class GetAllRequest extends Request
     {
         return [
             'limit' => $this->limit,
+            'offset' => $this->offset,
         ];
     }
 }

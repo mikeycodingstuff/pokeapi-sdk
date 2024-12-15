@@ -22,11 +22,11 @@ abstract class BaseResource extends SaloonBaseResource
      * @throws FatalRequestException
      * @throws RequestException
      */
-    public function all(?int $limit = null): Response
+    public function all(?int $limit = null, ?int $offset = null): Response
     {
         $requestClass = $this->getAllRequestClass();
 
-        return $this->connector->send(new $requestClass($limit));
+        return $this->connector->send(new $requestClass($limit, $offset));
     }
 
     /**
