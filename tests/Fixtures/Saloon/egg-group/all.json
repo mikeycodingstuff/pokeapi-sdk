@@ -1,0 +1,30 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sun, 15 Dec 2024 16:42:56 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"411-M5p\/6G\/t59X0k9SMbWAdqcpaNM0\"",
+        "function-execution-id": "dya4gwny2d3p",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "6d51ccbcf066bbc343f5e860b40c387d;o=1",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760047-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734155272.390176,VS0,VE98",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=UZ5jG3k66L25YoTawgcT2qpFL%2F0%2FgX7ZpbjPjBR14ulSjuMeheTbLJQ%2BVBYpTW2Q0m3Pv4m5jGWD%2Fjrk6uHF8ROIc7Au7gniZEq117EDNFw0E2M1r00rwBv4hHl5bZF987N%2BfSto2VoF\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f27e3c52d94f656-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13694&min_rtt=13378&rtt_var=5243&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=755&delivery_rate=302287&cwnd=252&unsent_bytes=0&cid=8a63b0fc8769da20&ts=313&x=0\""
+    },
+    "data": "{\"count\":15,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"monster\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/1\/\"},{\"name\":\"water1\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/2\/\"},{\"name\":\"bug\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/3\/\"},{\"name\":\"flying\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/4\/\"},{\"name\":\"ground\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/5\/\"},{\"name\":\"fairy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/6\/\"},{\"name\":\"plant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/7\/\"},{\"name\":\"humanshape\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/8\/\"},{\"name\":\"water3\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/9\/\"},{\"name\":\"mineral\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/10\/\"},{\"name\":\"indeterminate\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/11\/\"},{\"name\":\"water2\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/12\/\"},{\"name\":\"ditto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/13\/\"},{\"name\":\"dragon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/14\/\"},{\"name\":\"no-eggs\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/15\/\"}]}"
+}

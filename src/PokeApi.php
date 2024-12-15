@@ -11,6 +11,7 @@ use PokeApiSdk\Resources\BerryResource;
 use PokeApiSdk\Resources\CharacteristicResource;
 use PokeApiSdk\Resources\ContestEffectResource;
 use PokeApiSdk\Resources\ContestTypeResource;
+use PokeApiSdk\Resources\EggGroupResource;
 use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
@@ -69,6 +70,11 @@ class PokeApi extends Connector
     public function contestType(): ContestTypeResource
     {
         return new ContestTypeResource($this);
+    }
+
+    public function eggGroup(): EggGroupResource
+    {
+        return new EggGroupResource($this);
     }
 
     public function generation(): GenerationResource
