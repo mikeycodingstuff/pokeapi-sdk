@@ -17,6 +17,7 @@ use PokeApiSdk\Resources\EncounterConditionValueResource;
 use PokeApiSdk\Resources\EncounterMethodResource;
 use PokeApiSdk\Resources\EvolutionChainResource;
 use PokeApiSdk\Resources\EvolutionTriggerResource;
+use PokeApiSdk\Resources\GenderResource;
 use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
@@ -105,6 +106,11 @@ class PokeApi extends Connector
     public function EvolutionTrigger(): EvolutionTriggerResource
     {
         return new EvolutionTriggerResource($this);
+    }
+
+    public function gender(): GenderResource
+    {
+        return new GenderResource($this);
     }
 
     public function generation(): GenerationResource
