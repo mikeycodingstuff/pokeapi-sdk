@@ -8,6 +8,7 @@ use PokeApiSdk\Resources\AbilityResource;
 use PokeApiSdk\Resources\BerryFirmnessResource;
 use PokeApiSdk\Resources\BerryFlavorResource;
 use PokeApiSdk\Resources\BerryResource;
+use PokeApiSdk\Resources\CharacteristicResource;
 use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
@@ -51,6 +52,11 @@ class PokeApi extends Connector
     public function berryFlavor(): BerryFlavorResource
     {
         return new BerryFlavorResource($this);
+    }
+
+    public function characteristic(): CharacteristicResource
+    {
+        return new CharacteristicResource($this);
     }
 
     public function generation(): GenerationResource
