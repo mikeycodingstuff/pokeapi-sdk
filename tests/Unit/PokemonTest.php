@@ -5,48 +5,59 @@ declare(strict_types=1);
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\Pokemon\GetAllPokemon;
 use PokeApiSdk\Requests\Pokemon\GetSinglePokemon;
-use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-it('sends a single pokemon request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetSinglePokemon::class => MockResponse::fixture('pokemon/single'),
+beforeEach(function () {
+    $this->singleFixtureId = 'pokemon/single-id';
+    $this->singleFixtureName = 'pokemon/single-name';
+    $this->allFixture = 'pokemon/all';
+
+    $this->singleRequestClass = GetSinglePokemon::class;
+    $this->allRequestClass = GetAllPokemon::class;
+
+    $this->mockClient = new MockClient([
+        $this->singleRequestClass => MockResponse::fixture($this->singleFixtureId),
+        $this->allRequestClass => MockResponse::fixture($this->allFixture),
     ]);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
-
-    $response = $connector->pokemon()->get('metagross');
-
-    $mockClient->assertSent(GetSinglePokemon::class);
-    $mockClient->assertSentCount(1);
-
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('pokemon/single')->getMockResponse()->body());
+    $this->connector = new PokeApi;
+    $this->connector->withMockClient($this->mockClient);
 });
 
-it('sends an all pokemon request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetAllPokemon::class => MockResponse::fixture('pokemon/all'),
-    ]);
+describe('Get a single Pokemon', function () {
+    it('sends a request with an id (int) and receives the expected response', function () {
+        $response = $this->connector->pokemon()->get(1);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
 
-    $response = $connector->pokemon()->all();
+        successfulResponseExpectation($response, $this->singleFixtureId);
+    });
 
-    $mockClient->assertSent(GetAllPokemon::class);
-    $mockClient->assertSentCount(1);
+    it('sends a request with a name (string) and receives the expected response', function () {
+        $this->mockClient = new MockClient([
+            $this->singleRequestClass => MockResponse::fixture($this->singleFixtureName),
+        ]);
 
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('pokemon/all')->getMockResponse()->body());
+        $this->connector->withMockClient($this->mockClient);
+
+        $response = $this->connector->pokemon()->get('bulbasaur');
+
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->singleFixtureName);
+    });
+});
+
+describe('Get all Pokemon', function () {
+    it('sends a request and receives the expected response', function () {
+        $response = $this->connector->pokemon()->all();
+
+        $this->mockClient->assertSent($this->allRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->allFixture);
+    });
 });

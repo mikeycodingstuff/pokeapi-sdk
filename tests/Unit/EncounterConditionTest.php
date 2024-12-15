@@ -5,48 +5,59 @@ declare(strict_types=1);
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\EncounterCondition\GetAllEncounterConditions;
 use PokeApiSdk\Requests\EncounterCondition\GetSingleEncounterCondition;
-use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-it('sends a single encounter condition request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetSingleEncounterCondition::class => MockResponse::fixture('encounter-condition/single'),
+beforeEach(function () {
+    $this->singleFixtureId = 'encounter-condition/single-id';
+    $this->singleFixtureName = 'encounter-condition/single-name';
+    $this->allFixture = 'encounter-condition/all';
+
+    $this->singleRequestClass = GetSingleEncounterCondition::class;
+    $this->allRequestClass = GetAllEncounterConditions::class;
+
+    $this->mockClient = new MockClient([
+        $this->singleRequestClass => MockResponse::fixture($this->singleFixtureId),
+        $this->allRequestClass => MockResponse::fixture($this->allFixture),
     ]);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
-
-    $response = $connector->encounterCondition()->get(1);
-
-    $mockClient->assertSent(GetSingleEncounterCondition::class);
-    $mockClient->assertSentCount(1);
-
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('encounter-condition/single')->getMockResponse()->body());
+    $this->connector = new PokeApi;
+    $this->connector->withMockClient($this->mockClient);
 });
 
-it('sends an all encounter conditions request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetAllEncounterConditions::class => MockResponse::fixture('encounter-condition/all'),
-    ]);
+describe('Get a single Encounter Condition', function () {
+    it('sends a request with an id (int) and receives the expected response', function () {
+        $response = $this->connector->encounterCondition()->get(1);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
 
-    $response = $connector->encounterCondition()->all();
+        successfulResponseExpectation($response, $this->singleFixtureId);
+    });
 
-    $mockClient->assertSent(GetAllEncounterConditions::class);
-    $mockClient->assertSentCount(1);
+    it('sends a request with a name (string) and receives the expected response', function () {
+        $this->mockClient = new MockClient([
+            $this->singleRequestClass => MockResponse::fixture($this->singleFixtureName),
+        ]);
 
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('encounter-condition/all')->getMockResponse()->body());
+        $this->connector->withMockClient($this->mockClient);
+
+        $response = $this->connector->encounterCondition()->get('swarm');
+
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->singleFixtureName);
+    });
+});
+
+describe('Get all Encounter Conditions', function () {
+    it('sends a request and receives the expected response', function () {
+        $response = $this->connector->encounterCondition()->all();
+
+        $this->mockClient->assertSent($this->allRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->allFixture);
+    });
 });

@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sun, 15 Dec 2024 17:02:14 GMT",
+        "Date": "Sun, 15 Dec 2024 22:16:46 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -18,13 +18,14 @@
         "x-timer": "S1732357910.878963,VS0,VE0",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=sUxJaMxlgrKbQnpa0Xz40Rte%2FfjROQU4Q3lE9e%2BgjetzeAgYW8ICKN9D5R3Ex9Qa%2Fh91I2fDjjsmyqa28Oh%2BwXLIo%2FI8s30IdWvy6kXDFMJWilYsybdO80KNPAluVfCTdW1CCDWWzeSq\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "18872",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=%2FFcFVlU5OJ5rULWeFUzmP4hqXn7fGB7riLUaEO7Hg3Um9rWBf94%2F%2BC8gAAT6e7agN8DhpNe%2F%2BMzJt0O5C9CKrwhCIkjX%2BZPkh2iUtEvBfcaCzs%2FlTM0lZ5ly3eRTp%2FtnhoL8m5BcKUkU\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f2800095854cd1d-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=15785&min_rtt=13949&rtt_var=6542&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=763&delivery_rate=289913&cwnd=251&unsent_bytes=0&cid=08a59c9f234cfea6&ts=309&x=0\""
+        "CF-RAY": "8f29ccc80a29cd29-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13810&min_rtt=12888&rtt_var=5491&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=763&delivery_rate=313780&cwnd=241&unsent_bytes=0&cid=40d0242463247904&ts=40&x=0\""
     },
     "data": "{\"count\":13,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"level-up\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/1\/\"},{\"name\":\"trade\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/2\/\"},{\"name\":\"use-item\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/3\/\"},{\"name\":\"shed\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/4\/\"},{\"name\":\"spin\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/5\/\"},{\"name\":\"tower-of-darkness\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/6\/\"},{\"name\":\"tower-of-waters\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/7\/\"},{\"name\":\"three-critical-hits\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/8\/\"},{\"name\":\"take-damage\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/9\/\"},{\"name\":\"other\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/10\/\"},{\"name\":\"agile-style-move\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/11\/\"},{\"name\":\"strong-style-move\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/12\/\"},{\"name\":\"recoil-damage\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-trigger\/13\/\"}]}"
 }

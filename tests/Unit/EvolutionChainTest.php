@@ -5,48 +5,48 @@ declare(strict_types=1);
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\EvolutionChain\GetAllEvolutionChains;
 use PokeApiSdk\Requests\EvolutionChain\GetSingleEvolutionChain;
-use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-it('sends a single evolution chain request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetSingleEvolutionChain::class => MockResponse::fixture('evolution-chain/single'),
+beforeEach(function () {
+    $this->singleFixtureId = 'evolution-chain/single-id';
+    $this->singleFixtureName = 'evolution-chain/single-name';
+    $this->allFixture = 'evolution-chain/all';
+
+    $this->singleRequestClass = GetSingleEvolutionChain::class;
+    $this->allRequestClass = GetAllEvolutionChains::class;
+
+    $this->mockClient = new MockClient([
+        $this->singleRequestClass => MockResponse::fixture($this->singleFixtureId),
+        $this->allRequestClass => MockResponse::fixture($this->allFixture),
     ]);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
-
-    $response = $connector->evolutionChain()->get(1);
-
-    $mockClient->assertSent(GetSingleEvolutionChain::class);
-    $mockClient->assertSentCount(1);
-
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('evolution-chain/single')->getMockResponse()->body());
+    $this->connector = new PokeApi;
+    $this->connector->withMockClient($this->mockClient);
 });
 
-it('sends an all evolution chains request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetAllEvolutionChains::class => MockResponse::fixture('evolution-chain/all'),
-    ]);
+describe('Get a single Evolution Chain', function () {
+    it('sends a request with an id (int) and receives the expected response', function () {
+        $response = $this->connector->evolutionChain()->get(1);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
 
-    $response = $connector->evolutionChain()->all();
+        successfulResponseExpectation($response, $this->singleFixtureId);
+    });
 
-    $mockClient->assertSent(GetAllEvolutionChains::class);
-    $mockClient->assertSentCount(1);
+    it('throws an exception when receiving a non int param', function () {
+        $this->connector->evolutionChain()->get('test');
+    })->throws(Exception::class, 'This resource only supports fetching by integer ID.');
+});
 
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('evolution-chain/all')->getMockResponse()->body());
+describe('Get all Evolution Chains', function () {
+    it('sends a request and receives the expected response', function () {
+        $response = $this->connector->evolutionChain()->all();
+
+        $this->mockClient->assertSent($this->allRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->allFixture);
+    });
 });

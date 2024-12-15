@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sun, 15 Dec 2024 15:18:35 GMT",
+        "Date": "Sun, 15 Dec 2024 22:16:44 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,14 @@
         "x-timer": "S1734185835.161931,VS0,VE99",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=vCHrPPCW2LwZbVvJUTtavou%2FNjRGxL%2FPPpwR8aR5j42TH15EXdTw%2FSmVE8aFhQNMvSJEeu8QgJJcbelcAQT%2FbXZoLeEgZud7QtQHkKtXer2zKRGikpi%2BGVm%2FwUw6wbQl%2BDye0p0Qi%2BVM\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "25089",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=r43hphZbsRxqU8TNRuJ%2B4cj0iNg9mizQEcKLerv7TfLBnmgVJOnG5IPyyndAp6lpDUfpPuZ%2F69FsIZYj7oJrl3zzzXh5yeQcCoPY3WGGGK1o01FkivcCqCtkrRWBEgxYNSNMWSZLZYge\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f276835a9a9e900-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13972&min_rtt=13047&rtt_var=5554&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=762&delivery_rate=309956&cwnd=252&unsent_bytes=0&cid=0e17aecf3ca2064d&ts=199&x=0\""
+        "CF-RAY": "8f29ccbd3b2fcd99-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14554&min_rtt=14367&rtt_var=5762&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=762&delivery_rate=254900&cwnd=252&unsent_bytes=0&cid=557d6c73364fc3a6&ts=59&x=0\""
     },
     "data": "{\"descriptions\":[{\"description\":\"\u305f\u3079\u308b\u306e\u304c\u3000\u3060\u3044\u3059\u304d\",\"language\":{\"name\":\"ja-Hrkt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/1\/\"}},{\"description\":\"\uba39\ub294 \uac83\uc744 \uc81c\uc77c \uc88b\uc544\ud568\",\"language\":{\"name\":\"ko\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/3\/\"}},{\"description\":\"\u975e\u5e38\u559c\u6b61\u5403\u6771\u897f\",\"language\":{\"name\":\"zh-Hant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/4\/\"}},{\"description\":\"Il adore manger\",\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"}},{\"description\":\"Liebt es zu essen\",\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"}},{\"description\":\"Le encanta comer\",\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"}},{\"description\":\"Adora mangiare\",\"language\":{\"name\":\"it\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/8\/\"}},{\"description\":\"Loves to eat\",\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"}},{\"description\":\"\u98df\u3079\u308b\u306e\u304c\u3000\u5927\u597d\u304d\",\"language\":{\"name\":\"ja\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/11\/\"}},{\"description\":\"\u975e\u5e38\u559c\u6b22\u5403\u4e1c\u897f\",\"language\":{\"name\":\"zh-Hans\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/12\/\"}}],\"gene_modulo\":0,\"highest_stat\":{\"name\":\"hp\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/stat\/1\/\"},\"id\":1,\"possible_values\":[0,5,10,15,20,25,30]}"
 }

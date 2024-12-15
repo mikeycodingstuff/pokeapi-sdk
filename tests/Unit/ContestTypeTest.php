@@ -5,48 +5,59 @@ declare(strict_types=1);
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\ContestType\GetAllContestTypes;
 use PokeApiSdk\Requests\ContestType\GetSingleContestType;
-use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-it('sends a single contest type request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetSingleContestType::class => MockResponse::fixture('contest-type/single'),
+beforeEach(function () {
+    $this->singleFixtureId = 'contest-type/single-id';
+    $this->singleFixtureName = 'contest-type/single-name';
+    $this->allFixture = 'contest-type/all';
+
+    $this->singleRequestClass = GetSingleContestType::class;
+    $this->allRequestClass = GetAllContestTypes::class;
+
+    $this->mockClient = new MockClient([
+        $this->singleRequestClass => MockResponse::fixture($this->singleFixtureId),
+        $this->allRequestClass => MockResponse::fixture($this->allFixture),
     ]);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
-
-    $response = $connector->contestType()->get(1);
-
-    $mockClient->assertSent(GetSingleContestType::class);
-    $mockClient->assertSentCount(1);
-
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('contest-type/single')->getMockResponse()->body());
+    $this->connector = new PokeApi;
+    $this->connector->withMockClient($this->mockClient);
 });
 
-it('sends an all contest types request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetAllContestTypes::class => MockResponse::fixture('contest-type/all'),
-    ]);
+describe('Get a single Contest Type', function () {
+    it('sends a request with an id (int) and receives the expected response', function () {
+        $response = $this->connector->contestType()->get(1);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
 
-    $response = $connector->contestType()->all();
+        successfulResponseExpectation($response, $this->singleFixtureId);
+    });
 
-    $mockClient->assertSent(GetAllContestTypes::class);
-    $mockClient->assertSentCount(1);
+    it('sends a request with a name (string) and receives the expected response', function () {
+        $this->mockClient = new MockClient([
+            $this->singleRequestClass => MockResponse::fixture($this->singleFixtureName),
+        ]);
 
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('contest-type/all')->getMockResponse()->body());
+        $this->connector->withMockClient($this->mockClient);
+
+        $response = $this->connector->contestType()->get('cool');
+
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->singleFixtureName);
+    });
+});
+
+describe('Get all Contest Types', function () {
+    it('sends a request and receives the expected response', function () {
+        $response = $this->connector->contestType()->all();
+
+        $this->mockClient->assertSent($this->allRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->allFixture);
+    });
 });

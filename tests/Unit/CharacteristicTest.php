@@ -5,48 +5,48 @@ declare(strict_types=1);
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\Characteristic\GetAllCharacteristics;
 use PokeApiSdk\Requests\Characteristic\GetSingleCharacteristic;
-use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-it('sends a single characteristic request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetSingleCharacteristic::class => MockResponse::fixture('characteristic/single'),
+beforeEach(function () {
+    $this->singleFixtureId = 'characteristic/single-id';
+    $this->singleFixtureName = 'characteristic/single-name';
+    $this->allFixture = 'characteristic/all';
+
+    $this->singleRequestClass = GetSingleCharacteristic::class;
+    $this->allRequestClass = GetAllCharacteristics::class;
+
+    $this->mockClient = new MockClient([
+        $this->singleRequestClass => MockResponse::fixture($this->singleFixtureId),
+        $this->allRequestClass => MockResponse::fixture($this->allFixture),
     ]);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
-
-    $response = $connector->characteristic()->get(1);
-
-    $mockClient->assertSent(GetSingleCharacteristic::class);
-    $mockClient->assertSentCount(1);
-
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('characteristic/single')->getMockResponse()->body());
+    $this->connector = new PokeApi;
+    $this->connector->withMockClient($this->mockClient);
 });
 
-it('sends an all characteristics request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetAllCharacteristics::class => MockResponse::fixture('characteristic/all'),
-    ]);
+describe('Get a single Characteristic', function () {
+    it('sends a request with an id (int) and receives the expected response', function () {
+        $response = $this->connector->characteristic()->get(1);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
 
-    $response = $connector->characteristic()->all();
+        successfulResponseExpectation($response, $this->singleFixtureId);
+    });
 
-    $mockClient->assertSent(GetAllCharacteristics::class);
-    $mockClient->assertSentCount(1);
+    it('throws an exception when receiving a non int param', function () {
+        $this->connector->characteristic()->get('test');
+    })->throws(Exception::class, 'This resource only supports fetching by integer ID.');
+});
 
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('characteristic/all')->getMockResponse()->body());
+describe('Get all Characteristics', function () {
+    it('sends a request and receives the expected response', function () {
+        $response = $this->connector->characteristic()->all();
+
+        $this->mockClient->assertSent($this->allRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->allFixture);
+    });
 });

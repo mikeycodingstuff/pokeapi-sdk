@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sun, 15 Dec 2024 17:02:13 GMT",
+        "Date": "Sun, 15 Dec 2024 22:16:45 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -20,12 +20,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=DlPdxt7LPmZkvqp4dh%2BSbgOac5d1Jf6DAxqY6hFy%2BH4JzTXgQ3MWam77L6QiUup3U5aaKGMfyUTXGa6Ao4%2Fzw1Hn9o5VYzF%2BEuranKqaxYxkF86k30kpnlOmcrOWMolRYECCnmpjWUEt\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "60",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=NMr3W6T26z5yFkJTcc%2F8nX%2FZbY6bUAo%2B1bcRq9mMxpUQiF6X6dDCGSK38TRmYzqla6vpCYgYhxR%2FkVzs84P1ziXq%2BMILL7wveaNk3roZ2R6PDL8YYBg6oSdqLOFFO3RWDHHVFn0BTBqo\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f2800037e5a244c-AMS",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=20219&min_rtt=20000&rtt_var=6006&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2838&recv_bytes=761&delivery_rate=193123&cwnd=33&unsent_bytes=0&cid=71d5fac324d665ac&ts=403&x=0\""
+        "CF-RAY": "8f29ccc688e0edfa-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13528&min_rtt=12884&rtt_var=5292&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=761&delivery_rate=313877&cwnd=252&unsent_bytes=0&cid=93c3ed3ad9446bdc&ts=57&x=0\""
     },
     "data": "{\"count\":541,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain?offset=20&limit=20\",\"previous\":null,\"results\":[{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/1\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/2\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/3\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/4\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/5\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/6\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/7\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/8\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/9\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/10\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/11\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/12\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/13\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/14\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/15\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/16\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/17\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/18\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/19\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/20\/\"}]}"
 }

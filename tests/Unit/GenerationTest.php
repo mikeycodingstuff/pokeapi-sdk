@@ -5,48 +5,59 @@ declare(strict_types=1);
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\Generation\GetAllGenerations;
 use PokeApiSdk\Requests\Generation\GetSingleGeneration;
-use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-it('sends a single generation request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetSingleGeneration::class => MockResponse::fixture('generation/single'),
+beforeEach(function () {
+    $this->singleFixtureId = 'generation/single-id';
+    $this->singleFixtureName = 'generation/single-name';
+    $this->allFixture = 'generation/all';
+
+    $this->singleRequestClass = GetSingleGeneration::class;
+    $this->allRequestClass = GetAllGenerations::class;
+
+    $this->mockClient = new MockClient([
+        $this->singleRequestClass => MockResponse::fixture($this->singleFixtureId),
+        $this->allRequestClass => MockResponse::fixture($this->allFixture),
     ]);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
-
-    $response = $connector->generation()->get(1);
-
-    $mockClient->assertSent(GetSingleGeneration::class);
-    $mockClient->assertSentCount(1);
-
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('generation/single')->getMockResponse()->body());
+    $this->connector = new PokeApi;
+    $this->connector->withMockClient($this->mockClient);
 });
 
-it('sends an all generations request and receives the expected response', function () {
-    $mockClient = new MockClient([
-        GetAllGenerations::class => MockResponse::fixture('generation/all'),
-    ]);
+describe('Get a single Generation', function () {
+    it('sends a request with an id (int) and receives the expected response', function () {
+        $response = $this->connector->generation()->get(1);
 
-    $connector = new PokeApi;
-    $connector->withMockClient($mockClient);
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
 
-    $response = $connector->generation()->all();
+        successfulResponseExpectation($response, $this->singleFixtureId);
+    });
 
-    $mockClient->assertSent(GetAllGenerations::class);
-    $mockClient->assertSentCount(1);
+    it('sends a request with a name (string) and receives the expected response', function () {
+        $this->mockClient = new MockClient([
+            $this->singleRequestClass => MockResponse::fixture($this->singleFixtureName),
+        ]);
 
-    expect($response)
-        ->toBeInstanceOf(PokeApiResponse::class)
-        ->and($response->successful())
-        ->toBeTrue()
-        ->and($response->body())
-        ->toEqual(MockResponse::fixture('generation/all')->getMockResponse()->body());
+        $this->connector->withMockClient($this->mockClient);
+
+        $response = $this->connector->generation()->get('generation-i');
+
+        $this->mockClient->assertSent($this->singleRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->singleFixtureName);
+    });
+});
+
+describe('Get all Generations', function () {
+    it('sends a request and receives the expected response', function () {
+        $response = $this->connector->generation()->all();
+
+        $this->mockClient->assertSent($this->allRequestClass);
+        $this->mockClient->assertSentCount(1);
+
+        successfulResponseExpectation($response, $this->allFixture);
+    });
 });

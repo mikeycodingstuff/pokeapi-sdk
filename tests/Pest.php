@@ -15,8 +15,11 @@ declare(strict_types=1);
 
 // pest()->extend(Tests\TestCase::class)->in('Feature');
 
+use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Config;
 use Saloon\Http\Faking\MockClient;
+use Saloon\Http\Faking\MockResponse;
+use Saloon\Http\Response;
 
 uses()
     ->beforeEach(fn () => MockClient::destroyGlobal())
@@ -50,7 +53,12 @@ expect()->extend('toBeOne', function () {
 |
 */
 
-function something()
+function successfulResponseExpectation(Response $response, string $fixture): void
 {
-    // ..
+    expect($response)
+        ->toBeInstanceOf(PokeApiResponse::class)
+        ->and($response->successful())
+        ->toBeTrue()
+        ->and($response->body())
+        ->toEqual(MockResponse::fixture($fixture)->getMockResponse()->body());
 }

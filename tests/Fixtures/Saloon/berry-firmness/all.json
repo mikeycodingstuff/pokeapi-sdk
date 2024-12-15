@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sat, 14 Dec 2024 15:38:19 GMT",
+        "Date": "Sun, 15 Dec 2024 22:16:43 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -20,12 +20,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=eczUlVcbvYW02N7qVwByxK3rEvHadMHytSqgalNjiyQEPwZ7dDylk4vm99u0dGS%2FGixlPYlnbdRTckZ%2BR8K7ER8%2BeceYe598rMM7Wr%2BPE5K0Ek7WaRF6dbCQtNAk737jd6rOKlC2HlW0\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "4039",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=S63q2AdCxwgGLCgg%2Baq3d8mTNLXrz%2F4HNSMpiEZ3jf4SBFOuufJ3Lh1aeiZydmab%2B%2FPQAwJTfqtQB8YsVVSHBd%2BFDSYujC9cSnJ11CzD71ChDKIS%2FE8aJNoZmz18MClZI%2FS%2FA%2BCW7Caq\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f1f47c1690b639a-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14212&min_rtt=14027&rtt_var=5631&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=760&delivery_rate=260735&cwnd=250&unsent_bytes=0&cid=388f7d3a88831fe9&ts=210&x=0\""
+        "CF-RAY": "8f29ccba09cbf664-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13764&min_rtt=12421&rtt_var=3622&sent=5&recv=8&lost=0&retrans=0&sent_bytes=2837&recv_bytes=760&delivery_rate=283034&cwnd=252&unsent_bytes=0&cid=99bb21e60ca16c82&ts=33&x=0\""
     },
     "data": "{\"count\":5,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"very-soft\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-firmness\/1\/\"},{\"name\":\"soft\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-firmness\/2\/\"},{\"name\":\"hard\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-firmness\/3\/\"},{\"name\":\"very-hard\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-firmness\/4\/\"},{\"name\":\"super-hard\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-firmness\/5\/\"}]}"
 }

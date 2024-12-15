@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sun, 15 Dec 2024 16:54:24 GMT",
+        "Date": "Sun, 15 Dec 2024 22:16:45 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -18,13 +18,14 @@
         "x-timer": "S1734194315.225244,VS0,VE110",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=K8d4LPEIxSfVyb97ThoSwmmCImKWmMUFQ9jdCBP%2FMfrZiQ42GCwYOuLyqDfe3VM3m8BCfesusDt%2BVrvqyOjTD7kqF1Rs0aN77InkHKT46DMbxD%2Fmk3gbV5NRH1Kxn9suQKbKuk6xcuU3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "19341",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=qatjduN9SVgcd7xvyf4i4UZXK%2BR6gtqSqg4TBmrk4thnwTKkcf7vuDTy9rTVe0HU%2FAJYV8OSozybuSV7fovbWKJcjzC7PVnZa%2BOMuk7zUrU%2FDVQ3Jn%2BruX9IeyPvrhz5NTTo7klpk%2BDz\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f27f48f49f06359-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=33929&min_rtt=33734&rtt_var=12789&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=762&delivery_rate=119879&cwnd=251&unsent_bytes=0&cid=3a7a6d67307f79c6&ts=746&x=0\""
+        "CF-RAY": "8f29ccc5a9cb93ff-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=15609&min_rtt=12319&rtt_var=6970&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=762&delivery_rate=328273&cwnd=252&unsent_bytes=0&cid=14acd7e64af4268c&ts=33&x=0\""
     },
     "data": "{\"count\":37,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method?offset=20&limit=17\",\"previous\":null,\"results\":[{\"name\":\"walk\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/1\/\"},{\"name\":\"old-rod\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/2\/\"},{\"name\":\"good-rod\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/3\/\"},{\"name\":\"super-rod\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/4\/\"},{\"name\":\"surf\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/5\/\"},{\"name\":\"rock-smash\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/6\/\"},{\"name\":\"headbutt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/7\/\"},{\"name\":\"dark-grass\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/8\/\"},{\"name\":\"grass-spots\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/9\/\"},{\"name\":\"cave-spots\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/10\/\"},{\"name\":\"bridge-spots\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/11\/\"},{\"name\":\"super-rod-spots\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/12\/\"},{\"name\":\"surf-spots\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/13\/\"},{\"name\":\"yellow-flowers\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/14\/\"},{\"name\":\"purple-flowers\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/15\/\"},{\"name\":\"red-flowers\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/16\/\"},{\"name\":\"rough-terrain\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/17\/\"},{\"name\":\"gift\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/18\/\"},{\"name\":\"gift-egg\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/19\/\"},{\"name\":\"only-one\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-method\/20\/\"}]}"
 }

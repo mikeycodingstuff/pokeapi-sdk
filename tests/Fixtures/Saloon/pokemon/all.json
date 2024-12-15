@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Fri, 13 Dec 2024 19:57:24 GMT",
+        "Date": "Sun, 15 Dec 2024 22:16:47 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "81509",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=bV6p9IqM07KhvxBxBIBgjY8ekw0GbZ7pckG%2Fs%2BB6iN%2F6ka8lk1BQgqU%2FuS4vUa%2BeWUCXD0SzdAr1pAEjhjFb0ptc0vgmV5%2FNhoFv2aFa6qh1Hf77lNMGDCQLtp1S%2BKrqVPOu9C8i0Rd3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "72711",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=vzTHbTS01lxg7hUBEbs6%2BrhRa3xJp8FlCOWvIbWLyjsHiycyhXS%2BCYqMw81nhBbd3y0YCdm17mh9%2Fn5FrVO8ePUj8c%2BY0%2B55rtJQKNFSHqTrYrHm03hmWdiZL4KcfxwTCzt0ToMpJPY%2B\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f1885e5bf5a940b-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13732&min_rtt=13413&rtt_var=5258&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=753&delivery_rate=301498&cwnd=250&unsent_bytes=0&cid=bd1e1fdbfd036ee9&ts=38&x=0\""
+        "CF-RAY": "8f29cccf1df47332-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13928&min_rtt=13883&rtt_var=5296&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=753&delivery_rate=283909&cwnd=250&unsent_bytes=0&cid=ba2f5ff52f5348b5&ts=32&x=0\""
     },
     "data": "{\"count\":1302,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon?offset=20&limit=20\",\"previous\":null,\"results\":[{\"name\":\"bulbasaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/1\/\"},{\"name\":\"ivysaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/2\/\"},{\"name\":\"venusaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/3\/\"},{\"name\":\"charmander\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/4\/\"},{\"name\":\"charmeleon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/5\/\"},{\"name\":\"charizard\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/6\/\"},{\"name\":\"squirtle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/7\/\"},{\"name\":\"wartortle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/8\/\"},{\"name\":\"blastoise\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/9\/\"},{\"name\":\"caterpie\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/10\/\"},{\"name\":\"metapod\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/11\/\"},{\"name\":\"butterfree\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/12\/\"},{\"name\":\"weedle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/13\/\"},{\"name\":\"kakuna\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/14\/\"},{\"name\":\"beedrill\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/15\/\"},{\"name\":\"pidgey\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/16\/\"},{\"name\":\"pidgeotto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/17\/\"},{\"name\":\"pidgeot\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/18\/\"},{\"name\":\"rattata\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/19\/\"},{\"name\":\"raticate\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/20\/\"}]}"
 }

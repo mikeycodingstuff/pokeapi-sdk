@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Fri, 13 Dec 2024 23:20:36 GMT",
+        "Date": "Sun, 15 Dec 2024 22:16:43 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -20,12 +20,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=BgruWxaVitskDYtCCqnEcyLBKUpQHJ6RPSx%2BkVnJC3uYP3RlkqNN71iIEfIvA3%2FU7Yv2BoG5KWb3XBayTlR5nNfLn%2FEJWtbJqm8g%2FyS2xjB1zWtMImbF%2Fl9mSFiLaKo5Aq48WW4p7Z18\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "16318",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=CLZHbnKlvz%2FAjXNuSHuEH6kE6QcF9blmVLexCVFRIWjU%2FZ8rgAucL7rCCbleAQz0IxViCHYwSRlAnh5i0FwJvPqN%2BZsLLSPdsspzxjWJsCZW787t72TxFug7oevBcFW7kmG3wG0pUFiz\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f19af89cbabbefb-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14231&min_rtt=13926&rtt_var=5834&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=753&delivery_rate=246991&cwnd=252&unsent_bytes=0&cid=7763b701e789581f&ts=205&x=0\""
+        "CF-RAY": "8f29ccb8ae773690-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14138&min_rtt=13649&rtt_var=5467&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=753&delivery_rate=296285&cwnd=252&unsent_bytes=0&cid=a313aa1937d3a1b5&ts=38&x=0\""
     },
     "data": "{\"count\":367,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/ability?offset=20&limit=20\",\"previous\":null,\"results\":[{\"name\":\"stench\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/1\/\"},{\"name\":\"drizzle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/2\/\"},{\"name\":\"speed-boost\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/3\/\"},{\"name\":\"battle-armor\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/4\/\"},{\"name\":\"sturdy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/5\/\"},{\"name\":\"damp\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/6\/\"},{\"name\":\"limber\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/7\/\"},{\"name\":\"sand-veil\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/8\/\"},{\"name\":\"static\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/9\/\"},{\"name\":\"volt-absorb\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/10\/\"},{\"name\":\"water-absorb\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/11\/\"},{\"name\":\"oblivious\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/12\/\"},{\"name\":\"cloud-nine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/13\/\"},{\"name\":\"compound-eyes\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/14\/\"},{\"name\":\"insomnia\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/15\/\"},{\"name\":\"color-change\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/16\/\"},{\"name\":\"immunity\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/17\/\"},{\"name\":\"flash-fire\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/18\/\"},{\"name\":\"shield-dust\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/19\/\"},{\"name\":\"own-tempo\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/ability\/20\/\"}]}"
 }

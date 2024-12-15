@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Sun, 15 Dec 2024 22:16:44 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "816",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"330-qewQ37yB7yyQ7812CEdaWUDA8ck\"",
+        "function-execution-id": "kw1l4bpwm0m0",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "1c4ed58a6821dc072a0055470c26d85f",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760034-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734173337.890763,VS0,VE1",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "3653",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=bz8FMz8M0xb1PCs2O1K8D4ORx0xVpKjedS7EshbgdPJVWNodp3ExUY7pYaJX%2FkGPjegcD86xDsUHtvD8KrPzqTzfkLQr0%2BmpDen2fJ45tz7DWCns830yJEgQr2MOHxvvcYDPXd1bFW1%2B\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f29ccbbecc5941b-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13931&min_rtt=13434&rtt_var=4221&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=753&delivery_rate=300825&cwnd=252&unsent_bytes=0&cid=60e9302a59288d7b&ts=41&x=0\""
+    },
+    "data": "{\"firmness\":{\"name\":\"soft\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-firmness\/2\/\"},\"flavors\":[{\"flavor\":{\"name\":\"spicy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/1\/\"},\"potency\":10},{\"flavor\":{\"name\":\"dry\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/2\/\"},\"potency\":0},{\"flavor\":{\"name\":\"sweet\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/3\/\"},\"potency\":0},{\"flavor\":{\"name\":\"bitter\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/4\/\"},\"potency\":0},{\"flavor\":{\"name\":\"sour\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/5\/\"},\"potency\":0}],\"growth_time\":3,\"id\":1,\"item\":{\"name\":\"cheri-berry\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/126\/\"},\"max_harvest\":5,\"name\":\"cheri\",\"natural_gift_power\":60,\"natural_gift_type\":{\"name\":\"fire\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/type\/10\/\"},\"size\":20,\"smoothness\":25,\"soil_dryness\":15}"
+}

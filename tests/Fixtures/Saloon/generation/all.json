@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Fri, 13 Dec 2024 23:19:25 GMT",
+        "Date": "Sun, 15 Dec 2024 22:16:46 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "710",
         "Connection": "keep-alive",
@@ -20,13 +20,14 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
+        "Age": "58",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=4vrC9dC7wAAoJgx8NRTrGrJQENcFUteYOTRhrZFoqVWCoTnFqVc10rF7ortvS9WUPLaTlxWur%2BkI0U3WYoJYuJvObizruRRlcbOx1Bs1qtFzvWDaO1mfuE4t%2BcVgTVSCLPhv0VNvVJ5v\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=EmE1EFgb7DUOe6DrYYV1QXkjzh9%2FuHJCDF%2BiEVfHGp%2FBJPuZGM0rl3ySrU0LiFqx69bc6YOZMU7s%2FDj8UKn86VYpcXA4LKiRh%2B9Kf4cTNB8P4%2Bl0U5gHmbYHTmD%2BVQbGZOr94zVWtZxF\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f19add02adacd21-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13727&min_rtt=12699&rtt_var=5496&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=756&delivery_rate=318450&cwnd=220&unsent_bytes=0&cid=b24c78183bb1e357&ts=549&x=0\""
+        "CF-RAY": "8f29cccb7bd8ef01-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13845&min_rtt=13681&rtt_var=3992&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2838&recv_bytes=756&delivery_rate=295441&cwnd=252&unsent_bytes=0&cid=e6d5c6591bb6adff&ts=32&x=0\""
     },
     "data": "{\"count\":9,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"generation-i\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/1\/\"},{\"name\":\"generation-ii\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/2\/\"},{\"name\":\"generation-iii\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/3\/\"},{\"name\":\"generation-iv\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/4\/\"},{\"name\":\"generation-v\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/5\/\"},{\"name\":\"generation-vi\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/6\/\"},{\"name\":\"generation-vii\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/7\/\"},{\"name\":\"generation-viii\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/8\/\"},{\"name\":\"generation-ix\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/9\/\"}]}"
 }
