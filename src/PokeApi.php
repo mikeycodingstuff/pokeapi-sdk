@@ -26,6 +26,8 @@ use PokeApiSdk\Resources\ItemFlingEffectResource;
 use PokeApiSdk\Resources\ItemPocketResource;
 use PokeApiSdk\Resources\ItemResource;
 use PokeApiSdk\Resources\LanguageResource;
+use PokeApiSdk\Resources\LocationAreaResource;
+use PokeApiSdk\Resources\LocationResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\SpeciesResource;
@@ -158,6 +160,16 @@ class PokeApi extends Connector
     public function language(): LanguageResource
     {
         return new LanguageResource($this);
+    }
+
+    public function location(): LocationResource
+    {
+        return new LocationResource($this);
+    }
+
+    public function locationArea(): LocationAreaResource
+    {
+        return new LocationAreaResource($this);
     }
 
     public function pokedex(): PokedexResource

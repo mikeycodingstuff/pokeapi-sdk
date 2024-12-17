@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:06:28 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"200-EAslmt1av6IDu1vY5abO1PRLsBo\"",
+        "function-execution-id": "plyzu0vfwcs5",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "13f3ff976a261391337d72512ce0a7ee;o=1",
+        "x-country-code": "US",
+        "x-orig-accept-language": "en-US,en;q=0.9",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760070-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734228768.527778,VS0,VE107",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "182",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=pMchkTF1rBSb0q4Wt596MCHR63%2BdqgQJoU6IcSmxdVix%2B5qUo875S23nlmJrh8mWPRYRNgjSD5Slsv6LhOVKBAVKfuNBeZDVxNZrIbkUVPBemnfGBVczMsuvH8dvVkBO2tQgdE9DkDIf\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3a9058ba34718d-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13995&min_rtt=13037&rtt_var=5573&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=756&delivery_rate=310194&cwnd=253&unsent_bytes=0&cid=6d6392c723aaf004&ts=31&x=0\""
+    },
+    "data": "{\"areas\":[{\"name\":\"canalave-city-area\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location-area\/1\/\"}],\"game_indices\":[{\"game_index\":7,\"generation\":{\"name\":\"generation-iv\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/4\/\"}}],\"id\":1,\"name\":\"canalave-city\",\"names\":[{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Joliberges\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Canalave City\"}],\"region\":{\"name\":\"sinnoh\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/region\/4\/\"}}"
+}
