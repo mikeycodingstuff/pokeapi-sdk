@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 20:49:28 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"ea-Pm5sGotofaXpi7u8NZAAH+dfGnQ\"",
+        "function-execution-id": "975h4b8y8s22",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "b88e714e7a22a01de3b6a1ab463ca45a",
+        "x-country-code": "US",
+        "x-orig-accept-language": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760050-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734194318.140470,VS0,VE107",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "38",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=khZeTrruobxWnj2%2FLwdItjTiNEpSDtmURhnkt9NcSBXzFhKzEsS9SvGeQn4niN3SINUc25MR%2BskW%2Ft8Q0CBSEpi2qZ%2FRGpUk1D3OjB5KFwwqhpzbAyg%2Fb746w4%2F1xTzSmAGGOXlcuSvD\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f39c7a73a9663d3-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13772&min_rtt=13750&rtt_var=5172&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=765&delivery_rate=294109&cwnd=242&unsent_bytes=0&cid=f6e8dbb7e7b3141a&ts=66&x=0\""
+    },
+    "data": "{\"effect_entries\":[{\"effect\":\"Badly poisons the target.\",\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"}}],\"id\":1,\"items\":[{\"name\":\"toxic-orb\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/249\/\"}],\"name\":\"badly-poison\"}"
+}

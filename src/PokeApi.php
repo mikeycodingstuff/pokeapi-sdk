@@ -20,6 +20,11 @@ use PokeApiSdk\Resources\EvolutionTriggerResource;
 use PokeApiSdk\Resources\GenderResource;
 use PokeApiSdk\Resources\GenerationResource;
 use PokeApiSdk\Resources\GrowthRateResource;
+use PokeApiSdk\Resources\ItemAttributeResource;
+use PokeApiSdk\Resources\ItemCategoryResource;
+use PokeApiSdk\Resources\ItemFlingEffectResource;
+use PokeApiSdk\Resources\ItemPocketResource;
+use PokeApiSdk\Resources\ItemResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\SpeciesResource;
@@ -122,6 +127,31 @@ class PokeApi extends Connector
     public function growthRate(): GrowthRateResource
     {
         return new GrowthRateResource($this);
+    }
+
+    public function item(): ItemResource
+    {
+        return new ItemResource($this);
+    }
+
+    public function itemAttribute(): ItemAttributeResource
+    {
+        return new ItemAttributeResource($this);
+    }
+
+    public function itemCategory(): ItemCategoryResource
+    {
+        return new ItemCategoryResource($this);
+    }
+
+    public function itemFlingEffect(): ItemFlingEffectResource
+    {
+        return new ItemFlingEffectResource($this);
+    }
+
+    public function itemPocket(): ItemPocketResource
+    {
+        return new ItemPocketResource($this);
     }
 
     public function pokedex(): PokedexResource

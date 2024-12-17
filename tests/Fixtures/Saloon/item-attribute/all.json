@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 20:49:25 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "664",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"298-INdaowEAIMLVyZPEse8QcQy3qQ8\"",
+        "function-execution-id": "d187phxpbfs7",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "b1c3672f1b7e2996addbd50617830e37",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760089-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734366144.378078,VS0,VE114",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=E7%2BCzD15CGxthXrUGm3AFY1o9L8TrsEmE9fhfX8aZxVf8KFr%2B9UrhpGDUxcPy1QwlLmrPwyBAro3w0oO3aaBTdMfilhq8qGi6oA6mqoALcde5EVyQIkhNy7%2FCGRJkHkn4nmzHqY1SYMN\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f39c7916e4979b3-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14134&min_rtt=13405&rtt_var=4455&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=760&delivery_rate=260198&cwnd=155&unsent_bytes=0&cid=3124d6cadbaf6355&ts=635&x=0\""
+    },
+    "data": "{\"count\":8,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"countable\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/1\/\"},{\"name\":\"consumable\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/2\/\"},{\"name\":\"usable-overworld\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/3\/\"},{\"name\":\"usable-in-battle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/4\/\"},{\"name\":\"holdable\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/5\/\"},{\"name\":\"holdable-passive\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/6\/\"},{\"name\":\"holdable-active\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/7\/\"},{\"name\":\"underground\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/8\/\"}]}"
+}

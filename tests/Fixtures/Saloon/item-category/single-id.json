@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 20:51:10 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"31d-F+cKyZg0A+8Xqd6UtT\/+Dog3Geg\"",
+        "function-execution-id": "0w397eajkevd",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "65f1345ac152e529bc44c8f4f90c957d;o=1",
+        "x-country-code": "US",
+        "x-orig-accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760049-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734194317.565800,VS0,VE2",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "323",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=81L6zA9MSrwAqAeVq2OtZYFIiPQak46ZdjvbJ92YM4cuQ3vAHrMq4KKUTCUUXONkUISrKLWpsFNqeBzVvS4Y%2Fx0dtwrLrKK6un2dPw%2BsvLDIjDSHQmipJMV0bQcYc4bzEMUGa4RlMH%2FE\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f39ca2759ccbeb2-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14002&min_rtt=13337&rtt_var=5476&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=761&delivery_rate=303216&cwnd=232&unsent_bytes=0&cid=58f5f367d5c06b7b&ts=39&x=0\""
+    },
+    "data": "{\"id\":1,\"items\":[{\"name\":\"guard-spec\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/55\/\"},{\"name\":\"dire-hit\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/56\/\"},{\"name\":\"x-attack\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/57\/\"},{\"name\":\"x-defense\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/58\/\"},{\"name\":\"x-speed\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/59\/\"},{\"name\":\"x-accuracy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/60\/\"},{\"name\":\"x-sp-atk\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/61\/\"},{\"name\":\"x-sp-def\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/62\/\"},{\"name\":\"max-mushrooms\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/1631\/\"}],\"name\":\"stat-boosts\",\"names\":[{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Stat boosts\"}],\"pocket\":{\"name\":\"battle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/7\/\"}}"
+}

@@ -1,0 +1,30 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 20:49:29 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"947-CDX0\/G1H8cUjA\/jb20Lw1cH8GXw\"",
+        "function-execution-id": "62r6pxshz3sj",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "d7a2ca45429856b93412e5ba0be25593",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760024-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734366146.864062,VS0,VE105",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=oz3pYwH%2FiEKf6L6lZb3rFic8CZD4Cs8aFeGI4KNfq6nZo7nqlQvkBmELRuA6QYR4t7h5%2BBS%2B4f7XAbhgElcnoJTOhb2PRmmz4vx2KwaPe%2FUIloFZ%2FeSjNchhHwSC5NVLnv7CMNMYv6tI\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f39c7af6e01ef31-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13907&min_rtt=13326&rtt_var=5413&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=762&delivery_rate=303466&cwnd=252&unsent_bytes=0&cid=5faaf540c5cccb86&ts=307&x=0\""
+    },
+    "data": "{\"categories\":[{\"name\":\"collectibles\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/9\/\"},{\"name\":\"evolution\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/10\/\"},{\"name\":\"spelunking\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/11\/\"},{\"name\":\"held-items\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/12\/\"},{\"name\":\"choice\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/13\/\"},{\"name\":\"effort-training\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/14\/\"},{\"name\":\"bad-held-items\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/15\/\"},{\"name\":\"training\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/16\/\"},{\"name\":\"plates\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/17\/\"},{\"name\":\"species-specific\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/18\/\"},{\"name\":\"type-enhancement\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/19\/\"},{\"name\":\"loot\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/24\/\"},{\"name\":\"mulch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/32\/\"},{\"name\":\"dex-completion\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/35\/\"},{\"name\":\"scarves\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/36\/\"},{\"name\":\"jewels\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/42\/\"},{\"name\":\"mega-stones\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/44\/\"},{\"name\":\"memories\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/45\/\"},{\"name\":\"species-candies\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/47\/\"},{\"name\":\"dynamax-crystals\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/49\/\"},{\"name\":\"curry-ingredients\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/51\/\"},{\"name\":\"tera-shard\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/52\/\"},{\"name\":\"sandwich-ingredients\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/53\/\"},{\"name\":\"tm-materials\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/54\/\"},{\"name\":\"picnic\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/55\/\"}],\"id\":1,\"name\":\"misc\",\"names\":[{\"language\":{\"name\":\"zh-Hant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/4\/\"},\"name\":\"\u9053\u5177\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Objets\"},{\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"},\"name\":\"Objetos\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Items\"},{\"language\":{\"name\":\"zh-Hans\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/12\/\"},\"name\":\"\u9053\u5177\"}]}"
+}

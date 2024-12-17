@@ -1,0 +1,30 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 20:51:11 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"63c-8ho8z5TGKkBGepPxB8uyimfs59Q\"",
+        "function-execution-id": "d187was56nss",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "8b4e2d99d2694f694245c2677a120483",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760079-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734366145.879824,VS0,VE116",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=2BcEVl4bmZt6f9Lb9nv0q0YFslJs4EYfYQhIqOODtsX%2B42%2FFgmNxDf%2BXgH8i3RRrbL%2B6bVFo987NLBqHQ%2FCwA48poYehw%2B2I8uMBd%2Bdyzm0Py1CGeuNhtLxjigNzTz8sQLDddlOr6wln\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f39ca283e353854-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13940&min_rtt=13372&rtt_var=5420&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=759&delivery_rate=302422&cwnd=252&unsent_bytes=0&cid=3f4c86c3b8b43134&ts=307&x=0\""
+    },
+    "data": "{\"count\":54,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/item-category?offset=20&limit=20\",\"previous\":null,\"results\":[{\"name\":\"stat-boosts\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/1\/\"},{\"name\":\"effort-drop\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/2\/\"},{\"name\":\"medicine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/3\/\"},{\"name\":\"other\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/4\/\"},{\"name\":\"in-a-pinch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/5\/\"},{\"name\":\"picky-healing\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/6\/\"},{\"name\":\"type-protection\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/7\/\"},{\"name\":\"baking-only\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/8\/\"},{\"name\":\"collectibles\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/9\/\"},{\"name\":\"evolution\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/10\/\"},{\"name\":\"spelunking\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/11\/\"},{\"name\":\"held-items\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/12\/\"},{\"name\":\"choice\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/13\/\"},{\"name\":\"effort-training\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/14\/\"},{\"name\":\"bad-held-items\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/15\/\"},{\"name\":\"training\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/16\/\"},{\"name\":\"plates\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/17\/\"},{\"name\":\"species-specific\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/18\/\"},{\"name\":\"type-enhancement\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/19\/\"},{\"name\":\"event-items\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-category\/20\/\"}]}"
+}

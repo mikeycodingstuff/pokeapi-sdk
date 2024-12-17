@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 20:38:29 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"568-MBD\/bHm+LkBybP09XcxLVfiMllM\"",
+        "function-execution-id": "d187rrig5ntj",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "d800708633933c21201a2732b8b972f3",
+        "x-country-code": "US",
+        "x-orig-accept-language": "es-ES,es;q=0.9",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760094-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734075851.996665,VS0,VE1",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "76146",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=QGefESBZbQ3%2FAKkPmPAjbtTFGFDUCA7N2PH5pzIoh9Ko4xCeCLJAN%2Bj57EHLDpmY3PgT6n0n2MPQ6GpM%2FQR8tvVEuqQGa%2FLh4h0xr%2FJ3ZT%2BpJo0%2FskSVZ%2FETSCsiQKE06Y1osgWQleID\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f39b7900ce4beec-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14209&min_rtt=13683&rtt_var=5507&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=750&delivery_rate=295549&cwnd=250&unsent_bytes=0&cid=e5b4745f46b172d7&ts=34&x=0\""
+    },
+    "data": "{\"count\":2180,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/item?offset=20&limit=20\",\"previous\":null,\"results\":[{\"name\":\"master-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/1\/\"},{\"name\":\"ultra-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/2\/\"},{\"name\":\"great-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/3\/\"},{\"name\":\"poke-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/4\/\"},{\"name\":\"safari-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/5\/\"},{\"name\":\"net-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/6\/\"},{\"name\":\"dive-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/7\/\"},{\"name\":\"nest-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/8\/\"},{\"name\":\"repeat-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/9\/\"},{\"name\":\"timer-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/10\/\"},{\"name\":\"luxury-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/11\/\"},{\"name\":\"premier-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/12\/\"},{\"name\":\"dusk-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/13\/\"},{\"name\":\"heal-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/14\/\"},{\"name\":\"quick-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/15\/\"},{\"name\":\"cherish-ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/16\/\"},{\"name\":\"potion\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/17\/\"},{\"name\":\"antidote\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/18\/\"},{\"name\":\"burn-heal\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/19\/\"},{\"name\":\"ice-heal\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/20\/\"}]}"
+}
