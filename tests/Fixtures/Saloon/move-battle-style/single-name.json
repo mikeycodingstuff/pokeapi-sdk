@@ -1,0 +1,30 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:32:13 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"d5-KJ8iMMrIo1FUlmL47wdKXmZ5ToI\"",
+        "function-execution-id": "hk4y2fzp514b",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "e2f8d051cc119973217a3dcb7865c9e0",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760072-MIA",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-timer": "S1734194318.646065,VS0,VE193",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=gkn26FPHq9g2okO8b5spN%2FTGpxcOBzT7MF%2BSQFimZsPOsOIh%2BUyBX9y2jZ4fVpcGo1uou8aix%2F6Dj%2BivUUKgoDt5vCwvPH%2F%2BSgVtgCRRaQor3mvA2YXrKLDSFTxgD9IuAv3uM9XiA0FK\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ab60d69c5ef40-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14093&min_rtt=14009&rtt_var=5313&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=770&delivery_rate=288671&cwnd=252&unsent_bytes=0&cid=fa4362753151054a&ts=503&x=0\""
+    },
+    "data": "{\"id\":1,\"name\":\"attack\",\"names\":[{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Attaque\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Attack\"}]}"
+}

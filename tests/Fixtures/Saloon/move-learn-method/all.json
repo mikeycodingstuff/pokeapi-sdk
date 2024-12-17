@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:32:17 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "920",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"398-FrgdCnIOt4poqrw5cQjdXrKBfK4\"",
+        "function-execution-id": "d187hwn4qzhd",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "f214fca68e9355054ba2f97850943967",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760087-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734362010.700084,VS0,VE103",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=f%2BHfyKBk%2FMfQ6Rq3Ilcu%2BbaCoge6ne7IbBmg%2BJoG03DL45JszMaEVJIkdBPOqif%2BPJwwcNAhaYasdahdkUrytl8h6u7JW4V%2FiKjyH8fZwI0aAfxmPK2l0tX8FUGrPwp80m0ftr6J4Rdj\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ab625ebae63c6-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13820&min_rtt=13708&rtt_var=5365&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=763&delivery_rate=276853&cwnd=252&unsent_bytes=0&cid=374f520afb57ac1a&ts=637&x=0\""
+    },
+    "data": "{\"count\":11,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"level-up\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/1\/\"},{\"name\":\"egg\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/2\/\"},{\"name\":\"tutor\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/3\/\"},{\"name\":\"machine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/4\/\"},{\"name\":\"stadium-surfing-pikachu\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/5\/\"},{\"name\":\"light-ball-egg\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/6\/\"},{\"name\":\"colosseum-purification\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/7\/\"},{\"name\":\"xd-shadow\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/8\/\"},{\"name\":\"xd-purification\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/9\/\"},{\"name\":\"form-change\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/10\/\"},{\"name\":\"zygarde-cube\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/11\/\"}]}"
+}

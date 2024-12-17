@@ -29,6 +29,13 @@ use PokeApiSdk\Resources\LanguageResource;
 use PokeApiSdk\Resources\LocationAreaResource;
 use PokeApiSdk\Resources\LocationResource;
 use PokeApiSdk\Resources\MachineResource;
+use PokeApiSdk\Resources\MoveAilmentResource;
+use PokeApiSdk\Resources\MoveBattleStyleResource;
+use PokeApiSdk\Resources\MoveCategoryResource;
+use PokeApiSdk\Resources\MoveDamageClassResource;
+use PokeApiSdk\Resources\MoveLearnMethodResource;
+use PokeApiSdk\Resources\MoveResource;
+use PokeApiSdk\Resources\MoveTargetResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\SpeciesResource;
@@ -176,6 +183,41 @@ class PokeApi extends Connector
     public function machine(): MachineResource
     {
         return new MachineResource($this);
+    }
+
+    public function move(): MoveResource
+    {
+        return new MoveResource($this);
+    }
+
+    public function moveAilment(): MoveAilmentResource
+    {
+        return new MoveAilmentResource($this);
+    }
+
+    public function moveBattleStyle(): MoveBattleStyleResource
+    {
+        return new MoveBattleStyleResource($this);
+    }
+
+    public function moveCategory(): MoveCategoryResource
+    {
+        return new MoveCategoryResource($this);
+    }
+
+    public function moveDamageClass(): MoveDamageClassResource
+    {
+        return new MoveDamageClassResource($this);
+    }
+
+    public function moveLearnMethod(): MoveLearnMethodResource
+    {
+        return new MoveLearnMethodResource($this);
+    }
+
+    public function moveTarget(): MoveTargetResource
+    {
+        return new MoveTargetResource($this);
     }
 
     public function pokedex(): PokedexResource

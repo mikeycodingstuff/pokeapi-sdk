@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:28:13 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"550-PcFVmXQ61E7j3LIC\/6\/3cY3GgEQ\"",
+        "function-execution-id": "1kat30q799qy",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "6353c2ab8ad5f49b26e52eadde974fe6",
+        "x-country-code": "US",
+        "x-orig-accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760038-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1731120579.289262,VS0,VE2",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "168",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=59Zah42D28yV6q0KwsNprPTQLBjG5l0gdsVGoJXOLz6sQuuQblFcrMJ3c59JyHPsRjrucS721UcarAYw3rmsn0Sh%2FIvyyK7eWSMosFSi%2BlciL4QSpmf9hNnJp9DFsZHQo15f8CmdJQDt\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ab0370e21bd87-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14006&min_rtt=13327&rtt_var=5482&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=750&delivery_rate=303444&cwnd=253&unsent_bytes=0&cid=92e91f99efcef3ea&ts=37&x=0\""
+    },
+    "data": "{\"count\":937,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/move?offset=20&limit=20\",\"previous\":null,\"results\":[{\"name\":\"pound\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/1\/\"},{\"name\":\"karate-chop\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/2\/\"},{\"name\":\"double-slap\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/3\/\"},{\"name\":\"comet-punch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/4\/\"},{\"name\":\"mega-punch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/5\/\"},{\"name\":\"pay-day\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/6\/\"},{\"name\":\"fire-punch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/7\/\"},{\"name\":\"ice-punch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/8\/\"},{\"name\":\"thunder-punch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/9\/\"},{\"name\":\"scratch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/10\/\"},{\"name\":\"vice-grip\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/11\/\"},{\"name\":\"guillotine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/12\/\"},{\"name\":\"razor-wind\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/13\/\"},{\"name\":\"swords-dance\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/14\/\"},{\"name\":\"cut\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/15\/\"},{\"name\":\"gust\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/16\/\"},{\"name\":\"wing-attack\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/17\/\"},{\"name\":\"whirlwind\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/18\/\"},{\"name\":\"fly\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/19\/\"},{\"name\":\"bind\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/20\/\"}]}"
+}

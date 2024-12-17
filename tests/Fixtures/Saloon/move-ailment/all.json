@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:29:06 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"5e5-RJkZXq6Gy3LIjykvarhvM1ZKobg\"",
+        "function-execution-id": "udlseqjqm1ti",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "64873a161406fdcab705655b8409ac65",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760063-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734366145.503147,VS0,VE96",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "23",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=sQWl%2B1NRTztajk1bmbd0RETDAdXJf52g70v7dUw%2FE%2FLvS5ezesAmPdn%2BUL4VkX53OzGmNJGp3qcUDm6HASQot6X7RXv7V40PFC%2Ffq6tXwjkT%2B01TGLAJlEV4Dnekt7SX9eVN8xQs5wuo\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ab17e7d14bd95-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13991&min_rtt=13187&rtt_var=5519&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=758&delivery_rate=306665&cwnd=251&unsent_bytes=0&cid=4da0beb8c87f02e4&ts=30&x=0\""
+    },
+    "data": "{\"count\":22,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment?offset=20&limit=2\",\"previous\":null,\"results\":[{\"name\":\"unknown\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/-1\/\"},{\"name\":\"none\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/0\/\"},{\"name\":\"paralysis\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/1\/\"},{\"name\":\"sleep\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/2\/\"},{\"name\":\"freeze\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/3\/\"},{\"name\":\"burn\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/4\/\"},{\"name\":\"poison\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/5\/\"},{\"name\":\"confusion\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/6\/\"},{\"name\":\"infatuation\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/7\/\"},{\"name\":\"trap\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/8\/\"},{\"name\":\"nightmare\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/9\/\"},{\"name\":\"torment\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/12\/\"},{\"name\":\"disable\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/13\/\"},{\"name\":\"yawn\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/14\/\"},{\"name\":\"heal-block\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/15\/\"},{\"name\":\"no-type-immunity\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/17\/\"},{\"name\":\"leech-seed\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/18\/\"},{\"name\":\"embargo\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/19\/\"},{\"name\":\"perish-song\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/20\/\"},{\"name\":\"ingrain\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-ailment\/21\/\"}]}"
+}

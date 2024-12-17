@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:32:14 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "272",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"110-+x9AiR4vvD79DDqo9ZgXPLunl6I\"",
+        "function-execution-id": "d18767p54cto",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "e2a6d38ae5fb8bef3b621f58b01b7781",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760024-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1733881682.534596,VS0,VE231",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=ykZcOi9n0cHJs5L2s0Ko2MY82a0OqDqjg%2BfDNBCkkyde%2FR3gEoIa%2FtZWw19%2BQEQz5xKz%2Fw2IfJJ%2BxGBeDTDr9Vhx9yh9qyCVP9xJR7S1MEeXkvPRw%2FnhSsqCT%2B6OhJ6rt0cymdZK3Pq7\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ab6116fce6552-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13916&min_rtt=13736&rtt_var=5279&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=763&delivery_rate=294408&cwnd=253&unsent_bytes=0&cid=15e9b4b7035b7718&ts=624&x=0\""
+    },
+    "data": "{\"count\":3,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"attack\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-battle-style\/1\/\"},{\"name\":\"defense\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-battle-style\/2\/\"},{\"name\":\"support\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-battle-style\/3\/\"}]}"
+}

@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:32:16 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"9e6-vmTTJh\/co6vcECAYr+35gwZ5oTs\"",
+        "function-execution-id": "49xirkykwk38",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "97af339b33c3f5acee675c26838fe275",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760075-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734194324.246123,VS0,VE102",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "85",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=%2BwnDu0S9T5CDyUEsG5xkJZmzZhVFHEsYIKi87%2Bcron9LaBBFNXj3tkXeumFVN6POHCzSyqaKdKFSoaopTSuhbDkP9ks4QToRmfOUT2SmMgXps1B3VkOsaopTmFBsEAvlNVl7rEg%2BFpKV\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ab6216c7548b5-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13615&min_rtt=13100&rtt_var=5280&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=765&delivery_rate=308702&cwnd=213&unsent_bytes=0&cid=a3e62417a0243a84&ts=30&x=0\""
+    },
+    "data": "{\"descriptions\":[{\"description\":\"Appris lorsqu\u2019un Pok\u00e9mon atteint un certain niveau.\",\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"}},{\"description\":\"Wird gelernt, wenn ein Pok\u00e9mon ein bestimmtes Level erreicht.\",\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"}},{\"description\":\"Se aprende cuando un pokemon alcanza un cierto nivel.\",\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"}},{\"description\":\"Learned when a Pok\u00e9mon reaches a certain level.\",\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"}}],\"id\":1,\"name\":\"level-up\",\"names\":[{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Mont\u00e9e de niveau\"},{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"Level up\"},{\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"},\"name\":\"Nivel\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Level up\"}],\"version_groups\":[{\"name\":\"red-blue\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/1\/\"},{\"name\":\"yellow\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/2\/\"},{\"name\":\"gold-silver\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/3\/\"},{\"name\":\"crystal\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/4\/\"},{\"name\":\"ruby-sapphire\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/5\/\"},{\"name\":\"emerald\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/6\/\"},{\"name\":\"firered-leafgreen\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/7\/\"},{\"name\":\"diamond-pearl\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/8\/\"},{\"name\":\"platinum\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/9\/\"},{\"name\":\"heartgold-soulsilver\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/10\/\"},{\"name\":\"black-white\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/11\/\"},{\"name\":\"colosseum\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/12\/\"},{\"name\":\"xd\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/13\/\"},{\"name\":\"black-2-white-2\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/14\/\"},{\"name\":\"x-y\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/15\/\"},{\"name\":\"omega-ruby-alpha-sapphire\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/16\/\"},{\"name\":\"sun-moon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/17\/\"},{\"name\":\"ultra-sun-ultra-moon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/18\/\"},{\"name\":\"lets-go-pikachu-lets-go-eevee\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/19\/\"},{\"name\":\"sword-shield\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/20\/\"}]}"
+}

@@ -1,0 +1,30 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:32:19 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"4dc-BhYX6FxGBBaj\/HCoxDypvB5pm9I\"",
+        "function-execution-id": "mh1le3lcoqa2",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "9199a435f4c02dd1b55dc27acd0fd172;o=1",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-pdk-kfty8610084-PDK",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1733301824.273144,VS0,VE138",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=saqhVBd62BWN72YX%2B5RLJxZfsdEUyaEctcCkjr2HeLdj9k5KEi6YLxqj9KSde8178LUFcwDeNnuneytUq%2BFSnjidC1x6uPPzQUOzLYQIShoyUUFpz2RFYO3gQuF%2BN7R7lLH%2BKiSxldWb\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ab62f7e4763d5-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14073&min_rtt=13996&rtt_var=3999&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=757&delivery_rate=288589&cwnd=253&unsent_bytes=0&cid=02c935135e719011&ts=606&x=0\""
+    },
+    "data": "{\"count\":16,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"specific-move\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/1\/\"},{\"name\":\"selected-pokemon-me-first\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/2\/\"},{\"name\":\"ally\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/3\/\"},{\"name\":\"users-field\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/4\/\"},{\"name\":\"user-or-ally\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/5\/\"},{\"name\":\"opponents-field\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/6\/\"},{\"name\":\"user\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/7\/\"},{\"name\":\"random-opponent\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/8\/\"},{\"name\":\"all-other-pokemon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/9\/\"},{\"name\":\"selected-pokemon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/10\/\"},{\"name\":\"all-opponents\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/11\/\"},{\"name\":\"entire-field\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/12\/\"},{\"name\":\"user-and-allies\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/13\/\"},{\"name\":\"all-pokemon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/14\/\"},{\"name\":\"all-allies\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/15\/\"},{\"name\":\"fainting-pokemon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/16\/\"}]}"
+}
