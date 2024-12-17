@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\BerryFirmness\GetAllBerryFirmnesses;
 use PokeApiSdk\Requests\BerryFirmness\GetSingleBerryFirmness;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'berry-firmness/single-id';
-    $this->singleFixtureName = 'berry-firmness/single-name';
-    $this->allFixture = 'berry-firmness/all';
+    $this->endpoint = ResourceEndpoints::BERRY_FIRMNESS;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleBerryFirmness::class;
     $this->allRequestClass = GetAllBerryFirmnesses::class;

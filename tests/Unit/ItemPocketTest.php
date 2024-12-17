@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\ItemPocket\GetAllItemPockets;
 use PokeApiSdk\Requests\ItemPocket\GetSingleItemPocket;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'item-pocket/single-id';
-    $this->singleFixtureName = 'item-pocket/single-name';
-    $this->allFixture = 'item-pocket/all';
+    $this->endpoint = ResourceEndpoints::ITEM_POCKET;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleItemPocket::class;
     $this->allRequestClass = GetAllItemPockets::class;

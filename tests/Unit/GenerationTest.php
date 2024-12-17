@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\Generation\GetAllGenerations;
 use PokeApiSdk\Requests\Generation\GetSingleGeneration;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'generation/single-id';
-    $this->singleFixtureName = 'generation/single-name';
-    $this->allFixture = 'generation/all';
+    $this->endpoint = ResourceEndpoints::GENERATION;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleGeneration::class;
     $this->allRequestClass = GetAllGenerations::class;

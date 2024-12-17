@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\EvolutionTrigger\GetAllEvolutionTriggers;
 use PokeApiSdk\Requests\EvolutionTrigger\GetSingleEvolutionTrigger;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'evolution-trigger/single-id';
-    $this->singleFixtureName = 'evolution-trigger/single-name';
-    $this->allFixture = 'evolution-trigger/all';
+    $this->endpoint = ResourceEndpoints::EVOLUTION_TRIGGER;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleEvolutionTrigger::class;
     $this->allRequestClass = GetAllEvolutionTriggers::class;

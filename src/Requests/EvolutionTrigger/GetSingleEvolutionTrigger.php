@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\EvolutionTrigger;
 
+use PokeApiSdk\Endpoints\Traits\EvolutionTriggerEndpoint;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSingleEvolutionTrigger extends GetSingleRequest
 {
-    protected function endpointName(): string
-    {
-        return 'evolution-trigger';
-    }
+    use EvolutionTriggerEndpoint;
 }

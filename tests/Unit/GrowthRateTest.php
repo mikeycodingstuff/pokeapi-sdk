@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\GrowthRate\GetAllGrowthRates;
 use PokeApiSdk\Requests\GrowthRate\GetSingleGrowthRate;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'growth-rate/single-id';
-    $this->singleFixtureName = 'growth-rate/single-name';
-    $this->allFixture = 'growth-rate/all';
+    $this->endpoint = ResourceEndpoints::GROWTH_RATE;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleGrowthRate::class;
     $this->allRequestClass = GetAllGrowthRates::class;

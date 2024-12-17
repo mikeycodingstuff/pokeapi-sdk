@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\EggGroup;
 
+use PokeApiSdk\Endpoints\Traits\EggGroupEndpoint;
 use PokeApiSdk\Requests\Base\GetAllRequest;
 
 class GetAllEggGroups extends GetAllRequest
 {
-    protected function endpointName(): string
-    {
-        return 'egg-group';
-    }
+    use EggGroupEndpoint;
 }

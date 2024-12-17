@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\ItemCategory\GetAllItemCategories;
 use PokeApiSdk\Requests\ItemCategory\GetSingleItemCategory;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'item-category/single-id';
-    $this->singleFixtureName = 'item-category/single-name';
-    $this->allFixture = 'item-category/all';
+    $this->endpoint = ResourceEndpoints::ITEM_CATEGORY;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleItemCategory::class;
     $this->allRequestClass = GetAllItemCategories::class;

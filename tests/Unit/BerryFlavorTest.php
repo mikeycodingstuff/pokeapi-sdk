@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\BerryFlavor\GetAllBerryFlavors;
 use PokeApiSdk\Requests\BerryFlavor\GetSingleBerryFlavor;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'berry-flavor/single-id';
-    $this->singleFixtureName = 'berry-flavor/single-name';
-    $this->allFixture = 'berry-flavor/all';
+    $this->endpoint = ResourceEndpoints::BERRY_FLAVOR;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleBerryFlavor::class;
     $this->allRequestClass = GetAllBerryFlavors::class;

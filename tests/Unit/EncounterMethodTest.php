@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\EncounterMethod\GetAllEncounterMethods;
 use PokeApiSdk\Requests\EncounterMethod\GetSingleEncounterMethod;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'encounter-method/single-id';
-    $this->singleFixtureName = 'encounter-method/single-name';
-    $this->allFixture = 'encounter-method/all';
+    $this->endpoint = ResourceEndpoints::ENCOUNTER_METHOD;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleEncounterMethod::class;
     $this->allRequestClass = GetAllEncounterMethods::class;

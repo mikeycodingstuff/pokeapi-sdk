@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\ContestType\GetAllContestTypes;
 use PokeApiSdk\Requests\ContestType\GetSingleContestType;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'contest-type/single-id';
-    $this->singleFixtureName = 'contest-type/single-name';
-    $this->allFixture = 'contest-type/all';
+    $this->endpoint = ResourceEndpoints::CONTEST_TYPE;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleContestType::class;
     $this->allRequestClass = GetAllContestTypes::class;

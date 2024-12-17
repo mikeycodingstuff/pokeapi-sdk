@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\EggGroup\GetAllEggGroups;
 use PokeApiSdk\Requests\EggGroup\GetSingleEggGroup;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'egg-group/single-id';
-    $this->singleFixtureName = 'egg-group/single-name';
-    $this->allFixture = 'egg-group/all';
+    $this->endpoint = ResourceEndpoints::EGG_GROUP;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleEggGroup::class;
     $this->allRequestClass = GetAllEggGroups::class;

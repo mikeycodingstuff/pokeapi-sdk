@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\Characteristic\GetAllCharacteristics;
 use PokeApiSdk\Requests\Characteristic\GetSingleCharacteristic;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'characteristic/single-id';
-    $this->singleFixtureName = 'characteristic/single-name';
-    $this->allFixture = 'characteristic/all';
+    $this->endpoint = ResourceEndpoints::CHARACTERISTIC;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleCharacteristic::class;
     $this->allRequestClass = GetAllCharacteristics::class;

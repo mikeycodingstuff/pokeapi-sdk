@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\ContestEffect\GetAllContestEffects;
 use PokeApiSdk\Requests\ContestEffect\GetSingleContestEffect;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'contest-effect/single-id';
-    $this->singleFixtureName = 'contest-effect/single-name';
-    $this->allFixture = 'contest-effect/all';
+    $this->endpoint = ResourceEndpoints::CONTEST_EFFECT;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleContestEffect::class;
     $this->allRequestClass = GetAllContestEffects::class;

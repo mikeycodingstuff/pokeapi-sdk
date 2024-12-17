@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\ItemCategory;
 
+use PokeApiSdk\Endpoints\Traits\ItemCategoryEndpoint;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSingleItemCategory extends GetSingleRequest
 {
-    protected function endpointName(): string
-    {
-        return 'item-category';
-    }
+    use ItemCategoryEndpoint;
 }

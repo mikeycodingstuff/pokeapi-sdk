@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\EncounterCondition\GetAllEncounterConditions;
 use PokeApiSdk\Requests\EncounterCondition\GetSingleEncounterCondition;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'encounter-condition/single-id';
-    $this->singleFixtureName = 'encounter-condition/single-name';
-    $this->allFixture = 'encounter-condition/all';
+    $this->endpoint = ResourceEndpoints::ENCOUNTER_CONDITION;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleEncounterCondition::class;
     $this->allRequestClass = GetAllEncounterConditions::class;

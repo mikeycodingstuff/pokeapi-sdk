@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\Pokedex\GetAllPokedexes;
 use PokeApiSdk\Requests\Pokedex\GetSinglePokedex;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'pokedex/single-id';
-    $this->singleFixtureName = 'pokedex/single-name';
-    $this->allFixture = 'pokedex/all';
+    $this->endpoint = ResourceEndpoints::POKEDEX;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSinglePokedex::class;
     $this->allRequestClass = GetAllPokedexes::class;

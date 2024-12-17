@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\PokeApi;
 use PokeApiSdk\Requests\ItemFlingEffect\GetAllItemFlingEffects;
 use PokeApiSdk\Requests\ItemFlingEffect\GetSingleItemFlingEffect;
@@ -9,9 +10,11 @@ use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
 beforeEach(function () {
-    $this->singleFixtureId = 'item-fling-effect/single-id';
-    $this->singleFixtureName = 'item-fling-effect/single-name';
-    $this->allFixture = 'item-fling-effect/all';
+    $this->endpoint = ResourceEndpoints::ITEM_FLING_EFFECT;
+
+    $this->singleFixtureId = "$this->endpoint/single-id";
+    $this->singleFixtureName = "$this->endpoint/single-name";
+    $this->allFixture = "$this->endpoint/all";
 
     $this->singleRequestClass = GetSingleItemFlingEffect::class;
     $this->allRequestClass = GetAllItemFlingEffects::class;
