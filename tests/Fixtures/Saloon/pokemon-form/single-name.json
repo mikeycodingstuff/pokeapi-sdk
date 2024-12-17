@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:52:45 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"3da-N6stT8FsgNjR8E0zZVpbMIbIqSA\"",
+        "function-execution-id": "3k81k61mwtc9",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "f2d7dd0555708b46a178220b09a458c9",
+        "x-country-code": "US",
+        "x-orig-accept-language": "fr-FR,fr",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760033-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734153618.492686,VS0,VE136",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=%2FguIO2trnKAdRiE8vC81mb7TbWYgsczhIYgYmNRS%2B6oQz%2FKw2zqEGD7wRn849U4Zu1IeXLaJ%2BRSJTFBFATAA3qnz91xJ3WbBOLtEQcYLQFnZP1Srde43K%2FInA8xGce17xpRAx7Hg87Mt\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ad420af829568-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13982&min_rtt=13883&rtt_var=5405&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=768&delivery_rate=275476&cwnd=253&unsent_bytes=0&cid=44b65bd79c0d6fb9&ts=196&x=0\""
+    },
+    "data": "{\"form_name\":\"\",\"form_names\":[],\"form_order\":1,\"id\":1,\"is_battle_only\":false,\"is_default\":true,\"is_mega\":false,\"name\":\"bulbasaur\",\"names\":[],\"order\":1,\"pokemon\":{\"name\":\"bulbasaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/1\/\"},\"sprites\":{\"back_default\":\"https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/back\/1.png\",\"back_female\":null,\"back_shiny\":\"https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/back\/shiny\/1.png\",\"back_shiny_female\":null,\"front_default\":\"https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/1.png\",\"front_female\":null,\"front_shiny\":\"https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/shiny\/1.png\",\"front_shiny_female\":null},\"types\":[{\"slot\":1,\"type\":{\"name\":\"grass\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/type\/12\/\"}},{\"slot\":2,\"type\":{\"name\":\"poison\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/type\/4\/\"}}],\"version_group\":{\"name\":\"red-blue\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/1\/\"}}"
+}

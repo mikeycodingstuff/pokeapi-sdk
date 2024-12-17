@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:52:46 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "699",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"2bb-F0x\/a58UN27mN\/714dsFl3W29cs\"",
+        "function-execution-id": "hcti843tdzxb",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "3b7b1a2de3f24495ecb2a506303c6a2d",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760081-MIA",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-timer": "S1734479567.705380,VS0,VE97",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "MISS",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=SBv6eNExRZAFDi2d8in3DFLq6jY5c1XSCpDllNO5RO9gUCO%2FDBpmaQmD1UCfI7aAXNsQqNSDT6rYMBtZO02A0VsTN48FPeiNiF5TpLoZTdWjYbtepZfI8RizqSbLN%2B8BVsTVHwSor8NK\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ad4293b1cef09-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14165&min_rtt=13992&rtt_var=5370&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=770&delivery_rate=289022&cwnd=252&unsent_bytes=0&cid=6b7bdf3c9faaaf66&ts=604&x=0\""
+    },
+    "data": "{\"count\":9,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"cave\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/1\/\"},{\"name\":\"forest\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/2\/\"},{\"name\":\"grassland\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/3\/\"},{\"name\":\"mountain\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/4\/\"},{\"name\":\"rare\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/5\/\"},{\"name\":\"rough-terrain\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/6\/\"},{\"name\":\"sea\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/7\/\"},{\"name\":\"urban\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/8\/\"},{\"name\":\"waters-edge\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/9\/\"}]}"
+}

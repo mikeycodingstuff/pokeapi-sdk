@@ -40,7 +40,11 @@ use PokeApiSdk\Resources\NatureResource;
 use PokeApiSdk\Resources\PalParkAreaResource;
 use PokeApiSdk\Resources\PokeathlonStatResource;
 use PokeApiSdk\Resources\PokedexResource;
+use PokeApiSdk\Resources\PokemonColorResource;
+use PokeApiSdk\Resources\PokemonFormResource;
+use PokeApiSdk\Resources\PokemonHabitatResource;
 use PokeApiSdk\Resources\PokemonResource;
+use PokeApiSdk\Resources\PokemonShapeResource;
 use PokeApiSdk\Resources\SpeciesResource;
 use PokeApiSdk\Resources\TypeResource;
 use PokeApiSdk\Responses\PokeApiResponse;
@@ -246,6 +250,26 @@ class PokeApi extends Connector
     public function pokemon(): PokemonResource
     {
         return new PokemonResource($this);
+    }
+
+    public function pokemonColor(): PokemonColorResource
+    {
+        return new PokemonColorResource($this);
+    }
+
+    public function pokemonForm(): PokemonFormResource
+    {
+        return new PokemonFormResource($this);
+    }
+
+    public function pokemonHabitat(): PokemonHabitatResource
+    {
+        return new PokemonHabitatResource($this);
+    }
+
+    public function pokemonShape(): PokemonShapeResource
+    {
+        return new PokemonShapeResource($this);
     }
 
     public function species(): SpeciesResource
