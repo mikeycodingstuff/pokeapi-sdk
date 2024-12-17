@@ -9,7 +9,7 @@ use PokeApiSdk\Requests\Characteristic\GetSingleCharacteristic;
 
 class CharacteristicResource extends BaseResource
 {
-    protected bool $allowString = false;
+    protected bool $getByIdOnly = false;
 
     protected function getAllRequestClass(): string
     {

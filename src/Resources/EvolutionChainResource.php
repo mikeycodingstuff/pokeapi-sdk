@@ -9,7 +9,7 @@ use PokeApiSdk\Requests\EvolutionChain\GetSingleEvolutionChain;
 
 class EvolutionChainResource extends BaseResource
 {
-    protected bool $allowString = false;
+    protected bool $getByIdOnly = false;
 
     protected function getAllRequestClass(): string
     {

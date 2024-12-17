@@ -28,6 +28,7 @@ use PokeApiSdk\Resources\ItemResource;
 use PokeApiSdk\Resources\LanguageResource;
 use PokeApiSdk\Resources\LocationAreaResource;
 use PokeApiSdk\Resources\LocationResource;
+use PokeApiSdk\Resources\MachineResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\SpeciesResource;
@@ -170,6 +171,11 @@ class PokeApi extends Connector
     public function locationArea(): LocationAreaResource
     {
         return new LocationAreaResource($this);
+    }
+
+    public function machine(): MachineResource
+    {
+        return new MachineResource($this);
     }
 
     public function pokedex(): PokedexResource

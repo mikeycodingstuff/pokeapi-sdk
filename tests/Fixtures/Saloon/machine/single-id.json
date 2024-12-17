@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:11:22 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "239",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"ef-W5hbLjANMzXqOfMqIHAG5XGQZ\/s\"",
+        "function-execution-id": "8s1dbgkkkfov",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "8b261e5d37c382b7d5e358306b53c213",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760088-MIA",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-timer": "S1734258846.169570,VS0,VE110",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "100",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=8c5aYYuOunylCdZgUa%2FshezgHShlA%2FWlHEmjCUbloiPJ0EiUwtCQNX43mj8yntlIB%2Bm6oFVSwbqflugqm9v2tU3Eq7PWfZwDvpxrAN1Xs8Rm%2Fv72%2Bvcq8HC54Jri9qotDhYKzW%2Fm6qbX\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3a97887cc579ba-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13805&min_rtt=13116&rtt_var=5411&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=755&delivery_rate=308325&cwnd=252&unsent_bytes=0&cid=0263066caf3bad28&ts=26&x=0\""
+    },
+    "data": "{\"id\":1,\"item\":{\"name\":\"tm00\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/1288\/\"},\"move\":{\"name\":\"mega-punch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/5\/\"},\"version_group\":{\"name\":\"sword-shield\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/20\/\"}}"
+}

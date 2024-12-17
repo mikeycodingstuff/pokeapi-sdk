@@ -16,7 +16,7 @@ abstract class BaseResource extends SaloonBaseResource
 
     abstract protected function getSingleRequestClass(): string;
 
-    protected bool $allowString = true;
+    protected bool $getByIdOnly = true;
 
     /**
      * @throws FatalRequestException
@@ -36,7 +36,7 @@ abstract class BaseResource extends SaloonBaseResource
      */
     public function get(int|string $idOrName): Response
     {
-        if (!$this->allowString && !is_int($idOrName)) {
+        if (!$this->getByIdOnly && !is_int($idOrName)) {
             throw new Exception('This resource only supports fetching by integer ID.');
         }
 

@@ -9,7 +9,7 @@ use PokeApiSdk\Requests\ContestEffect\GetSingleContestEffect;
 
 class ContestEffectResource extends BaseResource
 {
-    protected bool $allowString = false;
+    protected bool $getByIdOnly = false;
 
     protected function getAllRequestClass(): string
     {
