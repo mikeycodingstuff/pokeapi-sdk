@@ -37,6 +37,8 @@ use PokeApiSdk\Resources\MoveLearnMethodResource;
 use PokeApiSdk\Resources\MoveResource;
 use PokeApiSdk\Resources\MoveTargetResource;
 use PokeApiSdk\Resources\NatureResource;
+use PokeApiSdk\Resources\PalParkAreaResource;
+use PokeApiSdk\Resources\PokeathlonStatResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\SpeciesResource;
@@ -224,6 +226,16 @@ class PokeApi extends Connector
     public function nature(): NatureResource
     {
         return new NatureResource($this);
+    }
+
+    public function palParkArea(): PalParkAreaResource
+    {
+        return new PalParkAreaResource($this);
+    }
+
+    public function pokeathlonStat(): PokeathlonStatResource
+    {
+        return new PokeathlonStatResource($this);
     }
 
     public function pokedex(): PokedexResource

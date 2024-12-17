@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:43:29 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "402",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"192-9Q5xOGRieMrnWXJepWmz86AN7XY\"",
+        "function-execution-id": "d187uacwkbb7",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "558035f7c2666650bed0f60b21023650",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760057-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1733881699.105744,VS0,VE114",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=QcU2hVv6TjIR4rSlN1XPm9vwH71jbJvrOQHS0iG42bY%2F7QqEfzsc3mP9%2BevbbMDjfK9oAQzDs%2Brvw5pK4YzTOAWzFzlypta8v4uh5%2BSY8iyRRm0YjWiOEARxFSikfWPGZKRp5pnisorL\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ac68cfe64653f-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13910&min_rtt=12567&rtt_var=4365&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=761&delivery_rate=280055&cwnd=251&unsent_bytes=0&cid=373e1fc9abdfb90e&ts=644&x=0\""
+    },
+    "data": "{\"count\":5,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"speed\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/1\/\"},{\"name\":\"power\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/2\/\"},{\"name\":\"skill\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/3\/\"},{\"name\":\"stamina\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/4\/\"},{\"name\":\"jump\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/5\/\"}]}"
+}

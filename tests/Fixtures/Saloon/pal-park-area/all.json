@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:43:28 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "392",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"188-aYhyQVup8swkrFmpu\/BygIlOy+U\"",
+        "function-execution-id": "kw1lbizymk71",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "65f3cf4f590d79716c9c035ffd8227b0",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760035-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734366145.958144,VS0,VE101",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=9sXNVPSHpta74ISFhemFCgs7V3B3CtWgV8roEM751R26iCg%2B2g55K38E2v9Nfgvq9GKSYP%2FOcxEAEVn3S3OeHpvMCein41kZUQCRdiMfhsag0e1hF4zHsUrI98O3zRNAJTcfG%2FZU6v3n\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3ac6873d28f658-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14029&min_rtt=13980&rtt_var=5341&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=759&delivery_rate=281282&cwnd=252&unsent_bytes=0&cid=be80f4909a556ced&ts=349&x=0\""
+    },
+    "data": "{\"count\":5,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"forest\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pal-park-area\/1\/\"},{\"name\":\"field\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pal-park-area\/2\/\"},{\"name\":\"mountain\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pal-park-area\/3\/\"},{\"name\":\"pond\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pal-park-area\/4\/\"},{\"name\":\"sea\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pal-park-area\/5\/\"}]}"
+}
