@@ -36,6 +36,7 @@ use PokeApiSdk\Resources\MoveDamageClassResource;
 use PokeApiSdk\Resources\MoveLearnMethodResource;
 use PokeApiSdk\Resources\MoveResource;
 use PokeApiSdk\Resources\MoveTargetResource;
+use PokeApiSdk\Resources\NatureResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\SpeciesResource;
@@ -218,6 +219,11 @@ class PokeApi extends Connector
     public function moveTarget(): MoveTargetResource
     {
         return new MoveTargetResource($this);
+    }
+
+    public function nature(): NatureResource
+    {
+        return new NatureResource($this);
     }
 
     public function pokedex(): PokedexResource

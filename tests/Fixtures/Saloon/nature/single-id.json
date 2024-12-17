@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 23:37:46 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"6cb-7v5IfGRtolwVtpLCUkL0smNRKlc\"",
+        "function-execution-id": "8eigr1alwqr5",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "641d6e80e2a60c67482680d8e40e2ba5",
+        "x-country-code": "US",
+        "x-orig-accept-language": "en-US,en;q=0.9",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760054-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1731142587.693897,VS0,VE1",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "72393",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=vWLvOcs1j715oSERFkZuDo2yP%2BAB1ovyMdfI470kw3acu5Fc1QyLb3ILrIJb69rY%2BpQ%2FBIPOH255pYBussE%2BGmQq9gebud7YFM1Iq8kv86JDJmOL1%2FjV3d75jNWZrvix6GsPgd1XAaZ3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3abe311cc979af-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14044&min_rtt=13770&rtt_var=5712&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=754&delivery_rate=253304&cwnd=252&unsent_bytes=0&cid=25b5bb827c6d6c2b&ts=57&x=0\""
+    },
+    "data": "{\"decreased_stat\":null,\"hates_flavor\":null,\"id\":1,\"increased_stat\":null,\"likes_flavor\":null,\"move_battle_style_preferences\":[{\"high_hp_preference\":61,\"low_hp_preference\":61,\"move_battle_style\":{\"name\":\"attack\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-battle-style\/1\/\"}},{\"high_hp_preference\":7,\"low_hp_preference\":7,\"move_battle_style\":{\"name\":\"defense\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-battle-style\/2\/\"}},{\"high_hp_preference\":32,\"low_hp_preference\":32,\"move_battle_style\":{\"name\":\"support\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-battle-style\/3\/\"}}],\"name\":\"hardy\",\"names\":[{\"language\":{\"name\":\"ja-Hrkt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/1\/\"},\"name\":\"\u304c\u3093\u3070\u308a\u3084\"},{\"language\":{\"name\":\"ko\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/3\/\"},\"name\":\"\ub178\ub825\"},{\"language\":{\"name\":\"zh-Hant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/4\/\"},\"name\":\"\u52e4\u596e\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Hardi\"},{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"Robust\"},{\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"},\"name\":\"Fuerte\"},{\"language\":{\"name\":\"it\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/8\/\"},\"name\":\"Ardita\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Hardy\"},{\"language\":{\"name\":\"ja\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/11\/\"},\"name\":\"\u304c\u3093\u3070\u308a\u3084\"},{\"language\":{\"name\":\"zh-Hans\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/12\/\"},\"name\":\"\u52e4\u594b\"}],\"pokeathlon_stat_changes\":[{\"max_change\":-1,\"pokeathlon_stat\":{\"name\":\"speed\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/1\/\"}},{\"max_change\":1,\"pokeathlon_stat\":{\"name\":\"power\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/2\/\"}}]}"
+}
