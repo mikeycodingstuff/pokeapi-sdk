@@ -19,6 +19,7 @@ use PokeApiSdk\Resources\EvolutionChainResource;
 use PokeApiSdk\Resources\EvolutionTriggerResource;
 use PokeApiSdk\Resources\GenderResource;
 use PokeApiSdk\Resources\GenerationResource;
+use PokeApiSdk\Resources\GrowthRateResource;
 use PokeApiSdk\Resources\PokedexResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\SpeciesResource;
@@ -116,6 +117,11 @@ class PokeApi extends Connector
     public function generation(): GenerationResource
     {
         return new GenerationResource($this);
+    }
+
+    public function growthRate(): GrowthRateResource
+    {
+        return new GrowthRateResource($this);
     }
 
     public function pokedex(): PokedexResource

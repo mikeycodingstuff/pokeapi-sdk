@@ -1,0 +1,31 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 17 Dec 2024 20:22:17 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "480",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"1e0-i7QnR9BwmEFFGo+wSXiTiZ+DSfc\"",
+        "function-execution-id": "d187pxw3r7x3",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "22d1e45abe96e35a0f3080d50b0e9cf6",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760041-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734366145.010277,VS0,VE97",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "REVALIDATED",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=zNt11hODYy9kidy%2Baup%2FjPqV3zVAKaWoeSVfy9EkBv4VWwAr6E8ORBUQKEbLP4afTaeDSEMcFfG%2FrxxIIfUdwEbUuMApC3kI795yx9yUKFau6DF00Hkohn%2BXSDgy8Rf9pHUTYpvyzM7I\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f399fd67dbfed01-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13886&min_rtt=12498&rtt_var=5678&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=757&delivery_rate=323571&cwnd=252&unsent_bytes=0&cid=d5c9296bb12760a1&ts=325&x=0\""
+    },
+    "data": "{\"count\":6,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"slow\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/1\/\"},{\"name\":\"medium\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/2\/\"},{\"name\":\"fast\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/3\/\"},{\"name\":\"medium-slow\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/4\/\"},{\"name\":\"slow-then-very-fast\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/5\/\"},{\"name\":\"fast-then-very-slow\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/6\/\"}]}"
+}
