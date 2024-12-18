@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\MoveCategory;
 
-use PokeApiSdk\Endpoints\Traits\MoveCategoryEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSingleMoveCategory extends GetSingleRequest
 {
-    use MoveCategoryEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::MOVE_CATEGORY;
+    }
 }

@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Nature;
 
-use PokeApiSdk\Endpoints\Traits\NatureEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSingleNature extends GetSingleRequest
 {
-    use NatureEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::NATURE;
+    }
 }

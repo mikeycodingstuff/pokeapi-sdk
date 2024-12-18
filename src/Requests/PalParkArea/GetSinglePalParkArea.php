@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\PalParkArea;
 
-use PokeApiSdk\Endpoints\Traits\PalParkAreaEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSinglePalParkArea extends GetSingleRequest
 {
-    use PalParkAreaEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::PAL_PARK_AREA;
+    }
 }

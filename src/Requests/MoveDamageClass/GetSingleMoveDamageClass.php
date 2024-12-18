@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\MoveDamageClass;
 
-use PokeApiSdk\Endpoints\Traits\MoveDamageClassEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSingleMoveDamageClass extends GetSingleRequest
 {
-    use MoveDamageClassEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::MOVE_DAMAGE_CLASS;
+    }
 }

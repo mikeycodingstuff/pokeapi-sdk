@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Pokemon;
 
-use PokeApiSdk\Endpoints\Traits\PokemonEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSinglePokemon extends GetSingleRequest
 {
-    use PokemonEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::POKEMON;
+    }
 }

@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Item;
 
-use PokeApiSdk\Endpoints\Traits\ItemEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetAllRequest;
 
 class GetAllItems extends GetAllRequest
 {
-    use ItemEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::ITEM;
+    }
 }

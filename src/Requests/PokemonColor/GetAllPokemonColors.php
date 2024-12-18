@@ -4,15 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\PokemonColor;
 
-use PokeApiSdk\Endpoints\Traits\PokemonColorEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetAllRequest;
 
 class GetAllPokemonColors extends GetAllRequest
 {
-    use PokemonColorEndpoint;
-
-    public function __construct(protected ?int $limit = 10000)
+    protected function endpointName(): string
     {
-        parent::__construct($limit);
+        return ResourceEndpoints::POKEMON_COLOR;
     }
 }

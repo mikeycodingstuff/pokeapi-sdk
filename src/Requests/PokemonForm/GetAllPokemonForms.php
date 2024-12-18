@@ -4,15 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\PokemonForm;
 
-use PokeApiSdk\Endpoints\Traits\PokemonFormEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetAllRequest;
 
 class GetAllPokemonForms extends GetAllRequest
 {
-    use PokemonFormEndpoint;
-
-    public function __construct(protected ?int $limit = 10000)
+    protected function endpointName(): string
     {
-        parent::__construct($limit);
+        return ResourceEndpoints::POKEMON_FORM;
     }
 }

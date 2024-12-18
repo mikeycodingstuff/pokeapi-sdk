@@ -4,15 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\PokemonShape;
 
-use PokeApiSdk\Endpoints\Traits\PokemonShapeEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetAllRequest;
 
 class GetAllPokemonShapes extends GetAllRequest
 {
-    use PokemonShapeEndpoint;
-
-    public function __construct(protected ?int $limit = 10000)
+    protected function endpointName(): string
     {
-        parent::__construct($limit);
+        return ResourceEndpoints::POKEMON_SHAPE;
     }
 }

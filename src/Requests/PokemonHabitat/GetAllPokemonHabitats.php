@@ -4,15 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\PokemonHabitat;
 
-use PokeApiSdk\Endpoints\Traits\PokemonHabitatEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetAllRequest;
 
 class GetAllPokemonHabitats extends GetAllRequest
 {
-    use PokemonHabitatEndpoint;
-
-    public function __construct(protected ?int $limit = 10000)
+    protected function endpointName(): string
     {
-        parent::__construct($limit);
+        return ResourceEndpoints::POKEMON_HABITAT;
     }
 }

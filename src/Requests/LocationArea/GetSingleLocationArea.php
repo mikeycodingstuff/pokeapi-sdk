@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\LocationArea;
 
-use PokeApiSdk\Endpoints\Traits\LocationAreaEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSingleLocationArea extends GetSingleRequest
 {
-    use LocationAreaEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::LOCATION_AREA;
+    }
 }

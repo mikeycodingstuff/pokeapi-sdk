@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\SuperContestEffect;
 
-use PokeApiSdk\Endpoints\Traits\SuperContestEffectEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetByIdOnlySingleRequest;
 
 class GetSingleSuperContestEffect extends GetByIdOnlySingleRequest
 {
-    use SuperContestEffectEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::SUPER_CONTEST_EFFECT;
+    }
 }

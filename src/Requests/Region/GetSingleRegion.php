@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Region;
 
-use PokeApiSdk\Endpoints\Traits\RegionEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSingleRegion extends GetSingleRequest
 {
-    use RegionEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::REGION;
+    }
 }

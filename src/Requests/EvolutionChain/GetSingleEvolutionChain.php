@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\EvolutionChain;
 
-use PokeApiSdk\Endpoints\Traits\EvolutionChainEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetByIdOnlySingleRequest;
 
 class GetSingleEvolutionChain extends GetByIdOnlySingleRequest
 {
-    use EvolutionChainEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::EVOLUTION_CHAIN;
+    }
 }

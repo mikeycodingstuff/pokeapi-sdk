@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Characteristic;
 
-use PokeApiSdk\Endpoints\Traits\CharacteristicEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetAllRequest;
 
 class GetAllCharacteristics extends GetAllRequest
 {
-    use CharacteristicEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::CHARACTERISTIC;
+    }
 }

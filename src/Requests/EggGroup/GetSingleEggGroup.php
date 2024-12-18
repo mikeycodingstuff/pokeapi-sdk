@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\EggGroup;
 
-use PokeApiSdk\Endpoints\Traits\EggGroupEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSingleEggGroup extends GetSingleRequest
 {
-    use EggGroupEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::EGG_GROUP;
+    }
 }

@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Pokedex;
 
-use PokeApiSdk\Endpoints\Traits\PokedexEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetAllRequest;
 
 class GetAllPokedexes extends GetAllRequest
 {
-    use PokedexEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::POKEDEX;
+    }
 }

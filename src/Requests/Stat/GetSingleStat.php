@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Stat;
 
-use PokeApiSdk\Endpoints\Traits\StatEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetSingleRequest;
 
 class GetSingleStat extends GetSingleRequest
 {
-    use StatEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::STAT;
+    }
 }

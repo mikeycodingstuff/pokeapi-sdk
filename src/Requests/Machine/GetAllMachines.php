@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Machine;
 
-use PokeApiSdk\Endpoints\Traits\MachineEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetAllRequest;
 
 class GetAllMachines extends GetAllRequest
 {
-    use MachineEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::MACHINE;
+    }
 }

@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\ContestEffect;
 
-use PokeApiSdk\Endpoints\Traits\ContestEffectEndpoint;
+use PokeApiSdk\Endpoints\ResourceEndpoints;
 use PokeApiSdk\Requests\Base\GetByIdOnlySingleRequest;
 
 class GetSingleContestEffect extends GetByIdOnlySingleRequest
 {
-    use ContestEffectEndpoint;
+    protected function endpointName(): string
+    {
+        return ResourceEndpoints::CONTEST_EFFECT;
+    }
 }
