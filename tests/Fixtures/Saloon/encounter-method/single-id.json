@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sun, 15 Dec 2024 22:16:45 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:17 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,14 +19,13 @@
         "x-timer": "S1732332131.696027,VS0,VE1",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "HIT",
-        "Age": "19342",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=zQF0O1R95LJFT93E94X64lEdGXFnOyEMSRj5cVGvFKhDHW1T2i7Cw2S%2FBaxEYyuT4ufnM7209BuKY8rJh5Z94VT4fGouw0v%2F6HhYWTWPTam280%2FOzCNZBd6OyRPYWeGoF21cVjg3ek0h\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "REVALIDATED",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=ujwS9qIHH6%2FhqqFV1hrpLIey40dD7MJ17mef8lqI3T2efNTt8wrIlOPi5Zsix%2FRJvop21BOVRC1%2BF69RRrQDSjKUw8NxMP%2B2MxN0IekEm2koYIvWsfCqBwSVp5FR7WWo%2FF1QJOSCNr%2FN\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f29ccc4cb4d949c-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14147&min_rtt=14127&rtt_var=5338&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=764&delivery_rate=283014&cwnd=252&unsent_bytes=0&cid=7698ac793cab66e2&ts=35&x=0\""
+        "CF-RAY": "8f3af80dfddf63fc-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14066&min_rtt=13618&rtt_var=5426&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=764&delivery_rate=296959&cwnd=252&unsent_bytes=0&cid=36a86678fd88b9fe&ts=696&x=0\""
     },
     "data": "{\"id\":1,\"name\":\"walk\",\"names\":[{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"Im hohen Gras oder in einer H\u00f6hle laufen\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Walking in tall grass or a cave\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"En marchant dans les herbes hautes ou une grotte\"}],\"order\":1}"
 }

@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:06:28 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:26 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "146",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=QQlK1Onjf86vXi8mtPS7ygFkKzpXJ9uyIisihUjNsHsQL4UQcc8byQLhmtGqDBurVwIKYpuaIRZTfojRvCYLNCZdwS48We6KKzGbFsMmPF8PW4hdwaBXAaHohton1IM11HrzUmiGwbcx\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "4404",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=u9XEOve7ttEIGGGhz4%2BLxNDnqKJaM09hnXlA1GmffpjF9KyArIzC7KBKBebub%2Bj3PfWH38alAhZa4NE8JtS0E0Bx3dy6Dp%2B%2F%2FI6xKTCVRZELOXs%2FEIPP%2FwpdQxI%2F04%2Fayx0yfYBjEUJX\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3a90598c5994c9-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14069&min_rtt=13832&rtt_var=5356&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=754&delivery_rate=292365&cwnd=253&unsent_bytes=0&cid=d353631ad2e0adf7&ts=49&x=0\""
+        "CF-RAY": "8f3af84bade0ccc1-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14140&min_rtt=14120&rtt_var=5336&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=754&delivery_rate=283094&cwnd=252&unsent_bytes=0&cid=28778148bf7a0183&ts=33&x=0\""
     },
     "data": "{\"count\":1036,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/location?offset=20&limit=20\",\"previous\":null,\"results\":[{\"name\":\"canalave-city\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/1\/\"},{\"name\":\"eterna-city\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/2\/\"},{\"name\":\"pastoria-city\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/3\/\"},{\"name\":\"sunyshore-city\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/4\/\"},{\"name\":\"sinnoh-pokemon-league\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/5\/\"},{\"name\":\"oreburgh-mine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/6\/\"},{\"name\":\"valley-windworks\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/7\/\"},{\"name\":\"eterna-forest\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/8\/\"},{\"name\":\"fuego-ironworks\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/9\/\"},{\"name\":\"mt-coronet\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/10\/\"},{\"name\":\"great-marsh\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/11\/\"},{\"name\":\"solaceon-ruins\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/12\/\"},{\"name\":\"sinnoh-victory-road\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/13\/\"},{\"name\":\"ravaged-path\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/14\/\"},{\"name\":\"oreburgh-gate\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/15\/\"},{\"name\":\"stark-mountain\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/16\/\"},{\"name\":\"spring-path\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/17\/\"},{\"name\":\"turnback-cave\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/18\/\"},{\"name\":\"snowpoint-temple\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/19\/\"},{\"name\":\"wayward-cave\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location\/20\/\"}]}"
 }

@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:32:48 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:27 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,12 +19,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=fIMMExmjcj%2FwTQi1BPDfutoWMUtWnPFpCq40zLh7Tk7nsyhdflqyg2m1UjtTcAQa4SukZaTfNObXexN0fBVn2kjiYmPxm9wm2gKk%2BxUuiNcveciyRa80TmljS2fV2aq6gIG0sXywPyLt\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "2679",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=M2RwOqVvb0mplmw%2BEip1U0LshxUJdJp8Zw7iV0CL0bBEqvJW3qsaXvWhZee78jpTbgbQuUdQ7xlQ5SlP%2BA7NCUMM7pWYieaq8Cuz%2FiSoh5yqbdWOYpZuJ%2FMr1NauBqCrGE3FPsr6gFC5\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3ab6e8a92e93dc-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14065&min_rtt=13999&rtt_var=5382&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=759&delivery_rate=278339&cwnd=252&unsent_bytes=0&cid=f4f5a20113d01189&ts=193&x=0\""
+        "CF-RAY": "8f3af8505d0379c8-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13815&min_rtt=12429&rtt_var=5651&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=759&delivery_rate=325368&cwnd=252&unsent_bytes=0&cid=51d2eee7a9638441&ts=33&x=0\""
     },
     "data": "{\"count\":14,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"damage\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/0\/\"},{\"name\":\"ailment\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/1\/\"},{\"name\":\"net-good-stats\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/2\/\"},{\"name\":\"heal\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/3\/\"},{\"name\":\"damage+ailment\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/4\/\"},{\"name\":\"swagger\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/5\/\"},{\"name\":\"damage+lower\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/6\/\"},{\"name\":\"damage+raise\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/7\/\"},{\"name\":\"damage+heal\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/8\/\"},{\"name\":\"ohko\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/9\/\"},{\"name\":\"whole-field-effect\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/10\/\"},{\"name\":\"field-effect\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/11\/\"},{\"name\":\"force-switch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/12\/\"},{\"name\":\"unique\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-category\/13\/\"}]}"
 }

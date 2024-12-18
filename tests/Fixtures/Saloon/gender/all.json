@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sun, 15 Dec 2024 22:16:46 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:22 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -20,13 +20,12 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "47990",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=pcfTqCquTwa7zrT3lggJTbx8iua8IHI19I16bl9Un9lwIBpeuSP9ibkKwJX6NSoSwYL6esumNUX6D1kwogZtGjFTQOl1YjcRhqcF36CamnreZb9qZI5jo1GeR0I5D43T%2BUT1bIribGYz\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=KH2TRj0FnsiDtfQC4mDfbXnCRM0OpJEj5j6heQG2hC4ux0oElQsx%2BtVSBk6I9tHpWOUcplvQiOIC8Z43ic36K0lAsDXMlVbymfkuw7qxYxlCT%2Bpf40XDXpnAhSp0VotEkKUj0k83YMqg\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f29ccca0d3994a3-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13715&min_rtt=11804&rtt_var=4360&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=752&delivery_rate=295787&cwnd=253&unsent_bytes=0&cid=219017279e6326f4&ts=43&x=0\""
+        "CF-RAY": "8f3af8344e4a63f7-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13712&min_rtt=12867&rtt_var=5429&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=752&delivery_rate=314292&cwnd=253&unsent_bytes=0&cid=7b425ab18167b5a3&ts=191&x=0\""
     },
     "data": "{\"count\":3,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"female\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/gender\/1\/\"},{\"name\":\"male\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/gender\/2\/\"},{\"name\":\"genderless\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/gender\/3\/\"}]}"
 }

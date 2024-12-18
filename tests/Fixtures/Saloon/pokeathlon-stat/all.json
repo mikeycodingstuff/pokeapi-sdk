@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:43:29 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:28 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "402",
         "Connection": "keep-alive",
@@ -18,14 +18,15 @@
         "x-timer": "S1733881699.105744,VS0,VE114",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
+        "CF-Cache-Status": "HIT",
+        "Age": "2039",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=QcU2hVv6TjIR4rSlN1XPm9vwH71jbJvrOQHS0iG42bY%2F7QqEfzsc3mP9%2BevbbMDjfK9oAQzDs%2Brvw5pK4YzTOAWzFzlypta8v4uh5%2BSY8iyRRm0YjWiOEARxFSikfWPGZKRp5pnisorL\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=%2F%2BncT9BU%2B0Zqnw9vKqhhAgqpiW1DtMitFCx%2FAqtMWkq8cEe%2F8pzmKkOy10UovCcIJ3Cw9G%2FZ5Cn99QnxCDAWRlHivdRw2iuG5v%2FuFfT82s9x1zeUVZ1nvqDMHoWsUZfrervXEWkGGvTf\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3ac68cfe64653f-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13910&min_rtt=12567&rtt_var=4365&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=761&delivery_rate=280055&cwnd=251&unsent_bytes=0&cid=373e1fc9abdfb90e&ts=644&x=0\""
+        "CF-RAY": "8f3af859199294ff-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13994&min_rtt=13971&rtt_var=5287&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=761&delivery_rate=285552&cwnd=251&unsent_bytes=0&cid=cf2bc5ab05c8f8e3&ts=32&x=0\""
     },
     "data": "{\"count\":5,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"speed\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/1\/\"},{\"name\":\"power\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/2\/\"},{\"name\":\"skill\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/3\/\"},{\"name\":\"stamina\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/4\/\"},{\"name\":\"jump\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokeathlon-stat\/5\/\"}]}"
 }

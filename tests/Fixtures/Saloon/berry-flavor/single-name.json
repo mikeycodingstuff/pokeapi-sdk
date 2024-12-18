@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sun, 15 Dec 2024 22:16:44 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:05 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -12,20 +12,19 @@
         "x-cloud-trace-context": "784daab13762bfd6a6a69af4dd4ee6d6",
         "x-country-code": "US",
         "x-powered-by": "Express",
-        "x-served-by": "cache-mia-kmia1760085-MIA",
+        "x-served-by": "cache-mia-kmia1760061-MIA",
         "x-cache": "HIT",
         "x-cache-hits": "0",
-        "x-timer": "S1734299975.744702,VS0,VE218",
+        "x-timer": "S1734481025.892453,VS0,VE125",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "HIT",
-        "Age": "1029",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=GwGJe7x3HsKwqYvPs4v77eOUWKi%2FY5SWKGpr5zfOwVmIRXt65%2FCHiKAj%2Fgtk7yvTLATaxESIgYRVGAG1rE6E0AjCBt%2BK3YEp6zqvb3ivKeOr4Fz1iKUIsfmufsj5B5HBy0k3ec2O5jxl\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "MISS",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=5s73XWREAyLn4DPfLO7N%2BLlZXZ3blV4wFBs%2F%2Fe21uxyrCBmqQQ24LwDxD2%2FQuTyNfXNNtB8Ml%2F2Lcp4vjlyaT0Tw1JUDWvQtpkv2B5Ko2JhMQKqfDk3DnikTFlNZ9KO6q1OJTEI6YVWq\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f29ccbb0f7b7713-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13659&min_rtt=12387&rtt_var=5554&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=764&delivery_rate=326471&cwnd=250&unsent_bytes=0&cid=01785952f2b48cfa&ts=35&x=0\""
+        "CF-RAY": "8f3af7c2dbd3ed0e-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13801&min_rtt=13035&rtt_var=5435&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=764&delivery_rate=310241&cwnd=252&unsent_bytes=0&cid=25a63d7493c1461a&ts=637&x=0\""
     },
     "data": "{\"berries\":[{\"berry\":{\"name\":\"rowap\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/64\/\"},\"potency\":10},{\"berry\":{\"name\":\"leppa\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/6\/\"},\"potency\":10},{\"berry\":{\"name\":\"oran\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/7\/\"},\"potency\":10},{\"berry\":{\"name\":\"persim\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/8\/\"},\"potency\":10},{\"berry\":{\"name\":\"lum\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/9\/\"},\"potency\":10},{\"berry\":{\"name\":\"razz\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/16\/\"},\"potency\":10},{\"berry\":{\"name\":\"pinap\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/20\/\"},\"potency\":10},{\"berry\":{\"name\":\"pomeg\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/21\/\"},\"potency\":10},{\"berry\":{\"name\":\"qualot\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/23\/\"},\"potency\":10},{\"berry\":{\"name\":\"hondew\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/24\/\"},\"potency\":10},{\"berry\":{\"name\":\"nomel\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/30\/\"},\"potency\":10},{\"berry\":{\"name\":\"belue\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/35\/\"},\"potency\":10},{\"berry\":{\"name\":\"rindo\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/39\/\"},\"potency\":10},{\"berry\":{\"name\":\"shuca\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/43\/\"},\"potency\":10},{\"berry\":{\"name\":\"charti\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/47\/\"},\"potency\":10},{\"berry\":{\"name\":\"apicot\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/57\/\"},\"potency\":10},{\"berry\":{\"name\":\"cheri\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/1\/\"},\"potency\":10},{\"berry\":{\"name\":\"chople\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/41\/\"},\"potency\":15},{\"berry\":{\"name\":\"figy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/11\/\"},\"potency\":15},{\"berry\":{\"name\":\"occa\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/36\/\"},\"potency\":15},{\"berry\":{\"name\":\"tamato\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/26\/\"},\"potency\":20},{\"berry\":{\"name\":\"tanga\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/46\/\"},\"potency\":20},{\"berry\":{\"name\":\"babiri\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/51\/\"},\"potency\":25},{\"berry\":{\"name\":\"starf\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/59\/\"},\"potency\":30},{\"berry\":{\"name\":\"liechi\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/53\/\"},\"potency\":30},{\"berry\":{\"name\":\"spelon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/31\/\"},\"potency\":30},{\"berry\":{\"name\":\"petaya\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/56\/\"},\"potency\":30},{\"berry\":{\"name\":\"lansat\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/58\/\"},\"potency\":30},{\"berry\":{\"name\":\"enigma\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/60\/\"},\"potency\":40}],\"contest_type\":{\"name\":\"cool\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/contest-type\/1\/\"},\"id\":1,\"name\":\"spicy\",\"names\":[{\"language\":{\"name\":\"ja-Hrkt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/1\/\"},\"name\":\"\u304b\u3089\u3044\"},{\"language\":{\"name\":\"zh-Hant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/4\/\"},\"name\":\"\u8fa3\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"\u00c9pic\u00e9\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Spicy\"},{\"language\":{\"name\":\"zh-Hans\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/12\/\"},\"name\":\"\u8fa3\"}]}"
 }

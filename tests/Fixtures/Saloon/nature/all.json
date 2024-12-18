@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:37:47 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:28 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,14 @@
         "x-timer": "S1731316313.528213,VS0,VE99",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=kER9WJCEGMzmMJILZpo2L0jfhtgEGpb%2By%2Bi04H9BcyiwXute5N8dhs6mEfZdYR3%2FFfs0AvSAfqiI6O9keT9XGG71Wp2SnUmg1vGiyjOe7ytowZxAHotK3DFzo5E9RI8gwVLNF83kbnxi\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "2381",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=DccttnXOnrep%2B0NM2OJt1eeKuK11VocHUtbDumk8%2BeXrxS8T%2FqmLReTuS4e%2FvR7fVRwOO0uc1eOKKERDQp90pHcPT%2FRm5OU6LtIYheTFMrp351VBBQ%2FzNQE0PNxI98pvvyj2iDsy7itG\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3abe320937386a-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13803&min_rtt=12592&rtt_var=5587&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=752&delivery_rate=321156&cwnd=240&unsent_bytes=0&cid=94dd0af425288624&ts=608&x=0\""
+        "CF-RAY": "8f3af856682088b3-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13936&min_rtt=13848&rtt_var=5370&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=752&delivery_rate=277766&cwnd=253&unsent_bytes=0&cid=e305fdc6c8dfd6b9&ts=37&x=0\""
     },
     "data": "{\"count\":25,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/nature?offset=20&limit=5\",\"previous\":null,\"results\":[{\"name\":\"hardy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/1\/\"},{\"name\":\"bold\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/2\/\"},{\"name\":\"modest\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/3\/\"},{\"name\":\"calm\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/4\/\"},{\"name\":\"timid\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/5\/\"},{\"name\":\"lonely\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/6\/\"},{\"name\":\"docile\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/7\/\"},{\"name\":\"mild\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/8\/\"},{\"name\":\"gentle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/9\/\"},{\"name\":\"hasty\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/10\/\"},{\"name\":\"adamant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/11\/\"},{\"name\":\"impish\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/12\/\"},{\"name\":\"bashful\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/13\/\"},{\"name\":\"careful\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/14\/\"},{\"name\":\"rash\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/15\/\"},{\"name\":\"jolly\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/16\/\"},{\"name\":\"naughty\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/17\/\"},{\"name\":\"lax\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/18\/\"},{\"name\":\"quirky\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/19\/\"},{\"name\":\"naive\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/20\/\"}]}"
 }

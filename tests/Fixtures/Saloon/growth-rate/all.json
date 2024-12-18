@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 20:22:17 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:24 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "480",
         "Connection": "keep-alive",
@@ -18,14 +18,15 @@
         "x-timer": "S1734366145.010277,VS0,VE97",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
+        "CF-Cache-Status": "HIT",
+        "Age": "14107",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=zNt11hODYy9kidy%2Baup%2FjPqV3zVAKaWoeSVfy9EkBv4VWwAr6E8ORBUQKEbLP4afTaeDSEMcFfG%2FrxxIIfUdwEbUuMApC3kI795yx9yUKFau6DF00Hkohn%2BXSDgy8Rf9pHUTYpvyzM7I\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=UrTcH4pfS3MBoYjHduGOK6W%2F5F08h9klRgevUsSc2IIyCA9HWf2Q%2BazxKcNjPArY2WtrYC%2BpEJXEos25tpBQVUeCIeUzVj2rcuDZCkatvI4iyJg4JNJdmWh9S3qS5mIn9DAW%2FLW1Ykk2\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f399fd67dbfed01-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13886&min_rtt=12498&rtt_var=5678&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=757&delivery_rate=323571&cwnd=252&unsent_bytes=0&cid=d5c9296bb12760a1&ts=325&x=0\""
+        "CF-RAY": "8f3af83fed65e911-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13831&min_rtt=12711&rtt_var=5566&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=757&delivery_rate=318149&cwnd=252&unsent_bytes=0&cid=5b44ff21bfb7d42b&ts=27&x=0\""
     },
     "data": "{\"count\":6,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"slow\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/1\/\"},{\"name\":\"medium\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/2\/\"},{\"name\":\"fast\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/3\/\"},{\"name\":\"medium-slow\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/4\/\"},{\"name\":\"slow-then-very-fast\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/5\/\"},{\"name\":\"fast-then-very-slow\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/growth-rate\/6\/\"}]}"
 }

@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:52:47 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:31 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -18,13 +18,14 @@
         "x-timer": "S1734479568.820144,VS0,VE99",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "MISS",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=QxcWPVnyklmwtKlLuvk5iLspOoqOG%2FFfwus1pjP5zucj%2B8ZW5mfVZCfWfuGcrBXge7acDyLEV%2Bxa%2BFxNuYL1cMPXpFyfl0zWllWpjJAe92q7IJv5t3H%2FiK%2BAlSjMazvPMej254YVylUl\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "1484",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=%2BYXCQxf8Cr8Hf5KZjF5yM7JZK8MO1uai2jvL7WULj%2F2tzDyLNApws4uuQdlaNAOdG3bbwhBlnp3MI1gT6MYyjb1bzo0khVZq7SpHzLv%2FYdM4xF0ioyNwJtlswiH6SfWbXKE6thdnCIXE\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3ad4321ac4cdc1-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14022&min_rtt=13974&rtt_var=5337&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=768&delivery_rate=281576&cwnd=252&unsent_bytes=0&cid=6ef67300f288c7be&ts=294&x=0\""
+        "CF-RAY": "8f3af868e9fc418b-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13831&min_rtt=12537&rtt_var=4399&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2836&recv_bytes=768&delivery_rate=275308&cwnd=252&unsent_bytes=0&cid=ccdf00d4605a4341&ts=30&x=0\""
     },
     "data": "{\"count\":14,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"ball\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/1\/\"},{\"name\":\"squiggle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/2\/\"},{\"name\":\"fish\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/3\/\"},{\"name\":\"arms\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/4\/\"},{\"name\":\"blob\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/5\/\"},{\"name\":\"upright\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/6\/\"},{\"name\":\"legs\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/7\/\"},{\"name\":\"quadruped\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/8\/\"},{\"name\":\"wings\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/9\/\"},{\"name\":\"tentacles\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/10\/\"},{\"name\":\"heads\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/11\/\"},{\"name\":\"humanoid\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/12\/\"},{\"name\":\"bug-wings\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/13\/\"},{\"name\":\"armor\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/14\/\"}]}"
 }

@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:32:13 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:26 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,12 +19,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=gkn26FPHq9g2okO8b5spN%2FTGpxcOBzT7MF%2BSQFimZsPOsOIh%2BUyBX9y2jZ4fVpcGo1uou8aix%2F6Dj%2BivUUKgoDt5vCwvPH%2F%2BSgVtgCRRaQor3mvA2YXrKLDSFTxgD9IuAv3uM9XiA0FK\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "2713",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=S%2F7R2NCCVGRX4DW7qAElElG1MA%2F7Qp%2BSln2L%2FBO%2FymYzcf0druirP15sJjabiSAyXe3paigbGhePLpvMrFpGHhEDCXWqC0cE31PtBVi%2B2dUaCKRfMk49%2F38t7kAZVbbPWTvlwHbkFDBk\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3ab60d69c5ef40-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14093&min_rtt=14009&rtt_var=5313&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=770&delivery_rate=288671&cwnd=252&unsent_bytes=0&cid=fa4362753151054a&ts=503&x=0\""
+        "CF-RAY": "8f3af84ebb2f9480-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13835&min_rtt=12723&rtt_var=5565&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=770&delivery_rate=317849&cwnd=251&unsent_bytes=0&cid=d9b8333d1f9d9bf9&ts=30&x=0\""
     },
     "data": "{\"id\":1,\"name\":\"attack\",\"names\":[{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Attaque\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Attack\"}]}"
 }

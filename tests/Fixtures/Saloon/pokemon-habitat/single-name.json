@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:52:46 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:30 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -18,13 +18,14 @@
         "x-timer": "S1734479566.062271,VS0,VE102",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "MISS",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=FOKam7FRzz8LwW2fr2ud68S8p3%2FGjZIJhs32hfufnbT6Qt2eCKTJWFU%2BOyYck36%2F39%2FAyTWcKaq7FNkRiLV618pY7XxaKcsc6ppICxBQAToBKKJsbw7yotYSf9FGhHgYfOSlKINnxIYM\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "1484",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=QUcPb7bVgUcnFP3EiQJbIdR04HhNBQNyl5N3cAuWlBqiTf075QjMwcaGuJAIpPWCeR0ObQ%2FhC13Um3x9rDGnUiA8Yxd%2B7YC%2FwyMenuSAb97FPKqqYt9cbD9wgFdUywGeQSnaPe44sUzd\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3ad4252b574167-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14074&min_rtt=13680&rtt_var=5412&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=766&delivery_rate=295614&cwnd=253&unsent_bytes=0&cid=2bc043da30b67038&ts=618&x=0\""
+        "CF-RAY": "8f3af8674e1f79c8-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13748&min_rtt=12974&rtt_var=5418&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=766&delivery_rate=311700&cwnd=252&unsent_bytes=0&cid=79101f186fc7557b&ts=27&x=0\""
     },
     "data": "{\"id\":1,\"name\":\"cave\",\"names\":[{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"grottes\"},{\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"},\"name\":\"caverna\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"cave\"}],\"pokemon_species\":[{\"name\":\"zubat\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/41\/\"},{\"name\":\"diglett\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/50\/\"},{\"name\":\"gastly\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/92\/\"},{\"name\":\"onix\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/95\/\"},{\"name\":\"misdreavus\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/200\/\"},{\"name\":\"dunsparce\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/206\/\"},{\"name\":\"swinub\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/220\/\"},{\"name\":\"whismur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/293\/\"},{\"name\":\"nosepass\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/299\/\"},{\"name\":\"sableye\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/302\/\"},{\"name\":\"mawile\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/303\/\"},{\"name\":\"lunatone\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/337\/\"},{\"name\":\"solrock\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/338\/\"},{\"name\":\"wynaut\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/360\/\"},{\"name\":\"snorunt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/361\/\"},{\"name\":\"regirock\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/377\/\"},{\"name\":\"regice\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/378\/\"},{\"name\":\"registeel\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/379\/\"},{\"name\":\"golbat\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/42\/\"},{\"name\":\"dugtrio\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/51\/\"},{\"name\":\"haunter\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/93\/\"},{\"name\":\"gengar\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/94\/\"},{\"name\":\"crobat\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/169\/\"},{\"name\":\"wobbuffet\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/202\/\"},{\"name\":\"steelix\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/208\/\"},{\"name\":\"piloswine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/221\/\"},{\"name\":\"loudred\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/294\/\"},{\"name\":\"exploud\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/295\/\"},{\"name\":\"glalie\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon-species\/362\/\"}]}"
 }

@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sun, 15 Dec 2024 22:16:43 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:03 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,12 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "1116",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=5ITXXypZo5q%2FReBzkUzeNh0tsTKYZa4ZFmaBn3%2BvZr7EUNCj6NDf7jEsFgxoUsMxaxnhgiusiIL9BhgmSaI0BEAYaqAmylKg2B3d8IhpMgV%2Fb%2BqORyZSUs3Std1keCesEBrNLmXrN6Lp\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=%2Fy35hE6ngHYZuveGMsZ7bMM80jyXaT97OG8rnjqXCQJFb45cF7qjTYtdW5CsAku8uOTT3kyopNvj%2Fz%2Fn9btzrzzpv%2FKyLWQukIZPGOBlqRzVd1Njr%2FmjQJ%2BLuGHDvZDUuecPjupUMqvp\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f29ccb99bfdef05-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14000&min_rtt=13979&rtt_var=5285&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=770&delivery_rate=285734&cwnd=253&unsent_bytes=0&cid=0fd66c358242200a&ts=31&x=0\""
+        "CF-RAY": "8f3af7bb3c01eef7-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13691&min_rtt=13152&rtt_var=4180&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2838&recv_bytes=770&delivery_rate=307318&cwnd=253&unsent_bytes=0&cid=47c6eb0c9fb50738&ts=499&x=0\""
     },
     "data": "{\"berries\":[{\"name\":\"pecha\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/3\/\"},{\"name\":\"pamtre\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/32\/\"},{\"name\":\"belue\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/35\/\"},{\"name\":\"wacan\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/38\/\"},{\"name\":\"tanga\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/46\/\"},{\"name\":\"charti\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/47\/\"},{\"name\":\"chilan\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/52\/\"},{\"name\":\"rowap\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/64\/\"}],\"id\":1,\"name\":\"very-soft\",\"names\":[{\"language\":{\"name\":\"ja-Hrkt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/1\/\"},\"name\":\"\u3068\u3066\u3082\u3084\u308f\u3089\u304b\u3044\"},{\"language\":{\"name\":\"zh-Hant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/4\/\"},\"name\":\"\u5f88\u67d4\u8edf\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Tr\u00e8s tendre\"},{\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"},\"name\":\"Muy blanda\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Very Soft\"},{\"language\":{\"name\":\"zh-Hans\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/12\/\"},\"name\":\"\u5f88\u67d4\u8f6f\"}]}"
 }

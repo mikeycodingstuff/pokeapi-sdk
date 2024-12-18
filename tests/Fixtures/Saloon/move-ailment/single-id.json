@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:29:05 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:26 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "25",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=THoU%2F2cSj2b4UMF3omDpQD5c9cHPWLOOwIQhHNXbYKVuDrFYACZjkj6HEdqbGGc%2FSUIlzvAZQ2v%2BwDc6JrR26CwzZTj06tMK0%2Br0RMtMidSg%2FOJ%2BhGU3B%2Bz2W5PnOzanioD%2BD0jJdwQj\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "2926",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=mKod%2Fo0VN11pCJqG3Al83%2Bz1FiXPJnmGrsxD%2B7frwalrrTIY2wWQ20kWJsAGNxJbTIG8XzSu2QoDFuVk9tdU5pWb5vs1LG4irkiM3phmq3aLKcqGPAb303q6ACBkO%2FKgb2qMmevYLplM\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3ab1799b4c4164-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13951&min_rtt=13707&rtt_var=5314&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=760&delivery_rate=295031&cwnd=252&unsent_bytes=0&cid=2b835e7e6c886a9d&ts=44&x=0\""
+        "CF-RAY": "8f3af84d1d2eedee-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14060&min_rtt=13986&rtt_var=5392&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=760&delivery_rate=277404&cwnd=252&unsent_bytes=0&cid=56d22bb9a5823ba0&ts=29&x=0\""
     },
     "data": "{\"id\":1,\"moves\":[{\"name\":\"thunder-punch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/9\/\"},{\"name\":\"body-slam\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/34\/\"},{\"name\":\"stun-spore\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/78\/\"},{\"name\":\"thunder-shock\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/84\/\"},{\"name\":\"thunderbolt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/85\/\"},{\"name\":\"thunder-wave\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/86\/\"},{\"name\":\"thunder\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/87\/\"},{\"name\":\"lick\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/122\/\"},{\"name\":\"glare\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/137\/\"},{\"name\":\"zap-cannon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/192\/\"},{\"name\":\"spark\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/209\/\"},{\"name\":\"dragon-breath\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/225\/\"},{\"name\":\"bounce\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/340\/\"},{\"name\":\"volt-tackle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/344\/\"},{\"name\":\"force-palm\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/395\/\"},{\"name\":\"thunder-fang\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/422\/\"},{\"name\":\"discharge\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/435\/\"},{\"name\":\"bolt-strike\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/550\/\"},{\"name\":\"freeze-shock\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/553\/\"},{\"name\":\"nuzzle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/609\/\"},{\"name\":\"stoked-sparksurfer\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/700\/\"},{\"name\":\"splishy-splash\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/730\/\"},{\"name\":\"buzzy-buzz\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/734\/\"}],\"name\":\"paralysis\",\"names\":[{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Paralysie\"},{\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"},\"name\":\"Par\u00e1lisis\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Paralysis\"}]}"
 }

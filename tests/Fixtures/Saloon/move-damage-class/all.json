@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:32:16 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:27 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "273",
         "Connection": "keep-alive",
@@ -18,14 +18,15 @@
         "x-timer": "S1734194324.077837,VS0,VE100",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
+        "CF-Cache-Status": "HIT",
+        "Age": "2711",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=oe8r1%2Bc3lGRZcT4QHF%2FceE1JMs3yeh7THtXiKaNanCIvzLV1yhP%2F8RFTwS%2FjgSkdwOeLFLFta9GkzegMDQWALAb91tm2ezVOUSwVtri%2B4Yknl6c5SHKok7KHiDI1dOzyRXz6S8wYy%2BSX\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=D%2BJtcQGV%2FSRsDxCw57KeRrnh1DKL9AWbxu0teJqlO%2F3ptcSu80JhwlNgBVZdGmbXem2vYzJ0O25rVtJ8w5YS0HjeIBXPUtHNgImenMRixFxfptleJYDjOGxVXYnnWI8VPYJpTtttNMyw\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3ab61edad57743-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14012&min_rtt=13995&rtt_var=5282&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=763&delivery_rate=286138&cwnd=250&unsent_bytes=0&cid=fdef2ae98ddf400e&ts=317&x=0\""
+        "CF-RAY": "8f3af851981ceef6-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13699&min_rtt=12566&rtt_var=5521&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=763&delivery_rate=321820&cwnd=252&unsent_bytes=0&cid=12dac7fce3d77f45&ts=30&x=0\""
     },
     "data": "{\"count\":3,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"status\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-damage-class\/1\/\"},{\"name\":\"physical\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-damage-class\/2\/\"},{\"name\":\"special\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-damage-class\/3\/\"}]}"
 }

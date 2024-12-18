@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:16:25 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:32 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -18,13 +18,14 @@
         "x-timer": "S1733787386.444058,VS0,VE133",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=%2F%2F9Flv%2B5iLob%2B2h5vISbP5AZY1NPN8v2khaNnE318SAKa9QacHBT2UoAY80emRgYy2YMB9ycqYjZ8BTFfE2LpcVbVeUikdo1WjkBOuxAdmIiz%2B9UMCIvnEfRHjPkBVy4gsFgq9C758ve\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "67",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=fVY3Tp0%2BfIBtIzTu0S1tPNwCUf7C32Xo18wy9Dew1uLpVRrmSf%2B%2F8KueiQ4zAQXUsHtEa3onzb9EvkT%2BQT%2FYpAzR%2Bk1gQRf8GWO2bbxfhW4v5hqyD%2Fy9oz6B1f%2FKeWFAANt0HhkUdSGo\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af6ce3e20653e-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13978&min_rtt=13932&rtt_var=5257&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=759&delivery_rate=290267&cwnd=250&unsent_bytes=0&cid=a7654c542c45251e&ts=616&x=0\""
+        "CF-RAY": "8f3af8751cbcef4d-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13940&min_rtt=12715&rtt_var=5643&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=759&delivery_rate=318049&cwnd=253&unsent_bytes=0&cid=1cacebd6339dc011&ts=28&x=0\""
     },
     "data": "{\"count\":27,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/version-group?offset=20&limit=7\",\"previous\":null,\"results\":[{\"name\":\"red-blue\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/1\/\"},{\"name\":\"yellow\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/2\/\"},{\"name\":\"gold-silver\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/3\/\"},{\"name\":\"crystal\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/4\/\"},{\"name\":\"ruby-sapphire\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/5\/\"},{\"name\":\"emerald\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/6\/\"},{\"name\":\"firered-leafgreen\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/7\/\"},{\"name\":\"diamond-pearl\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/8\/\"},{\"name\":\"platinum\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/9\/\"},{\"name\":\"heartgold-soulsilver\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/10\/\"},{\"name\":\"black-white\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/11\/\"},{\"name\":\"colosseum\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/12\/\"},{\"name\":\"xd\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/13\/\"},{\"name\":\"black-2-white-2\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/14\/\"},{\"name\":\"x-y\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/15\/\"},{\"name\":\"omega-ruby-alpha-sapphire\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/16\/\"},{\"name\":\"sun-moon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/17\/\"},{\"name\":\"ultra-sun-ultra-moon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/18\/\"},{\"name\":\"lets-go-pikachu-lets-go-eevee\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/19\/\"},{\"name\":\"sword-shield\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/20\/\"}]}"
 }

@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:06:28 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:26 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -20,13 +20,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "11",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=KNGwUC%2FmAuOVxfCZ0%2BcnL6ZV7ooNBSaVCGFxsqow2MCih4ZLBfrrRpBdGJq7gIO26ZN26bc1VvyHeSP6lDK5JDHjcuD2arT%2BIcy3INGN68yvvqvzBjBCzlyQCYgln6OphNRLz2WD4PvP\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "4269",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=UOMe5Z%2BEM95pPdFWG5Z9WlXACUhU25YfproTPmvpoGW1DEf8Hb%2BKPuZoHfKAFhbBCsXv7wEGiKOySk9N8eFkSCzL%2BTgK9Ngg5mNHcRvOnXzV9V%2FXGagzO%2BxIwE2ineckup0VtjbNlTXg\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3a90591e4177b7-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13786&min_rtt=12613&rtt_var=5568&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=768&delivery_rate=320621&cwnd=237&unsent_bytes=0&cid=ee9b64f6a9aba9ac&ts=30&x=0\""
+        "CF-RAY": "8f3af84b381cbeec-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13877&min_rtt=13846&rtt_var=5255&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=768&delivery_rate=286828&cwnd=250&unsent_bytes=0&cid=a087ae4812870383&ts=37&x=0\""
     },
     "data": "{\"areas\":[{\"name\":\"canalave-city-area\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/location-area\/1\/\"}],\"game_indices\":[{\"game_index\":7,\"generation\":{\"name\":\"generation-iv\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/4\/\"}}],\"id\":1,\"name\":\"canalave-city\",\"names\":[{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Joliberges\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Canalave City\"}],\"region\":{\"name\":\"sinnoh\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/region\/4\/\"}}"
 }

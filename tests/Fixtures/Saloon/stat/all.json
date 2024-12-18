@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:07:56 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:32 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -20,12 +20,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=4gRn1jt9%2BN%2FswNz95ctyhQ7qE67ai%2BHVx2fjvk49HPusZBQYfgV775eqLbdAuyfrbTu0MDw6r0HHsY3xow2Xi%2FLA837ZK92FiFbTPZwlbt3bN%2B5N8%2FGBmjRDe0BatsgOcEk47EUmWAJR\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "576",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=XLWpZCWFngaxpbNtiMKjF5j8rnLt6ReKgMcu0EIN0M3RxmWWx9CtlDFd1LALYIM7AI4Y4kpIt9jbF%2BVrenvk8TW9LU97B3u1d3FQtszPodlqfKoBygiUM9YyFzSEBYzUtrWY6N46evJ2\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3aea62de449401-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13876&min_rtt=12439&rtt_var=5691&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=750&delivery_rate=325106&cwnd=253&unsent_bytes=0&cid=78661ae3bfbe504e&ts=195&x=0\""
+        "CF-RAY": "8f3af86f9a6879c3-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13853&min_rtt=12894&rtt_var=5521&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=750&delivery_rate=313634&cwnd=236&unsent_bytes=0&cid=5252b02eb0ea8fb5&ts=37&x=0\""
     },
     "data": "{\"count\":8,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"hp\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/stat\/1\/\"},{\"name\":\"attack\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/stat\/2\/\"},{\"name\":\"defense\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/stat\/3\/\"},{\"name\":\"special-attack\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/stat\/4\/\"},{\"name\":\"special-defense\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/stat\/5\/\"},{\"name\":\"speed\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/stat\/6\/\"},{\"name\":\"accuracy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/stat\/7\/\"},{\"name\":\"evasion\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/stat\/8\/\"}]}"
 }

@@ -1,11 +1,11 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Sun, 15 Dec 2024 22:16:45 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:13 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
-        "Cache-Control": "public, max-age=86400, s-maxage=86400",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
         "etag": "W\/\"1de-2x4Ra3HNdeQbJyfg5Z2Ef8Puoj4\"",
         "function-execution-id": "8s34xk88g82c",
         "strict-transport-security": "max-age=31556926",
@@ -19,13 +19,12 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "62",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=TEoCpvKF0vxAQJWYG2jtj5KnrN%2FlIcKuGWUn5jnT7d72bO7%2FXw5pR9DDKUUvEJZY%2FN2R07xuKbhs00ilq8Yfaob11SyDqrQjtA0TvQF%2BoWSwQI8b4%2FuZjW6k249Dbs%2FgYQyrWE%2BLwMUy\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=iIcxRM1G6EYBe62%2BjlkHT7PvD%2Ff0f%2BalnzE%2FHO4gw%2Btn3Cvb%2BMCtsKH1YcwSvJoWJhuPKL7mWVGv2rFzSrUWclwE3qvgGKtBh80glYAnKPxD4RUSaCeFZ0B%2FZfu49sDhGyq2stOystwm\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f29ccc26a21ef4a-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=12282&min_rtt=11908&rtt_var=3922&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2836&recv_bytes=771&delivery_rate=287563&cwnd=252&unsent_bytes=0&cid=6217d85df68613ea&ts=32&x=0\""
+        "CF-RAY": "8f3af7f94d73ede0-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13848&min_rtt=12818&rtt_var=5543&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=771&delivery_rate=315493&cwnd=252&unsent_bytes=0&cid=89ee877a38c0ba2c&ts=500&x=0\""
     },
     "data": "{\"id\":1,\"name\":\"swarm\",\"names\":[{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Essaim\"},{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"Schwarm\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Swarm\"}],\"values\":[{\"name\":\"swarm-yes\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/1\/\"},{\"name\":\"swarm-no\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/2\/\"}]}"
 }

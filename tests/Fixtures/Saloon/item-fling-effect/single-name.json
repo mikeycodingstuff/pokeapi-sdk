@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 20:49:28 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:25 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "234",
         "Connection": "keep-alive",
@@ -18,14 +18,15 @@
         "x-timer": "S1734258773.357517,VS0,VE99",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
+        "CF-Cache-Status": "HIT",
+        "Age": "12477",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=F8mAFtad1l6AtR%2Bkx8tRGNpu%2BJPF0wvQVjrrqb616ZxDegE8r0NEKdxhHmbCttQF8VgS8jB66Km0%2FmWDjTbXf1JfvWQBT4pciEsQm7zD6qh3hUR4w4NO7V8DWTQiRWcPzB9daKIuv9Me\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=gZHv5DzgsVLlgAdKyQ104t0wT3pbLeHNj5b726lxjdQaYwrNlD4gfcon%2FNiw419XRKyRNa6%2BLLGp05yGomqMs2ZgYWeisHBTaQjMxwz%2BfldsQY%2B30Im7g1C4z8ND9ZUtW%2BVUfA6BhZ4%2F\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f39c7a7df24650f-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13659&min_rtt=12172&rtt_var=4303&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2836&recv_bytes=776&delivery_rate=287747&cwnd=246&unsent_bytes=0&cid=571673599bad96dd&ts=651&x=0\""
+        "CF-RAY": "8f3af8436c0b94ae-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13926&min_rtt=13576&rtt_var=5341&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=776&delivery_rate=297878&cwnd=252&unsent_bytes=0&cid=70712830cec8c49d&ts=28&x=0\""
     },
     "data": "{\"effect_entries\":[{\"effect\":\"Badly poisons the target.\",\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"}}],\"id\":1,\"items\":[{\"name\":\"toxic-orb\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/249\/\"}],\"name\":\"badly-poison\"}"
 }

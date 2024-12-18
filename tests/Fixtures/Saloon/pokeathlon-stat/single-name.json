@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Tue, 17 Dec 2024 23:43:28 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:28 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -18,13 +18,14 @@
         "x-timer": "S1734479008.482474,VS0,VE136",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "MISS",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=Y4BPDIeCNwPJ1oGJ1qipchQ1xOSEnZCQOfitc9ZHrHAYg3OgbCy%2BmaZxDgVxAVQL5gr0u9aoblj7VBHEy41C2%2Bx7fkaQ94KYEJwLc7q96B5%2Fxu5k4j5xuQpndor1Dq6OUx9MRIDmCUKi\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "2040",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=KkiZIf4y7TjPKj%2B4HEOggswjK2f9hdSw%2BuBoezBJ2Q5IfNR%2BruioLenCD9kc%2B9A40kbB8sjErnJE04Nf0BZLKVzmFWd62kbDoWGtI5Mqxau0PUJLP7de78iHX%2B2XIYh5PYjgriKqBtvT\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3ac68a3d0463ce-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13953&min_rtt=13722&rtt_var=5311&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=767&delivery_rate=294709&cwnd=253&unsent_bytes=0&cid=c3100ebb2b606639&ts=338&x=0\""
+        "CF-RAY": "8f3af858aa5f48b1-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13956&min_rtt=13697&rtt_var=5322&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=767&delivery_rate=295247&cwnd=211&unsent_bytes=0&cid=77e0e506abfd6312&ts=35&x=0\""
     },
     "data": "{\"affecting_natures\":{\"decrease\":[{\"max_change\":-1,\"nature\":{\"name\":\"hardy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/1\/\"}},{\"max_change\":-2,\"nature\":{\"name\":\"bold\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/2\/\"}},{\"max_change\":-2,\"nature\":{\"name\":\"modest\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/3\/\"}},{\"max_change\":-2,\"nature\":{\"name\":\"calm\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/4\/\"}},{\"max_change\":-1,\"nature\":{\"name\":\"bashful\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/13\/\"}},{\"max_change\":-2,\"nature\":{\"name\":\"lax\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/18\/\"}},{\"max_change\":-2,\"nature\":{\"name\":\"brave\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/21\/\"}},{\"max_change\":-2,\"nature\":{\"name\":\"relaxed\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/22\/\"}},{\"max_change\":-2,\"nature\":{\"name\":\"quiet\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/23\/\"}},{\"max_change\":-2,\"nature\":{\"name\":\"sassy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/24\/\"}}],\"increase\":[{\"max_change\":2,\"nature\":{\"name\":\"timid\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/5\/\"}},{\"max_change\":2,\"nature\":{\"name\":\"lonely\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/6\/\"}},{\"max_change\":2,\"nature\":{\"name\":\"gentle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/9\/\"}},{\"max_change\":2,\"nature\":{\"name\":\"hasty\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/10\/\"}},{\"max_change\":2,\"nature\":{\"name\":\"adamant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/11\/\"}},{\"max_change\":2,\"nature\":{\"name\":\"jolly\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/16\/\"}},{\"max_change\":2,\"nature\":{\"name\":\"naughty\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/17\/\"}},{\"max_change\":1,\"nature\":{\"name\":\"quirky\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/19\/\"}},{\"max_change\":2,\"nature\":{\"name\":\"naive\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/20\/\"}},{\"max_change\":1,\"nature\":{\"name\":\"serious\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/nature\/25\/\"}}]},\"id\":1,\"name\":\"speed\",\"names\":[{\"language\":{\"name\":\"ja-Hrkt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/1\/\"},\"name\":\"\u30b9\u30d4\u30fc\u30c9\"},{\"language\":{\"name\":\"zh-Hant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/4\/\"},\"name\":\"\u901f\u5ea6\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Vitesse\"},{\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"},\"name\":\"Velocidad\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Speed\"},{\"language\":{\"name\":\"zh-Hans\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/12\/\"},\"name\":\"\u901f\u5ea6\"}]}"
 }

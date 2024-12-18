@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:16:26 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:33 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -20,12 +20,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=kz7gaSvpIizGx0O1z2Jyc1MdpBdqWiZCvUGuywkUwGKT2UGJBq6NxiCAEhs%2Bp%2Fy6y%2FRD9iHTuvSbMvOvo6yArqz5ubOCryHZU4392MvF1ZUPe%2BZ5S3w%2BdS1X4DE9dhIrH0LOvlE1tWV3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "67",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=deolETVBUesZ2%2BWtDe4boPKHHlwOC6swuUvTo9EJnNugRY8R4DNv5E1qm8pFN3HiFnR%2FRHRfwZKXSaNhQHglW8v2zkQNaN9L2RLFN0%2Fb56yHOxpplw7A7fnEgDE07qyxe%2BzY4wkDMEtJ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af6d359a3d188-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14053&min_rtt=13994&rtt_var=5366&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=757&delivery_rate=279474&cwnd=250&unsent_bytes=0&cid=594521e1df9d1cdb&ts=507&x=0\""
+        "CF-RAY": "8f3af875dd816418-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13986&min_rtt=13902&rtt_var=5273&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=757&delivery_rate=290893&cwnd=253&unsent_bytes=0&cid=fb0ff0bf573d2e2d&ts=31&x=0\""
     },
     "data": "{\"id\":1,\"name\":\"red\",\"names\":[{\"language\":{\"name\":\"ja-Hrkt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/1\/\"},\"name\":\"\u8d64\"},{\"language\":{\"name\":\"ko\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/3\/\"},\"name\":\"\ub808\ub4dc\"},{\"language\":{\"name\":\"zh-Hant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/4\/\"},\"name\":\"\u7d05\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Rouge\"},{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"Rot\"},{\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"},\"name\":\"Rojo\"},{\"language\":{\"name\":\"it\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/8\/\"},\"name\":\"Rossa\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Red\"},{\"language\":{\"name\":\"zh-Hans\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/12\/\"},\"name\":\"\u7d05\"}],\"version_group\":{\"name\":\"red-blue\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/1\/\"}}"
 }

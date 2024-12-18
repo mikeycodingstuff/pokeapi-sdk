@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:11:11 GMT",
+        "Date": "Wed, 18 Dec 2024 00:17:32 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -18,13 +18,14 @@
         "x-timer": "S1734366145.037067,VS0,VE107",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=SwxK14RCke3uuyCDL9vbZlKmIDxR%2FqoZGSzhous3%2FtRJVBoupQ%2B%2FTJ%2FYjAWxlS6%2FYP4G6%2FKffFWwFlTy6Kgbr6A8HC2jxTFo%2FwQYL%2BKkb3B2Hm7EV8r17VxXHR8D83BfB%2FQ4r32oL6Gm\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "381",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=plgewaADqpJ9kmIQ8i8euXjgTPvAwlGyqGk2FtOKz0bszqHvXzNRgpnjlApqqtrxNFv6ddkhbsfoolmjm2uOCgiBn0cWUJutNodKDqG9c7Z2BBJUf2acVZOW3sjWku3ZvdPI6UgW3YMx\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3aef218a2e9586-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13942&min_rtt=13542&rtt_var=5364&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=766&delivery_rate=298626&cwnd=252&unsent_bytes=0&cid=4632390b4ce68d56&ts=408&x=0\""
+        "CF-RAY": "8f3af8707f9fed0b-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14135&min_rtt=14002&rtt_var=4170&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=766&delivery_rate=277442&cwnd=244&unsent_bytes=0&cid=e81e7783a2bc3f7d&ts=26&x=0\""
     },
     "data": "{\"count\":22,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect?offset=20&limit=2\",\"previous\":null,\"results\":[{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/1\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/2\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/4\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/5\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/6\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/7\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/8\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/9\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/10\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/11\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/12\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/13\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/14\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/15\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/16\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/17\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/18\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/19\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/20\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/super-contest-effect\/21\/\"}]}"
 }
