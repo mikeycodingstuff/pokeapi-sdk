@@ -50,6 +50,8 @@ use PokeApiSdk\Resources\SpeciesResource;
 use PokeApiSdk\Resources\StatResource;
 use PokeApiSdk\Resources\SuperContestEffectResource;
 use PokeApiSdk\Resources\TypeResource;
+use PokeApiSdk\Resources\VersionGroupResource;
+use PokeApiSdk\Resources\VersionResource;
 use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Connector;
 
@@ -298,5 +300,15 @@ class PokeApi extends Connector
     public function type(): TypeResource
     {
         return new TypeResource($this);
+    }
+
+    public function version(): VersionResource
+    {
+        return new VersionResource($this);
+    }
+
+    public function versionGroup(): VersionGroupResource
+    {
+        return new VersionGroupResource($this);
     }
 }

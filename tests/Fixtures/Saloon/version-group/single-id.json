@@ -1,0 +1,32 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Wed, 18 Dec 2024 00:16:25 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "666",
+        "Connection": "keep-alive",
+        "cache-control": "public, max-age=86400, s-maxage=86400",
+        "etag": "W\/\"29a-gDmr8auGTz0fW6TIHoxQt4z\/IpU\"",
+        "function-execution-id": "kw1l5veoo5xp",
+        "strict-transport-security": "max-age=31556926",
+        "x-cloud-trace-context": "b4580d8ba7d62f75038a0e7327006e8b",
+        "x-country-code": "US",
+        "x-powered-by": "Express",
+        "x-served-by": "cache-mia-kmia1760036-MIA",
+        "x-cache": "HIT",
+        "x-cache-hits": "0",
+        "x-timer": "S1734366145.511121,VS0,VE119",
+        "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "CF-Cache-Status": "HIT",
+        "Age": "10",
+        "Accept-Ranges": "bytes",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=fwQxN8%2BVFDnCqZJjZpV3cg7HVinzuP%2FhxTCzDDdpOBgNrtKjFPwlO7j4gnV9SOR7fn%2BcI%2BYEJ6eAW3A%2FK9oBrXmZVXIwxu04xFZwqG0gJkxoB6ly1WKQ3RKSqZ2XYtZ6WEClHQPXDhfj\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare",
+        "CF-RAY": "8f3af6cc5cf4491c-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14156&min_rtt=14128&rtt_var=5355&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=761&delivery_rate=281654&cwnd=243&unsent_bytes=0&cid=fbd57e35444ce000&ts=34&x=0\""
+    },
+    "data": "{\"generation\":{\"name\":\"generation-i\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/1\/\"},\"id\":1,\"move_learn_methods\":[{\"name\":\"level-up\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/1\/\"},{\"name\":\"machine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/4\/\"},{\"name\":\"stadium-surfing-pikachu\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/5\/\"}],\"name\":\"red-blue\",\"order\":1,\"pokedexes\":[{\"name\":\"kanto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/2\/\"}],\"regions\":[{\"name\":\"kanto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/region\/1\/\"}],\"versions\":[{\"name\":\"red\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version\/1\/\"},{\"name\":\"blue\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version\/2\/\"}]}"
+}
