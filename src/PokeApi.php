@@ -45,7 +45,9 @@ use PokeApiSdk\Resources\PokemonFormResource;
 use PokeApiSdk\Resources\PokemonHabitatResource;
 use PokeApiSdk\Resources\PokemonResource;
 use PokeApiSdk\Resources\PokemonShapeResource;
+use PokeApiSdk\Resources\RegionResource;
 use PokeApiSdk\Resources\SpeciesResource;
+use PokeApiSdk\Resources\StatResource;
 use PokeApiSdk\Resources\TypeResource;
 use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Connector;
@@ -272,9 +274,19 @@ class PokeApi extends Connector
         return new PokemonShapeResource($this);
     }
 
+    public function region(): RegionResource
+    {
+        return new RegionResource($this);
+    }
+
     public function species(): SpeciesResource
     {
         return new SpeciesResource($this);
+    }
+
+    public function stat(): StatResource
+    {
+        return new StatResource($this);
     }
 
     public function type(): TypeResource
