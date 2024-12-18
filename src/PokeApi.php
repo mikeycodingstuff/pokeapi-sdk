@@ -48,6 +48,7 @@ use PokeApiSdk\Resources\PokemonShapeResource;
 use PokeApiSdk\Resources\RegionResource;
 use PokeApiSdk\Resources\SpeciesResource;
 use PokeApiSdk\Resources\StatResource;
+use PokeApiSdk\Resources\SuperContestEffectResource;
 use PokeApiSdk\Resources\TypeResource;
 use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Connector;
@@ -287,6 +288,11 @@ class PokeApi extends Connector
     public function stat(): StatResource
     {
         return new StatResource($this);
+    }
+
+    public function superContestEffect(): SuperContestEffectResource
+    {
+        return new SuperContestEffectResource($this);
     }
 
     public function type(): TypeResource
