@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:15 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:35 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,14 @@
         "x-timer": "S1733777180.668873,VS0,VE2",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=MkTs456cMkoxMQpOJ71vUnz8Y9MxxkNmNmlH1q17BfFaqTf41H9Y5GM69BselGyHgjH0ldysj3hlYArIrvWmoqc%2BfmBuwrvbPCXi0lTwMijcjLcMBZixzJUcFD%2FaNWKmOr%2FjJCnFI9XW\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "81680",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=lSmia%2F57G6LjNhR0%2BdeWppKyW7BM8AKagS9m0C5qawYwf8dneTaRP%2BnzJ7Dr2z7R6iW9hatLrCyRHZLffKjPMdPPcTVse9ILFGcpNnjoMrsBqn%2FCeD27a45AmenRPn6y5Ev3ddsxQ%2BVD\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af8019882419d-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13609&min_rtt=12510&rtt_var=5476&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=773&delivery_rate=323261&cwnd=252&unsent_bytes=0&cid=664fd5f2db4d17df&ts=629&x=0\""
+        "CF-RAY": "8f42c22c49973694-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13753&min_rtt=13511&rtt_var=4013&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=773&delivery_rate=299023&cwnd=252&unsent_bytes=0&cid=87cb3f800fda269e&ts=32&x=0\""
     },
     "data": "{\"condition\":{\"name\":\"swarm\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/1\/\"},\"id\":1,\"name\":\"swarm-yes\",\"names\":[{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"W\u00e4hrend eines Schwarms\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"During a swarm\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Pendant une temp\u00eate\"}]}"
 }

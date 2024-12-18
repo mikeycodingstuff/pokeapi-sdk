@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:26 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:47 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "4063",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=9u%2FSLy9c7mDM5KjmxCroy6PFQOFDO6RSyytdPbOxT1zhuvSsg16ZKSb%2BR9DVngZXgcrBai1DcRBPBleNEUWHGIDY08fUq9OC2mSe65Za35u5bIdYDzhZ4sCP827k7%2FWFFxw%2FHZn3n7uP\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "85744",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=M%2BQop5T6PVtRmlipeqDyYHa%2FIF5yWQ0e%2FcJlPH3P3%2BAeKGaIpFIVrkgyuC%2Bv40czDTIGONYwlHT3uGDLtejV7t9F0I2U7S0bsrYhayK0Zxpp8Z%2FYqMY4UGTkS8PX5AuXD%2BgmB%2BmgR7uA\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af84c9de163dd-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13963&min_rtt=13956&rtt_var=5239&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=753&delivery_rate=289767&cwnd=251&unsent_bytes=0&cid=3cf59e3fd55f32c2&ts=43&x=0\""
+        "CF-RAY": "8f42c2748d2393f8-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13795&min_rtt=12638&rtt_var=5566&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=753&delivery_rate=319987&cwnd=252&unsent_bytes=0&cid=a980f43d7eab4dbf&ts=34&x=0\""
     },
     "data": "{\"count\":2102,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/machine?offset=20&limit=20\",\"previous\":null,\"results\":[{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/1\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/2\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/3\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/4\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/5\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/6\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/7\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/8\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/9\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/10\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/11\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/12\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/13\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/14\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/15\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/16\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/17\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/18\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/19\/\"},{\"url\":\"https:\/\/pokeapi.co\/api\/v2\/machine\/20\/\"}]}"
 }

@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:25 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:45 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,14 +19,13 @@
         "x-timer": "S1734472029.096401,VS0,VE94",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "HIT",
-        "Age": "9016",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=t95atjCgn%2BlVYueUPQpyip0ICOIu8F8DDpCyCdtjd%2BIiLoNsTfKsABQd5uDYioCxS869m%2BCHchHcK9xeToqUCv0pRrJQ%2B3Rdehiu0rUz5r%2F3iXFVN01jE3dzTlCRnqEsRXGrCZj2Yiq4\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "REVALIDATED",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=c%2BBHJoXMxthZznkvcvG2Jowf3OHgiVU6sXgkpFyIOa%2FIJNcCIkUJ4rXddr3Bkn7OmCsklAH6aoFSVuVxrR9sBSDeCyCdkuGjYZMMXRDfzyaXmmjcZmriF8BomQVkAGsrAseYxSQYcgRS\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af8484b3dd1fb-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13989&min_rtt=13919&rtt_var=5269&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=756&delivery_rate=290538&cwnd=252&unsent_bytes=0&cid=ecc7d80ed48ed342&ts=32&x=0\""
+        "CF-RAY": "8f42c2698a11419b-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14025&min_rtt=13927&rtt_var=5293&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=756&delivery_rate=290371&cwnd=252&unsent_bytes=0&cid=a14e0a05fee14201&ts=286&x=0\""
     },
     "data": "{\"id\":1,\"iso3166\":\"jp\",\"iso639\":\"ja\",\"name\":\"ja-Hrkt\",\"names\":[{\"language\":{\"name\":\"ja-Hrkt\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/1\/\"},\"name\":\"\u65e5\u672c\u8a9e\"},{\"language\":{\"name\":\"ko\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/3\/\"},\"name\":\"\uc77c\ubcf8\uc5b4\"},{\"language\":{\"name\":\"fr\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/5\/\"},\"name\":\"Japonais\"},{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"Japanisch\"},{\"language\":{\"name\":\"es\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/7\/\"},\"name\":\"Japon\u00e9s\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Japanese\"}],\"official\":true}"
 }

@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:27 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:48 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "2709",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=5IrtWnJaDHiDHyV9NATrcfoWHAHaMo3uaC6RELEew0DCreRh5p3ycxgtuH4eSaWxnxBC2pQyHsKlHPYj5pY2QZ6n4XXCt2pGXhHmG3fxfprKrq%2Fp0ZALXCGago7vEWK0pS7p5D0ZpROA\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "84390",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=WJmdyFg4d0IVangxErEORSTohFKl19e2H%2BRVCRLcEqU26ajaTWMErDa%2B%2FVF%2FxrmCZcgZgb5i32zghNzMmw9vIHY%2FJXKGPGGfDn1a01xZS%2FCVH2vXnrhFSUv5aodfnAxEcQEjqzGHCvM3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af853a9206359-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13949&min_rtt=12750&rtt_var=4394&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2838&recv_bytes=771&delivery_rate=274299&cwnd=251&unsent_bytes=0&cid=b831f6f4f8189023&ts=32&x=0\""
+        "CF-RAY": "8f42c27e4e20e913-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13669&min_rtt=12495&rtt_var=5524&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=771&delivery_rate=323649&cwnd=253&unsent_bytes=0&cid=2d3b1aabdfc66499&ts=32&x=0\""
     },
     "data": "{\"descriptions\":[{\"description\":\"Eine spezifische F\u00e4higkeit.  Wie diese F\u00e4higkeit genutzt wird h\u00e4ngt von den genutzten F\u00e4higkeiten ab.\",\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"}},{\"description\":\"One specific move.  How this move is chosen depends upon on the move being used.\",\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"}}],\"id\":1,\"moves\":[{\"name\":\"counter\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/68\/\"},{\"name\":\"curse\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/174\/\"},{\"name\":\"mirror-coat\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/243\/\"},{\"name\":\"metal-burst\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/368\/\"},{\"name\":\"comeuppance\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move\/894\/\"}],\"name\":\"specific-move\",\"names\":[{\"language\":{\"name\":\"de\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/6\/\"},\"name\":\"Spezifische F\u00e4higkeit\"},{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Specific move\"}]}"
 }

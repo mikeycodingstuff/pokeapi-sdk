@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:30 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:50 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -20,12 +20,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=VxLIDKQiG4VTBMdWwZFrCKaWusOwMvu7h1CaiXWJlWacfOG24LYMBotuxlmpDGUwMx8v%2Bhs8KSJeFqmkpUyDL6ga6CiWAgUh9e2K40wBvL8NkUt8TZcazn5xaGN2dUW9JDSb2fdPt6D9\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "81680",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=tDXiFXDmnSSf%2FYlMGMfKKNM9m%2BIpRCKN7Mf5ehG8T%2FsoiK09QjWDYYaKnLpSawgfvP4ZdHk4Utoo73gZR%2BcjdLUOkF98gVSDcVQroTzcic%2BUxRDKS1N1%2BCnjW13llZF%2B03JbDtIjaRuD\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af860ada6eef6-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13934&min_rtt=13017&rtt_var=5536&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=753&delivery_rate=310670&cwnd=252&unsent_bytes=0&cid=a5973014c05b1de7&ts=493&x=0\""
+        "CF-RAY": "8f42c28aefeabedf-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13992&min_rtt=13980&rtt_var=5267&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=753&delivery_rate=287256&cwnd=252&unsent_bytes=0&cid=5eb9042d5bc4891e&ts=32&x=0\""
     },
     "data": "{\"count\":32,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex?offset=20&limit=12\",\"previous\":null,\"results\":[{\"name\":\"national\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/1\/\"},{\"name\":\"kanto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/2\/\"},{\"name\":\"original-johto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/3\/\"},{\"name\":\"hoenn\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/4\/\"},{\"name\":\"original-sinnoh\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/5\/\"},{\"name\":\"extended-sinnoh\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/6\/\"},{\"name\":\"updated-johto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/7\/\"},{\"name\":\"original-unova\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/8\/\"},{\"name\":\"updated-unova\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/9\/\"},{\"name\":\"conquest-gallery\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/11\/\"},{\"name\":\"kalos-central\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/12\/\"},{\"name\":\"kalos-coastal\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/13\/\"},{\"name\":\"kalos-mountain\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/14\/\"},{\"name\":\"updated-hoenn\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/15\/\"},{\"name\":\"original-alola\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/16\/\"},{\"name\":\"original-melemele\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/17\/\"},{\"name\":\"original-akala\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/18\/\"},{\"name\":\"original-ulaula\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/19\/\"},{\"name\":\"original-poni\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/20\/\"},{\"name\":\"updated-alola\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/21\/\"}]}"
 }

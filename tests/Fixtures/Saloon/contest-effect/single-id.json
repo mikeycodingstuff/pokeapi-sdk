@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:08 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:34 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "327",
         "Connection": "keep-alive",
@@ -19,13 +19,14 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
+        "Age": "81686",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=1VDIug2P88YkupHKWttu27Bi%2FcjOmaEwTqNt6hIUThZ9OglGNhGpupxHtVu3WG0RtxyrvGYQu9ialDaWpAI2%2BRGKhtBwoUUAekxf1G5PS4ozfuISDtyBCjATdoh62GJjfcynqvWjJ4N3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=c%2BIe2hMFkXQiDWI2kAN0worNWd92yTLz%2FQKfk484iU1R42sewgSdkN5NrR5bg2QNLpbcfOptRgGOrKsVww2whdBrKk6I6QuRcRWdDL1YkJDjNJRhC2PS%2FhEX3GZXxoGuAWsb98I2TrGr\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af7d9d98848b7-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13928&min_rtt=13851&rtt_var=5249&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=762&delivery_rate=291964&cwnd=216&unsent_bytes=0&cid=8507a969db84d2d9&ts=495&x=0\""
+        "CF-RAY": "8f42c2261d8dbd7f-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14190&min_rtt=14162&rtt_var=5331&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=762&delivery_rate=285552&cwnd=246&unsent_bytes=0&cid=f13fbf887a6c918c&ts=36&x=0\""
     },
     "data": "{\"appeal\":4,\"effect_entries\":[{\"effect\":\"Gives a high number of appeal points wth no other effects.\",\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"}}],\"flavor_text_entries\":[{\"flavor_text\":\"A highly appealing move.\",\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"}}],\"id\":1,\"jam\":0}"
 }

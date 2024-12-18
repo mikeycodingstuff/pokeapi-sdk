@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:25 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:43 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "579",
         "Connection": "keep-alive",
@@ -18,15 +18,14 @@
         "x-timer": "S1733881666.705982,VS0,VE293",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "HIT",
-        "Age": "12476",
+        "CF-Cache-Status": "REVALIDATED",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=2sErqMQoAB5fmWF6J0gR2OheXYe04yfiGoKrQ3ByZbwhokCNg1hc19KjrD4N%2B0Y39SHKUO%2B1VZNfpDdYFUlIihM0r%2BBno2OvlM6qWrllqlwGpmwNxubH%2BnNkGWaI%2F0MQtF5vsq2U5jw4\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=%2FAAxb0irKluwrUjJ6bmzE%2B6yCeXWeQK%2B0%2Ftt1eG%2Ftr05W8kgUmR5PqCoyxxGIiJ8B8c6Z8NrnmRNAWAOxLyOpoCTSfpogTqKd4%2FAS2aq4i1wD77C5ru70yHFt1z6z7WbrKxeig02jebW\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af843c9cd45a0-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13965&min_rtt=13752&rtt_var=5309&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=763&delivery_rate=294066&cwnd=252&unsent_bytes=0&cid=93b8bba1be358089&ts=37&x=0\""
+        "CF-RAY": "8f42c259affc6427-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13721&min_rtt=12865&rtt_var=5436&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=763&delivery_rate=314341&cwnd=253&unsent_bytes=0&cid=bc4b9a61cd982527&ts=360&x=0\""
     },
     "data": "{\"count\":7,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"badly-poison\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-fling-effect\/1\/\"},{\"name\":\"burn\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-fling-effect\/2\/\"},{\"name\":\"berry-effect\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-fling-effect\/3\/\"},{\"name\":\"herb-effect\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-fling-effect\/4\/\"},{\"name\":\"paralyze\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-fling-effect\/5\/\"},{\"name\":\"poison\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-fling-effect\/6\/\"},{\"name\":\"flinch\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-fling-effect\/7\/\"}]}"
 }

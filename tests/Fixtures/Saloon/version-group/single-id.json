@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:32 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:54 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "666",
         "Connection": "keep-alive",
@@ -19,14 +19,14 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "77",
+        "Age": "81759",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=15hdzKIugtHRtsoOOtAXAKKS%2BmcaqwzvTsIcian8BegggB9hycljfqryJoslzPk2jIEpiOfZStLxsu4ePuhvfSAvQ5SmHZz6OmV6AbIBEz3mykAa5ER7UgLCeb%2BG0vBLiegPhT59ipU7\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=p%2FCWz5t1SzgYpDN202TJeAs9L5lh6dmtSfObbvyXDLZYpq43lfEcwInmWrQnjXryaDbH58eBENFbWS9613KxLM92x2eSUBRU0q5ZwpWJrVlN%2B3FqJ2rSkZ1ASBMxFbNUnuxVvUzgCQHj\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af8744dca6554-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13795&min_rtt=12487&rtt_var=4363&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=761&delivery_rate=278646&cwnd=250&unsent_bytes=0&cid=a42f346c732b7ee6&ts=28&x=0\""
+        "CF-RAY": "8f42c2a3a90f79c1-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13820&min_rtt=12635&rtt_var=5585&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=761&delivery_rate=320063&cwnd=251&unsent_bytes=0&cid=30411419e615ac7d&ts=30&x=0\""
     },
     "data": "{\"generation\":{\"name\":\"generation-i\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/generation\/1\/\"},\"id\":1,\"move_learn_methods\":[{\"name\":\"level-up\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/1\/\"},{\"name\":\"machine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/4\/\"},{\"name\":\"stadium-surfing-pikachu\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-learn-method\/5\/\"}],\"name\":\"red-blue\",\"order\":1,\"pokedexes\":[{\"name\":\"kanto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokedex\/2\/\"}],\"regions\":[{\"name\":\"kanto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/region\/1\/\"}],\"versions\":[{\"name\":\"red\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version\/1\/\"},{\"name\":\"blue\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version\/2\/\"}]}"
 }

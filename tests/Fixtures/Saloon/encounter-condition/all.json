@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:14 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:35 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,14 @@
         "x-timer": "S1734194319.835799,VS0,VE1162",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=SlYzw5g9ijGQuH5u7dEic5cibu%2FPQRK4t9zIvXCdxsmMQ%2Blwkp2SpY1vEJLdlq3j0EE7JAIOaol1AAdI5E%2BV0NyR6FZxFEKtLWJO%2FwjWFFzy1agl5LRFe3cctdKQmcWdx0SACGyqt%2BP7\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "81681",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=wFR%2BMnrnLsp31GVrZgj3hog8yf3Mx35nGmjiAxCGrY%2BOBafN%2FWbKgTbot1hUmtFRymWxs%2BWyL2tOsnQGvfpWjdh3fd5pgY3aIJPupNvPP81Y4ehY3J6sq1LSgxwujeJpGQEzn%2FPHSqSm\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af7fd2d3d632e-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14023&min_rtt=14005&rtt_var=5289&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=765&delivery_rate=285673&cwnd=249&unsent_bytes=0&cid=d8b3c0bd247ab388&ts=615&x=0\""
+        "CF-RAY": "8f42c22bcd4163e6-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13850&min_rtt=12670&rtt_var=5594&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=765&delivery_rate=319179&cwnd=252&unsent_bytes=0&cid=8bf3ad370324daa4&ts=36&x=0\""
     },
     "data": "{\"count\":13,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"swarm\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/1\/\"},{\"name\":\"time\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/2\/\"},{\"name\":\"radar\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/3\/\"},{\"name\":\"slot2\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/4\/\"},{\"name\":\"radio\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/5\/\"},{\"name\":\"season\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/6\/\"},{\"name\":\"starter\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/7\/\"},{\"name\":\"tv-option\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/8\/\"},{\"name\":\"story-progress\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/9\/\"},{\"name\":\"other\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/10\/\"},{\"name\":\"item\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/11\/\"},{\"name\":\"weekday\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/12\/\"},{\"name\":\"first-party-pokemon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/encounter-condition\/13\/\"}]}"
 }

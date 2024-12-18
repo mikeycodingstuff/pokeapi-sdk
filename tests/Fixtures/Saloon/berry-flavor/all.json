@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:05 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:33 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "384",
         "Connection": "keep-alive",
@@ -18,14 +18,15 @@
         "x-timer": "S1734296965.234191,VS0,VE100",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
+        "CF-Cache-Status": "HIT",
+        "Age": "81688",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=9i6x73QMWAJxFf1gh8HOMieBweytIVIdugfAXFI8odYfck2DJ48ouMHR8%2F4iimzWpAQe%2BmB8M1Jqgjy6Byg%2BNg3K9vHtiOcT6XikWnp8jhSJABUids31e4o6%2FcNUA9MixJj0gwX6ypVw\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=9yTVzyP2xDBz%2BOXC8yshBssThwHzOVqAQQHpVuJp9%2BoY2MpKjqd2yp%2FrGjN0cQupjDBlngytuK6nJR6Ov6yl8pdk2DXsKaxwmB7RRvRoeWIV5vjud9c8fjjMJEuWSUWjXnCHRO00rYYc\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af7c75bec94ff-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14076&min_rtt=13972&rtt_var=5448&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=758&delivery_rate=273132&cwnd=251&unsent_bytes=0&cid=7736baac0f6c6f4a&ts=713&x=0\""
+        "CF-RAY": "8f42c220fd99ede3-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13924&min_rtt=12886&rtt_var=4411&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2836&recv_bytes=758&delivery_rate=269151&cwnd=252&unsent_bytes=0&cid=eece29da516dd684&ts=28&x=0\""
     },
     "data": "{\"count\":5,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"spicy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/1\/\"},{\"name\":\"dry\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/2\/\"},{\"name\":\"sweet\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/3\/\"},{\"name\":\"bitter\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/4\/\"},{\"name\":\"sour\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry-flavor\/5\/\"}]}"
 }

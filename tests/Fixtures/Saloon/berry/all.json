@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:06 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:34 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,12 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "17663",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=61NVtKH2J9sCU6dLZq15Sa7KketiHaesNlwRDD%2FJemC%2FkN6yoAu2zor06k5SDlnCqQ94sCqpIt%2BoxR6KIEJY6LMjx0U%2FBwdBf5eyis%2F4MGfTsF9CKT4g%2B3vPvqUCKbWnGBS19vWtD6ao\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=boCUDhehae5q%2FmE7o7BMgnyyRBd2%2B1cZCrraQTgpzAhsVtdN3Wl7P5zlpeDiIvRhmSz%2Fp4R%2BBPMaiJ2DbPeFNrlJlXmACPuuVGQ7PclOK6SwJVBrVob7eIM3iBnMwr9WRso79D0Ex9zV\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af7d19a7a9466-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13954&min_rtt=13886&rtt_var=5344&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=751&delivery_rate=280133&cwnd=251&unsent_bytes=0&cid=5018ecd04c5c4019&ts=41&x=0\""
+        "CF-RAY": "8f42c2223a77ef44-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13998&min_rtt=12753&rtt_var=5671&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=751&delivery_rate=317101&cwnd=252&unsent_bytes=0&cid=e0749bc343588e64&ts=356&x=0\""
     },
     "data": "{\"count\":64,\"next\":\"https:\/\/pokeapi.co\/api\/v2\/berry?offset=20&limit=20\",\"previous\":null,\"results\":[{\"name\":\"cheri\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/1\/\"},{\"name\":\"chesto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/2\/\"},{\"name\":\"pecha\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/3\/\"},{\"name\":\"rawst\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/4\/\"},{\"name\":\"aspear\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/5\/\"},{\"name\":\"leppa\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/6\/\"},{\"name\":\"oran\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/7\/\"},{\"name\":\"persim\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/8\/\"},{\"name\":\"lum\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/9\/\"},{\"name\":\"sitrus\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/10\/\"},{\"name\":\"figy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/11\/\"},{\"name\":\"wiki\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/12\/\"},{\"name\":\"mago\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/13\/\"},{\"name\":\"aguav\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/14\/\"},{\"name\":\"iapapa\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/15\/\"},{\"name\":\"razz\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/16\/\"},{\"name\":\"bluk\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/17\/\"},{\"name\":\"nanab\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/18\/\"},{\"name\":\"wepear\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/19\/\"},{\"name\":\"pinap\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/berry\/20\/\"}]}"
 }

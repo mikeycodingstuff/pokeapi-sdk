@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:24 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:41 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,14 +19,13 @@
         "x-timer": "S1734194317.565800,VS0,VE2",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "HIT",
-        "Age": "12697",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=ozMh5zctwZx9EC%2BDNJ0bkyn67hx3S8oxjjC37mELmg4WkG1NE7Zu9rdDQDbhAe%2FNbaE3TS6HEAMIjqjP9pLfbKS45yWiTyupnY4SJhw8IgQGyGrXAG17nMte11RRPmcLIwhUunUGxXOx\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "REVALIDATED",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=ppuP4zjaridOm2uTdWKN3%2FRVgT4LIb0lgUjAxtvDv4%2FkyiqNdGNvkVu8JBSNdzy5%2FFIxBhtzdI%2Fp6LpkJ%2Fxmt9FHp5NGYHy4EdcvES0FmxaWZfoPvmA7yYQB8GbLu8WJotgWRiDx8QMs\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af8419a41640a-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14073&min_rtt=13684&rtt_var=5409&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=761&delivery_rate=295527&cwnd=253&unsent_bytes=0&cid=eb047fc5da7daaa2&ts=42&x=0\""
+        "CF-RAY": "8f42c24d89b363d3-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13912&min_rtt=13562&rtt_var=5335&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=761&delivery_rate=298186&cwnd=243&unsent_bytes=0&cid=1e8a63d741b8324d&ts=272&x=0\""
     },
     "data": "{\"id\":1,\"items\":[{\"name\":\"guard-spec\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/55\/\"},{\"name\":\"dire-hit\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/56\/\"},{\"name\":\"x-attack\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/57\/\"},{\"name\":\"x-defense\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/58\/\"},{\"name\":\"x-speed\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/59\/\"},{\"name\":\"x-accuracy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/60\/\"},{\"name\":\"x-sp-atk\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/61\/\"},{\"name\":\"x-sp-def\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/62\/\"},{\"name\":\"max-mushrooms\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item\/1631\/\"}],\"name\":\"stat-boosts\",\"names\":[{\"language\":{\"name\":\"en\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/language\/9\/\"},\"name\":\"Stat boosts\"}],\"pocket\":{\"name\":\"battle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/7\/\"}}"
 }

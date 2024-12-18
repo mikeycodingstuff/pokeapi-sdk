@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:27 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:48 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -19,13 +19,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "2708",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=d2GTgpl3Xgry7svUEH3eY13UJ2Do5NQ756b6bClOod3k9kiEbkTFMvNOFF6060V3RbcgM%2F7JhU%2Fh%2FqWh0PTuixfQp6iqwutG4NS7DY6GRjeoEcINyKpOefka9JJV%2FmqzlWWaFBuEPsvo\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "84389",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=u6C9Eo2Fq%2ByuAtMq8lUwcMH9nUKNNQRH%2B1Ib64cXVDgZ1HQW0jl0xdXS4gEAPAEShrHKIidhu%2FJNKdYU6Ob1Sf7lqQ%2FyXwjzUTSS6qlklpwwlnOkU0hgV3noFsV6meZWIR2sP7lErrDQ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af8540b49f668-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13931&min_rtt=12650&rtt_var=5659&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=757&delivery_rate=319683&cwnd=253&unsent_bytes=0&cid=cc1a09dff04e9a9b&ts=27&x=0\""
+        "CF-RAY": "8f42c27ebf58e8fe-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13877&min_rtt=12618&rtt_var=5631&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=757&delivery_rate=320494&cwnd=252&unsent_bytes=0&cid=4a5e874c206fcb56&ts=37&x=0\""
     },
     "data": "{\"count\":16,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"specific-move\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/1\/\"},{\"name\":\"selected-pokemon-me-first\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/2\/\"},{\"name\":\"ally\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/3\/\"},{\"name\":\"users-field\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/4\/\"},{\"name\":\"user-or-ally\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/5\/\"},{\"name\":\"opponents-field\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/6\/\"},{\"name\":\"user\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/7\/\"},{\"name\":\"random-opponent\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/8\/\"},{\"name\":\"all-other-pokemon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/9\/\"},{\"name\":\"selected-pokemon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/10\/\"},{\"name\":\"all-opponents\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/11\/\"},{\"name\":\"entire-field\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/12\/\"},{\"name\":\"user-and-allies\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/13\/\"},{\"name\":\"all-pokemon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/14\/\"},{\"name\":\"all-allies\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/15\/\"},{\"name\":\"fainting-pokemon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-target\/16\/\"}]}"
 }

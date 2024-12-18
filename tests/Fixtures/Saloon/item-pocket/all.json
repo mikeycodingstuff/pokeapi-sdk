@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:25 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:44 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "588",
         "Connection": "keep-alive",
@@ -18,15 +18,14 @@
         "x-timer": "S1733371055.675120,VS0,VE259",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "HIT",
-        "Age": "12475",
+        "CF-Cache-Status": "REVALIDATED",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=n259niUTj%2BiDvC%2FeTo4ka3DyRM7Se1FqD3xSv%2B2oCXlWeZnc19UYQCckBY3%2BX0SlHFq54YLvaG5LJhajPmHDnYtpW81CkKYPfX472hPm62waAqbK%2B0qmsFtwUCoazB6BzxOlHk5jCvtm\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=%2B8dHnrazQMzi6BYtQmYyjYwlKMWccZ6Q0jIuyKsOVKFlfVS1vRcQd7zRMaiLULmQUEVjd8iKycf9mZdxVXBMETKB3U7wiof7saY%2BpdHYxHwq9luVeI1HO35ypV46kV41G1BTEmg2OgQJ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af8457da49428-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13641&min_rtt=12796&rtt_var=5402&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=757&delivery_rate=316036&cwnd=250&unsent_bytes=0&cid=1cbadfd00183bcc6&ts=38&x=0\""
+        "CF-RAY": "8f42c2615a7fede4-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13727&min_rtt=12779&rtt_var=4442&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=757&delivery_rate=316283&cwnd=252&unsent_bytes=0&cid=09c57eec191d77e5&ts=576&x=0\""
     },
     "data": "{\"count\":8,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"misc\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/1\/\"},{\"name\":\"medicine\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/2\/\"},{\"name\":\"pokeballs\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/3\/\"},{\"name\":\"machines\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/4\/\"},{\"name\":\"berries\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/5\/\"},{\"name\":\"mail\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/6\/\"},{\"name\":\"battle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/7\/\"},{\"name\":\"key\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/8\/\"}]}"
 }

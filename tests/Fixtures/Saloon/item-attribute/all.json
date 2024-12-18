@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:24 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:40 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "664",
         "Connection": "keep-alive",
@@ -18,15 +18,14 @@
         "x-timer": "S1734366144.378078,VS0,VE114",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "HIT",
-        "Age": "12479",
+        "CF-Cache-Status": "REVALIDATED",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=segOsTalEA5HhQ0JQmqp8S%2FdHKptiDSymCYOP337w7cz1lVcQ6agjw9j6D2KEQcNZ67ucZKqInqCn2m9PnrONQjpoUYiQcvn1SOFcbKKN4QNhc%2F3F%2BuDizvezg9oCPk%2Bh4D%2FE4TkLhPW\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=YxtXu7YNFijZtYSg4sW%2F9%2B2sAUXaqCBXg0cXeKbd9%2F0g%2FgFAthLVR9XYHjdppMdrjtXmtiHwUB5ZNNlsm5kibnkdz0fQlQOZHqLS3PhfgUCyJJ3OMI39IAo162jkwyhTt8oB1tA08XEp\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af8412eb7bed3-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14183&min_rtt=14096&rtt_var=5460&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=760&delivery_rate=273391&cwnd=252&unsent_bytes=0&cid=021c8b13bea78beb&ts=29&x=0\""
+        "CF-RAY": "8f42c2490e5d48cb-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13822&min_rtt=12350&rtt_var=5683&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=760&delivery_rate=327449&cwnd=216&unsent_bytes=0&cid=1b180c4dde9f23e2&ts=622&x=0\""
     },
     "data": "{\"count\":8,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"countable\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/1\/\"},{\"name\":\"consumable\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/2\/\"},{\"name\":\"usable-overworld\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/3\/\"},{\"name\":\"usable-in-battle\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/4\/\"},{\"name\":\"holdable\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/5\/\"},{\"name\":\"holdable-passive\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/6\/\"},{\"name\":\"holdable-active\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/7\/\"},{\"name\":\"underground\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/item-attribute\/8\/\"}]}"
 }

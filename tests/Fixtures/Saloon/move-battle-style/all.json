@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:26 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:47 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Content-Length": "272",
         "Connection": "keep-alive",
@@ -19,14 +19,14 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "2712",
+        "Age": "84393",
         "Accept-Ranges": "bytes",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=5aY8Om9JkUPG8%2BXe6XPJw9xS4%2B0h6IL9UjpzSB1aQ1ChBjykKcaIS2Lw629HE8Hw4x87tq2vSpsyD%2BTyScXlnCoanLrgw4oS8SvhHup%2BteE0QsVsZeve4DSSJbesd7l21%2BrYav5ZDt0J\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=v%2FLkMTMZNx1AtSMvUjZmT48HaWnSCUTuzCH8K5ks98aKDtxisxD%2BmjER7ajqpi9JjA0o99P5%2BV5RqrXhJU2EjkuMH1tNLpKZjaT74VMdEDwVkYrijHF5EsAT8%2F1oYObJS%2F1jlaIpSoZY\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af84f18ec768c-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14210&min_rtt=14120&rtt_var=4128&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2838&recv_bytes=763&delivery_rate=278704&cwnd=234&unsent_bytes=0&cid=32ab5984c110abd4&ts=34&x=0\""
+        "CF-RAY": "8f42c2797d14ef44-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13876&min_rtt=12235&rtt_var=5760&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=763&delivery_rate=330527&cwnd=252&unsent_bytes=0&cid=e7157d499634b64e&ts=30&x=0\""
     },
     "data": "{\"count\":3,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"attack\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-battle-style\/1\/\"},{\"name\":\"defense\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-battle-style\/2\/\"},{\"name\":\"support\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/move-battle-style\/3\/\"}]}"
 }

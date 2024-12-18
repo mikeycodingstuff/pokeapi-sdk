@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:12 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:35 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -18,13 +18,14 @@
         "x-timer": "S1734155272.390176,VS0,VE98",
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
-        "CF-Cache-Status": "REVALIDATED",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=TLCMBY1iMzV1tNShu6ZeKD8D2hrvqE6OqzhzKx8sHdnNNxzuPCf3FVp90G2f8B3AHRh8j7IgApx70yPo%2BtMbz0ukkuZG3mL4NS%2BJHwf2NFJMJAqSYfdbkqpgoquo1o5SKR3lAHQ3WGoP\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "CF-Cache-Status": "HIT",
+        "Age": "81683",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=J1MXQksCAUPFoOeg484esFqk3beK41fPSWUVgdkIoIIWgrBq39rZ7GQu5XpAA4gwJhbHovZs4G5hYTU4CNx0s5N5wBFIrZyy52IYUC2QvmkNUnQ%2Fb8XWqS35xGS7QfLXaIjCTtc2op0g\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af7f38fa9ef07-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=14125&min_rtt=14049&rtt_var=5421&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=755&delivery_rate=275833&cwnd=252&unsent_bytes=0&cid=338493b440afb01e&ts=447&x=0\""
+        "CF-RAY": "8f42c22a0f76771a-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13943&min_rtt=12794&rtt_var=5619&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=755&delivery_rate=316085&cwnd=253&unsent_bytes=0&cid=bccaef247f8419b2&ts=31&x=0\""
     },
     "data": "{\"count\":15,\"next\":null,\"previous\":null,\"results\":[{\"name\":\"monster\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/1\/\"},{\"name\":\"water1\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/2\/\"},{\"name\":\"bug\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/3\/\"},{\"name\":\"flying\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/4\/\"},{\"name\":\"ground\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/5\/\"},{\"name\":\"fairy\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/6\/\"},{\"name\":\"plant\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/7\/\"},{\"name\":\"humanshape\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/8\/\"},{\"name\":\"water3\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/9\/\"},{\"name\":\"mineral\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/10\/\"},{\"name\":\"indeterminate\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/11\/\"},{\"name\":\"water2\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/12\/\"},{\"name\":\"ditto\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/13\/\"},{\"name\":\"dragon\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/14\/\"},{\"name\":\"no-eggs\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/egg-group\/15\/\"}]}"
 }

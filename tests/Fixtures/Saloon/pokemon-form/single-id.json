@@ -1,7 +1,7 @@
 {
     "statusCode": 200,
     "headers": {
-        "Date": "Wed, 18 Dec 2024 00:17:30 GMT",
+        "Date": "Wed, 18 Dec 2024 22:58:51 GMT",
         "Content-Type": "application\/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -20,13 +20,13 @@
         "vary": "Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding",
         "alt-svc": "h3=\":443\"; ma=86400",
         "CF-Cache-Status": "HIT",
-        "Age": "1553",
-        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=gBIwNRgcA2KJMX5cSgwJyskSSfh5cSQqnSFy%2FeO%2B%2Fj6jMwz9NlkWVOYnvAEYMGPNzTUtS5u%2BCIT1qBb8PpnW8sLMIYRLnccVGgPBePcAoAx1K8qLMfS%2FybLcZzPurEPkpWH3%2FV6TcC1e\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "Age": "83234",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\\/\\\/a.nel.cloudflare.com\\\/report\\\/v4?s=3A3Zkyi2VYkgwxB5gcGp2J6UK4kH9ZUU%2FL9lnCY%2F4%2BmCvKRe6%2FasQIrVlEk3Mt64VZZkM%2FJkkQAgVCdUGsOr3sdt50vGIapuQYpOVTUX4tBmChJq2FmWf8y8magTWYqUP3iewkPGeE9M\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
         "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
         "Access-Control-Allow-Origin": "*",
         "Server": "cloudflare",
-        "CF-RAY": "8f3af865a838418f-LHR",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13905&min_rtt=13236&rtt_var=5441&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2837&recv_bytes=760&delivery_rate=305530&cwnd=252&unsent_bytes=0&cid=a0742b8d41257190&ts=32&x=0\""
+        "CF-RAY": "8f42c28ecc43ef11-LHR",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=13983&min_rtt=12932&rtt_var=5600&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2838&recv_bytes=760&delivery_rate=312712&cwnd=252&unsent_bytes=0&cid=11ca9b69a21c7d49&ts=36&x=0\""
     },
     "data": "{\"form_name\":\"\",\"form_names\":[],\"form_order\":1,\"id\":1,\"is_battle_only\":false,\"is_default\":true,\"is_mega\":false,\"name\":\"bulbasaur\",\"names\":[],\"order\":1,\"pokemon\":{\"name\":\"bulbasaur\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/pokemon\/1\/\"},\"sprites\":{\"back_default\":\"https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/back\/1.png\",\"back_female\":null,\"back_shiny\":\"https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/back\/shiny\/1.png\",\"back_shiny_female\":null,\"front_default\":\"https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/1.png\",\"front_female\":null,\"front_shiny\":\"https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/shiny\/1.png\",\"front_shiny_female\":null},\"types\":[{\"slot\":1,\"type\":{\"name\":\"grass\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/type\/12\/\"}},{\"slot\":2,\"type\":{\"name\":\"poison\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/type\/4\/\"}}],\"version_group\":{\"name\":\"red-blue\",\"url\":\"https:\/\/pokeapi.co\/api\/v2\/version-group\/1\/\"}}"
 }
