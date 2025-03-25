@@ -2,8 +2,12 @@ A simple PHP SDK for the [PokéAPI](https://pokeapi.co/) built using [Saloon](ht
 
 ## Example Usage
 
-```
+```php
+<?php
+
 $pokeApi = new PokeApi;
 
-$pokemon = $pokeApi->pokemon()->all(limit: 10);
+$firstTenPokemon = $pokeApi->pokemon()->all(limit: 10);
+
+$bestPokemon = $pokeapi->pokemon()->get(idOrName: 'metagross');
 ```
