@@ -22,7 +22,16 @@ jobs:
       with:
         php-version: '8.5'
         coverage: none
-        
+
+    - name: Rector Cache
+      uses: actions/cache@v4
+      with:
+        path: /tmp/rector
+        key: ${{ runner.os }}-rector-${{ github.run_id }}
+        restore-keys: ${{ runner.os }}-rector-
+
+    - run: mkdir -p /tmp/rector
+
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
 
@@ -37,6 +46,9 @@ jobs:
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
+
+    - name: Rector Dry Run
+      run: php vendor/bin/rector process --dry-run --config=rector.php
 
     - name: Run test suite
       run: vendor/bin/pest
