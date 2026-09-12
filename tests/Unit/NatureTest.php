@@ -9,7 +9,7 @@ use PokeApiSdk\Requests\Nature\GetSingleNature;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-beforeEach(function () {
+beforeEach(function (): void {
     $this->endpoint = ResourceEndpoints::NATURE;
 
     $this->singleFixtureId = "$this->endpoint/single-id";
@@ -28,8 +28,8 @@ beforeEach(function () {
     $this->connector->withMockClient($this->mockClient);
 });
 
-describe('Get a single Nature', function () {
-    it('sends a request with an id (int) and receives the expected response', function () {
+describe('Get a single Nature', function (): void {
+    it('sends a request with an id (int) and receives the expected response', function (): void {
         $response = $this->connector->nature()->get(1);
 
         $this->mockClient->assertSent($this->singleRequestClass);
@@ -38,7 +38,7 @@ describe('Get a single Nature', function () {
         successfulResponseExpectation($response, $this->singleFixtureId);
     });
 
-    it('sends a request with a name (string) and receives the expected response', function () {
+    it('sends a request with a name (string) and receives the expected response', function (): void {
         $this->mockClient = new MockClient([
             $this->singleRequestClass => MockResponse::fixture($this->singleFixtureName),
         ]);
@@ -54,8 +54,8 @@ describe('Get a single Nature', function () {
     });
 });
 
-describe('Get all Natures', function () {
-    it('sends a request and receives the expected response', function () {
+describe('Get all Natures', function (): void {
+    it('sends a request and receives the expected response', function (): void {
         $response = $this->connector->nature()->all();
 
         $this->mockClient->assertSent($this->allRequestClass);

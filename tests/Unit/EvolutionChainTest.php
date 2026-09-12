@@ -9,7 +9,7 @@ use PokeApiSdk\Requests\EvolutionChain\GetSingleEvolutionChain;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-beforeEach(function () {
+beforeEach(function (): void {
     $this->endpoint = ResourceEndpoints::EVOLUTION_CHAIN;
 
     $this->singleFixtureId = "$this->endpoint/single-id";
@@ -28,8 +28,8 @@ beforeEach(function () {
     $this->connector->withMockClient($this->mockClient);
 });
 
-describe('Get a single Evolution Chain', function () {
-    it('sends a request with an id (int) and receives the expected response', function () {
+describe('Get a single Evolution Chain', function (): void {
+    it('sends a request with an id (int) and receives the expected response', function (): void {
         $response = $this->connector->evolutionChain()->get(1);
 
         $this->mockClient->assertSent($this->singleRequestClass);
@@ -38,13 +38,13 @@ describe('Get a single Evolution Chain', function () {
         successfulResponseExpectation($response, $this->singleFixtureId);
     });
 
-    it('throws an exception when receiving a non int param', function () {
+    it('throws an exception when receiving a non int param', function (): void {
         $this->connector->evolutionChain()->get('test');
     })->throws(Exception::class, 'This resource only supports fetching by integer ID.');
 });
 
-describe('Get all Evolution Chains', function () {
-    it('sends a request and receives the expected response', function () {
+describe('Get all Evolution Chains', function (): void {
+    it('sends a request and receives the expected response', function (): void {
         $response = $this->connector->evolutionChain()->all();
 
         $this->mockClient->assertSent($this->allRequestClass);

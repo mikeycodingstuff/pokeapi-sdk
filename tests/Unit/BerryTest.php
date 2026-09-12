@@ -9,7 +9,7 @@ use PokeApiSdk\Requests\Berry\GetSingleBerry;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-beforeEach(function () {
+beforeEach(function (): void {
     $this->endpoint = ResourceEndpoints::BERRY;
 
     $this->singleFixtureId = "$this->endpoint/single-id";
@@ -28,8 +28,8 @@ beforeEach(function () {
     $this->connector->withMockClient($this->mockClient);
 });
 
-describe('Get a single Berry', function () {
-    it('sends a request with an id (int) and receives the expected response', function () {
+describe('Get a single Berry', function (): void {
+    it('sends a request with an id (int) and receives the expected response', function (): void {
         $response = $this->connector->berry()->get(1);
 
         $this->mockClient->assertSent($this->singleRequestClass);
@@ -38,7 +38,7 @@ describe('Get a single Berry', function () {
         successfulResponseExpectation($response, $this->singleFixtureId);
     });
 
-    it('sends a request with a name (string) and receives the expected response', function () {
+    it('sends a request with a name (string) and receives the expected response', function (): void {
         $this->mockClient = new MockClient([
             $this->singleRequestClass => MockResponse::fixture($this->singleFixtureName),
         ]);
@@ -54,8 +54,8 @@ describe('Get a single Berry', function () {
     });
 });
 
-describe('Get all Berries', function () {
-    it('sends a request and receives the expected response', function () {
+describe('Get all Berries', function (): void {
+    it('sends a request and receives the expected response', function (): void {
         $response = $this->connector->berry()->all();
 
         $this->mockClient->assertSent($this->allRequestClass);

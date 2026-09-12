@@ -9,7 +9,7 @@ use PokeApiSdk\Requests\Characteristic\GetSingleCharacteristic;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 
-beforeEach(function () {
+beforeEach(function (): void {
     $this->endpoint = ResourceEndpoints::CHARACTERISTIC;
 
     $this->singleFixtureId = "$this->endpoint/single-id";
@@ -28,8 +28,8 @@ beforeEach(function () {
     $this->connector->withMockClient($this->mockClient);
 });
 
-describe('Get a single Characteristic', function () {
-    it('sends a request with an id (int) and receives the expected response', function () {
+describe('Get a single Characteristic', function (): void {
+    it('sends a request with an id (int) and receives the expected response', function (): void {
         $response = $this->connector->characteristic()->get(1);
 
         $this->mockClient->assertSent($this->singleRequestClass);
@@ -38,13 +38,13 @@ describe('Get a single Characteristic', function () {
         successfulResponseExpectation($response, $this->singleFixtureId);
     });
 
-    it('throws an exception when receiving a non int param', function () {
+    it('throws an exception when receiving a non int param', function (): void {
         $this->connector->characteristic()->get('test');
     })->throws(Exception::class, 'This resource only supports fetching by integer ID.');
 });
 
-describe('Get all Characteristics', function () {
-    it('sends a request and receives the expected response', function () {
+describe('Get all Characteristics', function (): void {
+    it('sends a request and receives the expected response', function (): void {
         $response = $this->connector->characteristic()->all();
 
         $this->mockClient->assertSent($this->allRequestClass);
