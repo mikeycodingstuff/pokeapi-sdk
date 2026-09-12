@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Requests\Base;
 
+use Override;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 
@@ -12,6 +13,7 @@ abstract class GetAllRequest extends Request
     /**
      * HTTP Method
      */
+    #[Override]
     protected Method $method = Method::GET;
 
     public function __construct(protected ?int $limit = 100, protected ?int $offset = 0) {}

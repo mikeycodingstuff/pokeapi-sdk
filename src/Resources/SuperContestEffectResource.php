@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace PokeApiSdk\Resources;
 
+use Override;
 use PokeApiSdk\Requests\SuperContestEffect\GetAllSuperContestEffects;
 use PokeApiSdk\Requests\SuperContestEffect\GetSingleSuperContestEffect;
 
 class SuperContestEffectResource extends BaseResource
 {
+    #[Override]
     protected bool $getByIdOnly = false;
 
     protected function getAllRequestClass(): string

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace PokeApiSdk;
 
+use Override;
 use PokeApiSdk\Resources\AbilityResource;
 use PokeApiSdk\Resources\BerryFirmnessResource;
 use PokeApiSdk\Resources\BerryFlavorResource;
@@ -57,6 +58,7 @@ use Saloon\Http\Connector;
 
 class PokeApi extends Connector
 {
+    #[Override]
     protected ?string $response = PokeApiResponse::class;
 
     public function resolveBaseUrl(): string
