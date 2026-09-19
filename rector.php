@@ -2,7 +2,10 @@
 
 declare(strict_types=1);
 
+use Rector\CodingStyle\Rector\PostInc\PostIncDecToPreIncDecRector;
 use Rector\Config\RectorConfig;
+use Rector\Naming\Rector\Assign\RenameVariableToMatchMethodCallReturnTypeRector;
+use Rector\Naming\Rector\ClassMethod\RenameParamToMatchTypeRector;
 
 return RectorConfig::configure()
     ->withCache(
@@ -33,4 +36,9 @@ return RectorConfig::configure()
         symfonyConfigs: true,
     )
     ->withAttributesSets()
-    ->withImportNames();
+    ->withImportNames()
+    ->withSkip([
+        RenameVariableToMatchMethodCallReturnTypeRector::class,
+        RenameParamToMatchTypeRector::class,
+        PostIncDecToPreIncDecRector::class,
+    ]);
