@@ -55,9 +55,12 @@ use PokeApiSdk\Resources\VersionGroupResource;
 use PokeApiSdk\Resources\VersionResource;
 use PokeApiSdk\Responses\PokeApiResponse;
 use Saloon\Http\Connector;
+use Saloon\Traits\Plugins\AlwaysThrowOnErrors;
 
 class PokeApi extends Connector
 {
+    use AlwaysThrowOnErrors;
+
     #[Override]
     protected ?string $response = PokeApiResponse::class;
 
